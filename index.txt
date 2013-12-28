@@ -18,7 +18,7 @@ Det här är en lista som på kurser som krm har på hts.
   * [Introduktion](http://htsit.se/krmAcademy/Programing/intro.html)
   * __Moment 1__
     * [Förklaring]( http://htsit.se/krmAcademy/Programing/Part1/explanation.html)
-    * [Labboration]( http://htsit.se/krmAcademy/Programing/Part1/laboration.html)
+    * [Laboration]( http://htsit.se/krmAcademy/Programing/Part1/laboration.html)
   * __Moment 2__
     * [Förklaring]( http://htsit.se/krmAcademy/Programing/Part2/explanation.html)
     * [Laboration](http://htsit.se/krmAcademy/Programing/Part2/laboration.html)
