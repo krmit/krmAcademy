@@ -1,0 +1,27 @@
+Title: Börja programmera
+CSS: ../../Tools/Framwork/css/magnum.css
+
+# Börja programmera
+> Programmera
+
+Vi ska börja programmera.
+
+## Viktiga principer och begrepp
+
+Scratch
+: Ett enkelt programmeringsspråk.
+
+Light bot
+: Ett enkelt spel för att komma igång med programmering.
+
+Bävern IT
+: En tälving och en samling av uppgifter för att stimulera tänkandet kring .
+
+## Källor
+
+* __Att komma igång med Scratch__
+
+Om du behöver läsa något.
+
+> * __<http://sv.wikipedia.org/wiki/Scratch_(programspr)>__
+>> Om du vill lära dig om vad scratchprojektet är för någonting.

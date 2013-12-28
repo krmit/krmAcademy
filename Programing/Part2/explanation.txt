@@ -1,0 +1,105 @@
+Title:  Java programmering
+CSS: ../../Tools/Framwork/css/magnum.css
+
+# Börja programmera
+> Programmera
+
+Vi ska börja programmera.
+
+## Viktiga principer och begrepp
+
+### Kontrollstrukturer
+
+
+for(int i = 0; i<10;i++){}
+: Kommer att repetera satserna innan för klamrarna 10 gånger.
+
+if(i == 1){} else  {}
+: Om i är 1 kommer satserna som finna innan för de första klamrarna att utföras. I annat fall kommer de satser som finns i klamrarna som kommer efter __else__ att utföras. Observera att __else__-satsen inte måste finnas med.
+
+if(i == 1){} else if(i==2) {} else {}
+: Denna sats kommer att som ovan, men vi har ytterligare en __if__-sats.
+
+
+### Variabler och typer
+
+int i;
+: __i__ kommer att vara en variabel av typen heltal. Observera att om du försöker sätta in ett decimaltal i __i__  så kommer det att avrundas nedåt.
+
+double d;
+: __d__ kommer att vara en variabel av typen decimal tal. Observera att decimaltal skrivs med punkt istället för komma. Så vi skriver alltså 3.14 istället för 3,14.
+
+
+### Objekt och klasser
+
+> Vi kommer att titta närmare på klasser och objekt längre fram. Men eftersom java är ett fullständigt objektorienterat språk måste vi nämna vad klasser och objekt är redan nu. Men du kommer bara använda objekt  och redan ifyllda klasser i detta moment.
+
+Objekt:
+Är det en samling av data i ett program. Det motsvar ett värde. Ofta motsvara objetet en sak i  våran verkligheten. På så sätt går det lättare för oss att förstå vad programmet gör.
+
+
+Klass
+: En mall som beskriv er hur ett objekt ska vara och bete sig. Klassen är också objekts typ.
+
+Metod
+: En funktion som definieras i en klass. Metoderna kan användas för att hantera objekten.
+
+Konstruktör
+: En metod som automatiskt blir anropat när ett objekt skapas ifrån en klass.
+
+Bil min_bil = new Bil();
+: Första __Bil__ säger vilken typ variabeln __min_bil__ har. __new__ skapar en ett objekt utifrån namnet på klassen som kommer efter __new__. I detta fall skapar aktså __new__ en bil utifrån klassen Bil, konstruktörer blir anropat och sedan läggs objektet i variabeln min_bil.
+
+### Greenfoot
+
+> Om vi vill visa en figur i Greenfoot så gör vi det genom att skappa en klass som ärver ifrån ”Actor”. Vi använder oss sedan av funktionen act, som kommer att anropas med jämna mellanrum, för att skapa animeringar och interaktion. Den kod som vi använder kan vi skriva med ”Greenfoot.” före eller inte.
+
+Greenfoot.move(10);
+: Får figuren att gå 10 steg framåt.
+
+Greenfoot.turn(10);
+: Får figuren att rotera 10 grader.
+
+Greenfoot.isKeyDown(”left”);
+: Metoden ger ifrån sig värdet ”true” om. Värden som funktionen kan anropas med är ”left”, ”right”, ”up”, ”down” och alla bokstäver på tangent bordet.
+
+Greenfoot.setImage(”image.png”);
+: Metoden kommer att sätta den bild som visa till ”image.png”. Figuren kommer därför att byta utseende. Observera att du först måste importera bilden
+
+Greenfoot.delay(100);
+: Varje anrop till figurernas ”act” metoden utgör en runda. delay metoden kommer göra så att figuren står över 100 rundor. Observera att alla figurer kommer att stå över dessa rundor.
+
+### System
+> För att använda komandona nedan måste du skriva ”import java.System” högst upp i den fil som innehåller din klass.
+
+System.Out.print(”hej”);
+: Skriver ut ”hej” i konsolen. Observera att om konsolen inte finns uppe kommer den att öppnas automatiskt.
+
+System.out.println(”hej”);
+: Som ovan men skriverskapar också en ny rad. Ofta blir utskriften(”loggen”) mycket bättre om du har en ny rad på slutet av varje utskrift.
+
+System.out.println(”Antalet är: ” + i +” stycken.”);
+: Om i är 5, kommer programmet att skriva ut ”Antalet är: 5 stycken”.
+
+## Källor
+
+* __Java__
+Är det ramverk vi använder oss av när vi lär oss programmera i java.
+
+> * __ <http://sv.wikipedia.org/wiki/Java_%28programspr%C3%A5k%29>__
+>> Om du vill ha lite information om java som språk är wikipedia bra. Läs gärna artiklarna på engelska eftersom de ofta är bättre.
+
+
+* __Greenfoot__
+Är det ramverk vi använder oss av när vi lär oss programmera i java.
+
+> * __ <http://www.greenfoot.org/doc> __
+>> Gå igenom ”Tutorials”. Dessa handledningar är en mycket bra introduktion både till greenfoot och till java.
+
+
+* __Kontrollstrukturer__
+
+Dessa har vi redan gått igenom i scratch. Du behöver experimentera med dem för att bli bra.
+
+> * __<http://toggleon.wordpress.com/2010/08/29/grundlaggande-programmeringskoncept-forklarade-iteration-och-rekursion/>__
+>> En något mer djupgående förklaring på vad for-satser gör.

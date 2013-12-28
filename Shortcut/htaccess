@@ -1,0 +1,19 @@
+Redirect /ei http://htsit.se/krmAcademy/Electronics/intro.html
+Redirect /e1l http://htsit.se/krmAcademy/Electronics/Part1/laboration.html
+Redirect /e2e http://htsit.se/krmAcademy/Electronics/Part2/explanation.html
+Redirect /e2l http://htsit.se/krmAcademy/Electronics/Part2/laboration.html
+
+Redirect /pi http://htsit.se/krmAcademy/Programing/intro.html
+Redirect /p1e http://htsit.se/krmAcademy/Programing/Part1/explanation.html
+Redirect /p1l http://htsit.se/krmAcademy/Programing/Part1/laboration.html
+Redirect /p2e http://htsit.se/krmAcademy/Programing/Part2/explanation.html
+Redirect /p2l http://htsit.se/krmAcademy/Programing/Part2/laboration.html
+
+Redirect /ni http://htsit.se/krmAcademy/Network/intro.html
+Redirect /n1e http://htsit.se/krmAcademy/Network/Part1/explanation.html
+Redirect /n1l http://htsit.se/krmAcademy/Network/Part1/laboration.html
+Redirect /n2l http://htsit.se/krmAcademy/Network/Part2/laboration.html
+
+Redirect /wi http://htsit.se/krmAcademy/WebServer/intro.html
+Redirect /w2e http://htsit.se/krmAcademy/WebServer/Part2/explantion.html
+Redirect /w2l http://htsit.se/krmAcademy/WebServer/Part2/laboration.html

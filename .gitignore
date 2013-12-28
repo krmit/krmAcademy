@@ -1,0 +1,39 @@
+#Ignore these files
+
+# Compiled source #
+###################
+*.com
+*.class
+*.dl
+*.exe
+*.o
+*.so
+
+# Packages #
+############
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# Logs and databases #
+######################
+*.log
+*.sql
+*.sqlite
+
+# Temp files #
+##############
+*.bak
+*.swp
+~*
+#*
+*~
+
+# HTML files #
+##############
+*.html

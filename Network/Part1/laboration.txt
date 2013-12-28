@@ -1,0 +1,60 @@
+Title: Nätverkskomponeter
+CSS: ../../Tools/Framwork/css/magnum.css
+
+# Några enkla verktyg och begrepp
+
+Du ska visa upp att du behärskar några grundläggande komandon för att hantera ett nätverk. Vi utgår ifrån en Linux klient men liknade uppgifter går även att göra på andra operativsystem och det är bra om du försöker gör dessa uppgifter på flera olika datorer.
+
+## Att göra på nivå 1:
+
+Redovisa svaren välstrukturerat och visa tydligt vad ditt resultat är. 
+
+1. Använd ip kommandot för att ta reda på vilken ip adress din dator har fått på nätverket och vilken MAC adress ditt nätverksgränssnitt eth0 har.
+
+2. Eftersom vi är bakom en NAT så kommer klienten när den ansluter till en server på internet att uppfatas som den har en annan ip adress. Vilken då?
+
+3. Vilket ip nummer har vår router?
+
+4. Rita upp med hjälp av ett diagramritningsprogram, så som https://www.lucidchart.com/, en ritning över ett nätverk med klienter, servrar, omkopplare och routrar som ansluter till internet.
+
+5. Koppla ned internet. Använd kommandot "ip link set dev eth0 address 22:22:22:22:22:22" för att ändra MAC adressen till 22:22:22:22:22:22. Denna MAC adress är spärrad av routern. Att koppla upp internet kommer nu inte att fungera. Förklara hur du märker detta.
+
+6. Gör tio ping till 8.8.8.8 från en dator på källarnätverket och notera medeltiden det tog. Testa sedan att på samma sätt pinga en annan dator på vårt LAN, www.hts.se, www.youtube.se och www.google.com.
+
+7. Gör en traceroute till några av servarna ovan. Se om du kan få en bra beskrivning av vägen mellan dig och servern.
+
+8. Använd nmap på datorn it.hts(192.168.1.10) på vårt LAN och berätta vilka portar som är öppna.
+
+9. Nämn så många nätverkskomponeter som du kan komma på. Du måste skriva minst fem stycken.
+
+## Att göra på nivå 2:
+* Gör som för nivå 1.
+* Du ska själv hitta lösningar på eventuella problem som uppstår när du försöker lösa dessa uppgifter.
+
+1. Gör om uppgift 1.4 men använd en annan dator eller testa vid en annan tidpunkt på dagen.
+
+2. Gör om uppgift 1.5 men använd en annan dator eller testa vid en annan tidpunkt på dagen.
+
+3. Vilken slutsats kan du dra om du jämför mätdatat ifrån uppgifterna ovan?
+
+4. Beskriv ett enkelt sätt att finna vilken ip den DNS server har som du använder i datalabbet.
+
+5. Starta programmet wireshark. Anslut till en http server och spara alla http paket som skickas mellan servern och klienten när en sida laddas. Bifoga dem i ett separat dokument.
+
+6. Rita en karta över ditt hemma nätverk.
+
+## Att göra på nivå 3:
+* Gör som för nivå 2.
+* Arbeta snabbt och effektivt 
+
+1. Gör om uppgift 2.4 men testa flera olika datorer eller testa vid många olika tidpunkter på dagen.
+
+2. Gör om uppgift 2.5 men testa flera olika datorer eller testa vid många olika tidpunkter på dagen.
+
+3. Gör en analys utifrån mätdatat i uppgifterna ovan.
+
+4. Försök hitta en server som är så långt borta som möjligt men ändå svara på ping. Ange medeltalet på 10 pings och ange hur du gjorde för att finna den. 
+
+5. Vilket ip nummer har någon av våra omkopplare("switchar").
+
+6. Ta och fånga alla packet som skickas när TCP gör en anslutning och överför ett paket. Bifoga dem i ett separat dokument.

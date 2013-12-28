@@ -1,0 +1,20 @@
+Title: Programmering
+CSS: ../Tools/Framwork/css/magnum.css
+
+# Programmering
+
+Programmering är ett annat sätt att tänka. Det skiljer sig ifrån matematiken men kan också användas till problemlösning. Vi kommer att lära oss java, eftersom det är ett språk som är vanligt på universiteten och för att det har en syntax som liknar många andra programmeringsspråk.  Men vilket programmeringsspråk du lär dig är egentligen inte så intressant. Det viktigaste är att lära sig att tänka som en programmerare.
+
+## Innehåll
+
+Vi kommer att betona principerna för programmering och kommer sedan allt mer att introducera java som ett universellt programmeringsspråk.
+
+1. Introduktion till programmering med Scratch
+2. Börja med java och Greenfoot
+3. Vanliga Algoritmer och datatyper
+4. Klasser, gränssnitt och objekt
+5. Programmera med Eclipse
+6. API och GUI
+7. Prov
+8. Eget arbete
+

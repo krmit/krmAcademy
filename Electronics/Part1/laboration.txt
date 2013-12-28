@@ -1,0 +1,59 @@
+Title: Elektronik labboration 1
+CSS: ../../Tools/Framwork/css/magnum.css
+
+#Grundläggande elektronik och ellära
+Vi går igenom några uppgifter som behandlar grundläggande elektronik och ellära. Dessa kunskaper ska vi sedan använda för att förstå oss på mikrodatorer.
+## Vad som gäller under labborationen:
+
+* Uppgiften är individuell, försök att hitta din egen lösning på uppgifterna nedan.
+
+## Att göra på nivå 1:
+* Försök alltid först själv lösa ett problem som du får innan du frågar om hjälp.
+
+### Uppgifter:
+
+1. Koppla upp kretsen nedan och gör uppgifterna nedan. Välj själv värden på R1, R2 och R3. Men de får inte ha samma resistans och minst ett av motstånden måste vara dubbel så stort som det minst motståndet.
+    1. Beräkna resistansen i hela kretsen.
+    2. Beräkna späning i och ström över R1
+    3. Mätt resistansen i hela kretsen.
+    4. Mätt späning i och ström över R1
+    5. Hur mycket värmeenergi kommer R1 att alstra på ett år?
+![image0][]
+2. Leta rätt på databladet för dioden 1N4148. Du kan hitta den på sådan sajter som elfa, elektrokit, mouser och många fler. Ange var du hittade databladet.  Hur stor är framåt spänningen (”forward voltage”)? Vilka värden tror du det är bra att känna till för att kunna använda komponeten i en något mindre strikt miljö. Motivera ditt svar med ett par meningar.
+
+## Att göra på nivå 2:
+
+* Du ska inte fråga läraren om hjälp efter att du börjat med att lösa en uppgift. Så tänk efter före! Du kan också diskutera med läraren när som helst.
+* Din kod ska vara lätt att först och se snygg ut.
+
+### Uppgifter:
+
+1. Koppla upp kretsen nedan och gör uppgifterna nedan. Välj själv värden på R1, R2 och R3. Men de får inte ha samma resistans och minst ett av motstånden måste vara dubbel så stort som det minst motståndet.
+    1. Beräkna resistansen i hela kretsen.
+    2. Beräkna späning i och ström över R1
+    3. Mätt resistansen i hela kretsen.
+    4. Mätt späning i och ström över R1
+![image1][]
+2. Hitta en kondensator i labbsalen. Försök att hitta ett datablad för denna kondensator. Går det inte hitta ett datablad för en liknade kondensator. Ange var du hittade databladet.  Vilka värden tror du det är bra att känna till för att kunna använda komponeten i en något mindre strikt miljö. Skriv ned värdena och motivera ditt svar med ett par meningar.
+3. Mätt upp resistansen på en ledare som du hittar i labbet. Tänk dig att ledaren 50 km lång. Beräkna hur stor värmeförlusten kommer att vara om du överför 1,5 A.  Testa med olika värden på späningen du har över ledaren. Testa åtminstone fyra olika värden.
+
+## Att göra på nivå 3:
+
+* Gör som för nivå 2.
+* Du ska arbeta snabbt och noggrant.
+
+### Uppgifter:
+
+1. Koppla upp kretsen nedan och gör uppgifterna nedan. Välj själv värden på R1, R2 och R3. Men de får inte ha samma resistans och minst ett av motstånden måste vara dubbel så stort som det minst motståndet.
+    1. Beräkna resistansen i hela kretsen.
+    2. Beräkna späning i och ström över R3
+    3. Mätt resistansen i hela kretsen.
+    4. Mätt späning i och ström över R3
+![image2][]
+2. Nedan ser du en enklare krets för att omvandla växelström till likström. Egenskaperna hos växelström är här inte intressanta, men du kan utgå ifrån att vi har en top späning på 10 V som du behöver ta hänsyn till. Övriga egenskaper hös växelströmen kan du utgå ifrån inte ställer till några problem. Försök hitta komponeter som skulle fungera i kretsen nedan. Ange namnet på komponenterna samt en länk till databladet. Ange också priset för att göra en enhet, samt priset per eneht om du skulle göra 100 enheter.
+![image3][]
+
+[image0]: ./image/circuit-0.png "Detta är en seriekoppling"
+[image1]: image/circuit-1.png "Detta är en parallekoppling"
+[image2]: image/circuit-2.png "Detta är en fler stegskoppling"
+[image3]: image/circuit-3.png "Detta är en enkel likriktare"

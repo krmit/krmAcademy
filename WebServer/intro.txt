@@ -1,0 +1,19 @@
+Title:  Webbserverprogrammering 1
+CSS: ../Tools/Framwork/css/magnum.css
+
+# Webbserverprogrammering 1
+
+Vi ska lära oss att programmera med PHP och använda det i verkligheten.
+
+## Innehåll
+
+Detta kommer vi att gå igenom.
+
+1. Webbservern och dess användning
+2. Databaser med hjälp av SQL
+3. Programmeringspråket PHP
+4. En enkel och välgjord sajt
+5. En Joomla sajt som är kvalitetsäkrad
+6. Säkrhet inklusive penetrationstest och åtgärder.
+7. Prov
+8. Eget arbete

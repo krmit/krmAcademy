@@ -1,0 +1,19 @@
+Title: Elektronik
+CSS: ../Tools/Framwork/css/magnum.css
+
+# Elektronik och mikrodatorteknik
+
+Elektronik är bra att kunna.
+
+## Innehåll
+
+Detta kommer vi att gå igenom.
+
+1. Grundlägande ellärare och elektronik
+2. Börja med Arduino
+3. Egenskaper hos olika elektronik komponeter
+4. Induktans och transformatorer
+5. Digitalteknik och AD/DA omvandlare.
+6. Displayer och andra optiska komponeter.
+7. Prov
+8. Eget arbete

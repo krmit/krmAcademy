@@ -1,0 +1,41 @@
+Title: Programmering med Scratch
+CSS: ../../Tools/Framwork/css/magnum.css
+
+# Att lära sig springa innan man kan gå.
+
+Denna labboration går ut på att du ska visa att du är skicklig på att använda Scratch. Om du kan skapa egna program i Scratch, kommer du att ha det lättare att förstå olika kommandon i Java och framför allt förstå hur de olika delarna i ett program kan skapa en fungerande helhet.
+
+## Vad som gäller under labborationen:
+
+* Undvik att skapa många Scratch projekt eftersom Scratch servern är ibland långsam.
+* Uppgiften är individuell, försök att hitta din egen lösning på uppgifterna nedan.
+* Om kod i ditt program har kopieras ifrån någon annan så får du göra om labborationen. Är det mer än något enstaka likheter _eller_ det är uppenbarligen uppsåtligt kommer du att anmälas för fusk, se skolan ordningsregler.
+* Uppgift 1.1 ska du lösa med Scratch, men på övriga uppgifter kan du använda vilket programmeringsspråk du vill på.
+
+## Att göra på nivå 1:
+* Försök alltid först själv lösa ett problem som du får innan du frågar om hjälp.
+
+### Uppgifter:
+
+1. Gör ett program där en figur frågar användaren "Hur många trianglar?" och sedan fråga "Vilken färg?". Det ska sedan visas på skärmen så många trianglar med rätt färg. Du ska minst ha stöd för färgerna "röd" och "blå", men du kan ha stöd för flera färger och förkortningar om du vill. Trianglarna måste ritas upp med hjälp av ett block som du har skapat.
+2. Skapa ett eget spel! Spelet får vara precis som du vill, men måste innehålla en uppgift som går att lösa. Denna uppgift kan vara mycket enkel.
+
+## Att göra på nivå 2:
+
+* Du ska inte fråga läraren om hjälp efter att du börjat med att lösa en uppgift. Så tänk efter före! Du kan också diskutera med läraren när som helst.
+* Du ska själv hitta lösningar på eventuella problem som uppstår.
+
+### Uppgifter:
+
+1. Låt en figur fråga efter ett a och b värde. Rita sedan upp funktionen f(x)=x^2+ax+b. Du kan utgå från att variablerna a och b inte är 0, är mindre än 20 och ett positivt heltal.
+2. Komplettera uppgiften 1.2. Det ska gå att vinna i dit spel och du ska då visa en vinnaranimation. Du ska också räkna poäng och när man har vunnit ska poängen visas. Använd minst ett egen definierat block.
+
+## Att göra på nivå 3:
+
+* Gör som för nivå 2.
+* Du ska arbeta snabbt och noggrant.
+
+### Uppgifter:
+
+1. Komplettera uppgift 2.1. Du ska beräkna lösningarna till ekvationen x^2+ax+b=0, ta sedan och rita ut dessa som röda prickar över den funktion som du har ritat upp. 
+2. Ditt spel ska också ha en high score. Dessutom ska det finnas flera olika bannor. Varje banna ska ha olika bakgrund och sättet att spelet ska skilja sig mellan bannorna.

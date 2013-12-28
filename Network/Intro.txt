@@ -1,0 +1,38 @@
+Title: Nätverksteknik
+CSS: ../Tools/Framwork/css/magnum.css
+
+# Nätverksteknik
+
+Kursen Nätverksteknik  är en introduktions kurs till adminstration av servrar. Den är också ett förkunskapskrav för nätverksteknikkurser i Gymnasieskolan.
+
+Vi kommer att lära oss att hanter olika typer av servrar. En server är ett program som erbjuder tjänster oftast via ett nätverk. Till exempel har vi webbservrar som ger oss websidorna, FTP servrar som hjälper oss dela filer, e-post servrar som förmedlar e-post och många många fler.  Den som sköter om ett datorsystem kallas för adminstratör, systemadminstratör förkortas "sys adm" på engelska och det är det som du ska bli!
+
+Termen Nätverksteknik kan användas för att beskriva olika saker. Det som menas med Nätverksiktet i OSI modellen är hur routrarna bygger ihop IP-nätverk. Det har således inget med serverhantering att göra, även om en server adminstratör givetviss måste förstå hur nätverkstskitet fungerar. Jag kommer i denna kurs därför att undvika använda begreppet "Nätverksteknik" eftersom det är missvisande. Det vi studerar här är server adminstrion och inget annat.
+
+## Innehåll
+
+Under kursen kommer vi gå igenom följande moment. Se annat schema för vilka tider som gäller för varje moment och vid vilka deadline ni senast ska vara klara med laborationer. 
+
+1. Nätverkskomponenter
+> OSI, klienter, servar, routrar, omkopplare, nätslutsar, skrivare, nätverkskort, kablage
+
+2. Linux som server operativsystem.
+> operativsystem, filsystem, datalagring, installation, säkerhetskopiering, 
+
+3. Installation och användning av olika servrar.
+> apach, mysql, http, ftp, WebDAV, Samba, webmail.
+
+4. Installation av ett nätverk.
+> routrar, omkopplare, iOS, DHCP, DNS, NAT
+
+5. Datorsäkerhet och användaradministration.
+> användare, rättigheter, sårbarhet, programfix
+
+6.  Windows som server operativsystem.
+> operativsystem, filsystem, skrivarhantering
+
+7. Prov
+
+8. Eget arbete
+
+

@@ -1,0 +1,54 @@
+Title: Programmering med PHP
+CSS: ../../Tools/Framwork/css/magnum.css
+
+#Börja med PHP programmering
+
+Ni ska få öva är en del på PHP programmering. Eftersom ni redan kan programmera så går vi rätt så fort fram här. Läs i boken kapitel 1-5 och 7-9 om du behöver hjälp.
+
+## Vad som gäller under labborationen:
+* Uppgiften är individuell, försök att hitta din egen lösning på uppgifterna nedan.
+* Om koden i ditt program har kopieras ifrån någon annan så får du göra om labborationen. Är det mer än något enstaka likheter __eller__ det är uppenbarligen uppsåtligt kommer du att anmälas för fusk, se skolan ordningsregler.
+* Uppgift ska lösas med PHP och html. Du får använda css om du vill men det är inget krav. Det finns heller inga krav på kvalitén på di html kod.
+
+## Att göra på nivå 1:
+* Försök alltid först själv lösa ett problem som du får innan du frågar om hjälp.
+
+### Uppgifter:
+
+
+1. Du ska skriva göra en html sida som innehåller en punkt lista med alla tal ifrån 1 till 100. Föra vara rad tal ska det stå ”Taler är: ”.
+    * Vart annat tal ska vara skrivet i fetstil(__\<b\>\</b\>__).
+    * I annat fall så ska vart tredjetal vara kursivt__\<i\>\</i\>__).
+    * Slutligen om det inte är något av ovanstående och delbart med fem ska talet vara understruket(__\<u\>\</u\>__).
+
+2.  Gör en ”array” där alla nordiska länder är nycklar, varje nyckel har sedan landests huvudstad som värde. Skapa sedan en html sida som visar en lista där man kan för varje land se vad huvudstaden heter. Denna lista ska vara sorterad.
+
+3. Du har en text ”Hej;Välkommen till HTSIT;Med vänlig hälsning;T3:orna;”. Använd en funktion i PHP för att byta ut ”;” till en ny rad. Skriv sedan ut detta medelande.
+
+4. Skriv några exempel med kommentarer som demonstrerar vad som är skillnaden mellan”=”, ”==” och ”===”. Dessa ska visas upp som en html sida.
+
+5. Skriv en funktion som beräknar nollställena till funktionen __x^2+ax+b__. __a__ och __b__ ska vara in-parametrar och du ska returnera en array som innehåller rötterna, men du kan själv bestämma hur denna array ska se ut. Kommentera din funktion. Ekvationerna nedan kan vara till viss hjälp om du glömt matten.
+    * \`x_0 = - (a)/2+sqrt((a^2)/4 - b)\`
+    * \`x_1 = - (a)/2-sqrt((a^2)/4 - b)\`
+
+
+## Att göra på nivå 2:
+* Du ska inte fråga läraren om hjälp efter att du börjat med att lösa en uppgift. Så tänk efter före! Du kan också diskutera med läraren när som helst.
+* Din kod ska vara lätt att först och se snygg ut.
+
+### Uppgifter:
+
+1. Du vet att följande ord och bara följande ord ingår i ett lösen ord: ”HTS”, ”100”, ”2011” och ”IT”. Så ett möjlig lösen ord är ”HTSIT1002011”. Skriv ut en lista med alla möjliga kombinationer.
+2. Du ska göra en html sida som innehåller en punkt lista med de hundra första [Fibonaccitalen](http://sv.wikipedia.org/wiki/Fibonaccital). För att klara detta kommer du behöva använda rekursiva funktioner. Du kan söka på internet efter en implementation av detta, men var noggrann med att skriva din egen variant.
+
+3. I din uppgift 1.4 se till att kommentarerna är bra och kan användas för att skapa dokumentation tillsammans med **phpDoc** programmet. Du behöver inte testa om kommentaren fungerar tillsammans med **phpDoc**.
+
+## Att göra på nivå 3:
+
+* Gör som för nivå 2.
+* Du ska arbeta snabbt och noggrant.
+
+### Uppgifter:
+
+1. Visa upp några slumpmässiga partier i ett tre-i-rad spel (”Tic-tac-toe”). Spelt har tre gånger tre rutor där spelaren kan markera ”x” eller ”o” och den som först får tre i rad vinner. Låt ”x” alltid börja. Om båda spelarna spelar bra kommer spelet alltid bli oavgjort.
+Du ska alltså på en html sida visa de olika ställningarna i ett parti som blir oavgjort utan att vara sig ”x” eller ”0".

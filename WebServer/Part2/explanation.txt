@@ -1,0 +1,22 @@
+Title: PHP Programmering
+CSS: ../../Tools/Framwork/css/magnum.css
+
+# PHP programmering
+> PHP
+
+PHP ska vi lära oss nu. Jag utgår ifrån att du redan kan programmera och kan läsa en manual.
+
+## Viktiga principer och begrepp
+
+String
+: Är en array av tecken. Motsvarar en vanlig text.
+
+## Källor
+* Strings
+> Att modifiera och använda texter är viktigt.
+
+ * http://php.net/manual/en/language.types.string.php
+>> Titta igenom översiktligt så att du vet allt grundläggande.
+
+* http://php.net/manual/en/ref.strings.php
+>> Gå igenom dessa funktioner så att du vet att de finns och kan använda dem när det behövs.

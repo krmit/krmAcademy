@@ -1,0 +1,60 @@
+Title: Programmering med Java
+CSS: ../../Tools/Framwork/css/magnum.css
+
+#Börja programmer med Greenfoot och java
+I denna labboration ska du visa att du bemästrar några utvalda grundläggande färdigheter i java. Som vanligt har du stor möjlighet att själva välja hur uppgifterna ska lösas så länge som du visar att du verkligen kan ett lämpligt programmeringsspråk.
+
+## Vad som gäller under labborationen:
+
+* Uppgiften är individuell, försök att hitta din egen lösning på uppgifterna nedan.
+* Om koden i ditt program har kopieras ifrån någon annan så får du göra om labborationen. Är det mer än något enstaka likheter __eller__ det är uppenbarligen uppsåtligt kommer du att anmälas för fusk, se skolan ordningsregler.
+* Uppgift ska i första hand lösas med java och greenfoot. Om du verkligen vill och är beredd att arbeta helt på egen hand kan du lösa dem med andra lämpliga programmeringsspråk eller miljöer men fråga mig först om tillåtelse, annars kan jag tvinga dig att skriva om dem i java och greenfoot.
+
+## Att göra på nivå 1:
+* Försök alltid först själv lösa ett problem som du får innan du frågar om hjälp.
+
+### Uppgifter:
+
+
+1. Du ska göra ett reaktionsspel i Greenfoot. Det ska vara två knappar, varje knapp ska styras av knappar på tangentbordet. Det ska finnas tre lampor på en rad. Lampan i mitten lyser när spelet börjar, när lampan slocknar efter ca 3 sekunder ska båda spelarna trycka ned sin knapp så fort som möjligt. Den lampa som är närmast den spelare som trycker ska tändas. Se mitt Scratch projektet [Reaktionsspel](http://scratch.mit.edu/projects/13923016)
+>Några kommentarer och tips:
+    * Det enklaste är att lägga all kod i act-metoden i en av klasserna.
+    * Använd en __for__-sats och Greenfoot.delay inne ut i act-metoden för att styra spelet logik.
+    * För att få att släcka en anna lampa kan du använda följande kod:
+ ```java
+// Denna kod rad är komplicerad. Du behöver inte förstå vad den gör, det räcker med att du vet att den lägger objectet ifrån ”Lampa1” i variabeln lampa.
+Actor lampa=(Actor)getWorld().getObjects(Lampa1.class).get(0);
+// Denna rad sätter bilden som visas av figuren. Tänk på att ändra bildnamnet till en bild som faktiskt finns.
+Lampa.setImage(”red-lamp.png”);
+ ```
+    * Eftersom det har varit vissa problem med denna labboration så finns det på denna [länk](http://htsit.se/krmAcademy/Programing/Part2/exempel-1-1.html) delar av lösningen på uppgiften.
+
+2. Vi ska utgå ifrån ekvationerna för rörelse: s=v*t och v=v_0 + a*t. Där a ska vara -9.82 m/s^2. Välj några olika värden på v_0 och t för att sedan beräkna v. Gör även bräkningar för s, även om dessa beräkningar kommer bli fel eftersom vi inte tar med vår kontinuerliga acceleration i beräkningarna.
+
+3. Ett kodlås har koder med 3 siffror. Första siffran är mellan 2 till 6. Andra siffran mellan 1 och 8, sista ifrån 0 till 7. Vi vill utsätta detta lås för en ”brutal-force” attack. Skriv därför ut alla möjliga kombinationer.
+
+4. Skriv ut alla siffror mellan 1 och 100. Om delbart med 3 skriv ”Delbar med 3”, i annat fall om delbart med 5 skriv ”Delbar med 5” och som sista möjlighet om det är delbart med 7 skriv ”Delbar med 7”.
+
+## Att göra på nivå 2:
+
+* Du ska inte fråga läraren om hjälp efter att du börjat med att lösa en uppgift. Så tänk efter före! Du kan också diskutera med läraren när som helst.
+* Din kod ska vara lätt att först och se snygg ut.
+
+### Uppgifter:
+
+1. Förbättra spelet så att om en spelar trycker ned knappen ska inte den andra spelaren kunna tända sin lampa. Se också till att tiden innan lampan släcks blir slumpmässig mellan 1 till 5 sekunder.
+
+2. En kanonkula skjuts iväg. Låt hastigheten i x led (v_x) och hastighet i y led (v_y) vara lika stora. v_y påverkas av en acceleration enligt formeln v_y= v_0+a*t, du kan själv välja värde på a.
+
+Låt t=0 och ställ in andra variabler på ett lämpligt sätt. Öka t med ett litet värde. Beräkna hur långt kanonkulan kommit (s_x=s_x+v_x*t) och höjden över marken (s_y=s_y+v_y*t). Observera att v_x, s_x och s_y påverkas av tidigare värden på dessa variabler.
+
+## Att göra på nivå 3:
+
+* Gör som för nivå 2.
+* Du ska arbeta snabbt och noggrant.
+
+### Uppgifter:
+
+1. Förbättra spelet så att om någon av spelarna trycker innan lampan har slocknat så förlorar denna spelare spelet.
+
+2.  Rita upp kanonkulans bana ifrån uppgift 2.2.

@@ -1,0 +1,60 @@
+Title: Nätverkskomponeter
+CSS: ../../Tools/Framwork/css/magnum.css
+
+# Nätverkskomponenter
+> OSI, klienter, servar, routrar, omkopplare, nätslutsar, nätverkskort, kablage
+
+Denna labboration ska vi titta på ett nätverks uppbyggnad. Vi ska lära oss om vilka enheter som ingår i ett nätverk och översiktligt beskriva deras funktion och var de återfinns i OSI-modellen. Vi ska särskilt intressera oss för hur en server arbetar i nätverket och vad dess uppgift är. Vi ska med hjälp av några olika program se hur olika enheter på nätverket arbetar.
+
+## Viktiga principer och begrepp
+
+Klienten
+: Är ett program som använder sig av en tjänst på internet. 
+
+Server
+: Är ett program som erbjuder en tjänst på ett nätverk.
+
+OSI
+: Applikationsskikt, Presentationsskikt, Sessionsskikt, 	Transportskikt, Nätverksskikt, Datalänkskikt, Fysisktskikt.
+
+IP-adress
+: Din globala adress, som du använder för att kommunicera på Internet och som du fått av den som ger dig Internet.
+
+MAC-adress
+: Din lokala adress, som du använder för att kommunicera på ditt lokala nätverk och som är unikt för varje nätverkskort.
+
+ping, tracerout och ip är bra program för att hantera en nätverksanslutning på en dator. 
+
+## Källor
+
+* OSI-modellen
+> En kort repetition kan vara bra.
+
+ * http://sv.wikipedia.org/wiki/OSI-modellen
+>> Läs igenom artiklarna tills du känner dig säker på OSI modellen. Tänk på att de engelska artiklara ofta är mer innehållsrika. 
+
+* klienter och servrar
+>> Olika roller som ett program kan ha på nätverket.
+
+ * http://searchnetworking.techtarget.com/definition/client-server
+>>(En) Ger en bra definition. Läs åtminstone första stycket.
+
+* IP-adress och MAC-adress
+
+ * http://sv.wikipedia.org/wiki/IP-adress
+>> Läs inledningen på artikeln och förstå bilden högst upp.
+
+ * http://sv.wikipedia.org/wiki/MAC-adress
+>> Titta på detta översiktligt.
+
+* Routrar och omkopplare
+> Några vanliga nätverkskomponeter.
+
+ * http://www.kjell.com/fraga-kjell/hur-funkar-det/natverk/hemnatverk/lokalt-tradbundet-natverk#homeplug-standarder
+>> Läs förklaringarna för switch, router och hubb.
+
+* Nätsluss
+> På engelska kallas den gateway och  tar på sig många olika roller i OSI-modellen, så som router, omkopplare, brygga och modem. Det den gör är att binda ihop två olika nätverk.
+
+ * http://en.wikipedia.org/wiki/Gateway_%28telecommunications%29
+>> (En) Du kan titta på denna text om du vill ha en djupare förstålse.

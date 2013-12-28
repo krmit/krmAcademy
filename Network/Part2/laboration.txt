@@ -1,0 +1,61 @@
+Title: Att använda Linux/Unix I ett nätverk.
+CSS: ../../Tools/Framwork/css/magnum.css
+
+# Att använda Linux/Unix I ett nätverk.
+
+## Vad som gäller under labborationen:
+
+* Uppgiften är individuell, gör uppgifterna nedan själv.
+* Du kan använda det konto på htsit.se som jag har givit er för at lösa uppgiften.
+* I uppgiften ska du använda ett program som heter __script__. Att på rätt sätt använda __script__ är en viktig del av uppgiften, har du inte gjort det får du göra om __hela__ uppgiften. Gör därför uppgiften 1.1 noggrant och säker kopiera filen.
+
+## Att göra på nivå 1:
+* Försök alltid först själv lösa ett problem som du får innan du frågar om hjälp.
+
+### Uppgifter:
+
+
+1. Installera programmet __script__, det kan mycket väl redan vara installerad. Starta det sedan genom att skriva kommandot __script__. Programmet kommer att logga allt du gör i terminal, du avslutat genom kommandot __exit__. Programmet ska vara på medan du löser denna labboration, du lämnar sedan in log-filen som svar. Ta nu och gör en uppdatering av systemet och se till att allt loggas. När du är klar börja med nästa uppgift.
+
+2. Använd programmet __ssh__ för att logga in på en __ssh__-server som finns utanför skolan. Vi kallar denna dator kort och gott för *server* i försättningen. Använd kommandot __wget__ för att ladda ned bilder. Lägg alla bilder i en mapp. Denna mapp ska i sin tur innehålla minst tre mappar som innehåller minst tre bilder var.
+
+3. Använd __scp__ för att ladda ned bilderna ifrån servern till din dator.
+
+4. Gör en backup av mappen av bilderna. Du kan göra backupen på valfritt viss. Ta sedan bort din original mappen ifrån servern.
+
+5. Använd __sftp__ för att kopiera upp mappen till servern. Du kan använda dig av __tar__ om du tycker det underlättar. Ta bort bildmappen ifrån din dator.
+
+6. Använd __rsync__ för att kopiera bildmappen ifrån din server till din dator.
+
+7. Gå till din backup och visa din filstruktur.
+
+8. Gör ett filsystem i ram. Undersök filsystemet, skapa några mappar och filer och se att det fungerar. Du kan ta hjälp av följande länk om [”Creating A Filesystem In RAM”](http://www.cyberciti.biz/faq/howto-create-linux-ram-disk-filesystem/).
+
+## Att göra på nivå 2:
+
+* Du ska inte fråga läraren om hjälp efter att du börjat med att lösa en uppgift. Så tänk efter före! Du kan också diskutera med läraren när som helst.
+* Din kod ska vara lätt att först och se snygg ut.
+
+### Uppgifter:
+
+1. Kopiera in din mapp till din ramfilsystem med hjälp av __dd__.
+
+2. Installera __sshfs__. Använd detta för att montera dig på *serverns* filsystem.
+
+3. Gör en liten partion på din hårdisk. Installera något filsystem på detta, du kan själv välja vilket.
+
+## Att göra på nivå 3:
+
+* Gör som för nivå 2.
+* Du ska arbeta snabbt och noggrant.
+
+### Uppgifter:
+
+
+1. Installera något mindre vanligt filsystem på din skapade partion. Så som *zfs* eller *btrfs*. Använd __dd__ för att kopiera in din mapp på denna partion.
+
+2. Konfigurera *cron* så att den gör en backup på alla dina filer på servern två gånger per dag.
+
+3. Gör en *Reverse SSH tunnel* ifrån en dator bakom en NAT till någon på utsidan av brandväggen.
+
+

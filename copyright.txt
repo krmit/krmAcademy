@@ -1,0 +1,8 @@
+The code, text and graphics on this website are
+Copyright (c) 2013 by Magnus Kronnäs.  All rights reserved.
+
+It is likely that I will be releasing the web site with a
+CC license in the future. But until further notice, do
+not copy this material further if you have not got my
+permission to do so and submit any modifications you have
+done to me.
