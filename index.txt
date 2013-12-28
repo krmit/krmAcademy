@@ -9,10 +9,10 @@ Det här är en lista som på kurser som krm har på hts.
 ### Elektronik
   * [Introduktion](http://htsit.se/krmAcademy/Electronics/intro.html)
   * __Moment 1__
-    * [Labboration]( http://htsit.se/krmAcademy/Electronics/Part1/laboration.html)
+    * [Laboration]( http://htsit.se/krmAcademy/Electronics/Part1/laboration.html)
   * __Moment 2__
     * [Förklaring]( http://htsit.se/krmAcademy/Electronics/Part2/explanation.html)
-    * [Labboration]( http://htsit.se/krmAcademy/Electronics/Part2/laboration.html)
+    * [Laboration]( http://htsit.se/krmAcademy/Electronics/Part2/laboration.html)
 
 ### Programmering 1
   * [Introduktion](http://htsit.se/krmAcademy/Programing/intro.html)
@@ -21,14 +21,14 @@ Det här är en lista som på kurser som krm har på hts.
     * [Labboration]( http://htsit.se/krmAcademy/Programing/Part1/laboration.html)
   * __Moment 2__
     * [Förklaring]( http://htsit.se/krmAcademy/Programing/Part2/explanation.html)
-    * [Labboration](http://htsit.se/krmAcademy/Programing/Part2/laboration.html)
+    * [Laboration](http://htsit.se/krmAcademy/Programing/Part2/laboration.html)
 
 
 ### Nätverksteknik
   * [Introduktion](http://htsit.se/krmAcademy/Network/Intro.html)
   * __Moment 1__
     * [Förklaring]( http://htsit.se/krmAcademy/Network/Part1/Explanation.html)
-    * [Labboration]( http://htsit.se/krmAcademy/Network/Part1/Laboration.html)
+    * [Laboration]( http://htsit.se/krmAcademy/Network/Part1/Laboration.html)
   * __Moment 2__
     * [Laboration]( http://htsit.se/krmAcademy/Network/Part2/laboration.html)
 
