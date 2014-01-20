@@ -1,0 +1,44 @@
+Title: Att använda SQL
+CSS: ../../Tools/Framwork/css/magnum.css
+
+#Att använda SQL
+
+Vi ska här lära oss att använda SQL. SQL behöver vi för att hantera kunna hantera data på en webbsajt.
+
+## Vad som gäller under laborationen:
+  * Uppgiften är individuell, försök att hitta din egen lösning på uppgifterna nedan.
+  * Om koden i ditt program har kopieras ifrån någon annan så får du göra om laborationen. Är det mer än något enstaka likheter __eller__ det är uppenbarligen uppsåtligen kommer du att anmälas för fusk, se skolan ordningsregler.
+  * Uppgift ska lösas med SQL, PHP och html. Du får använda css om du vill men det är inget krav. Det finns heller inga krav på kvalitén på din html kod.
+
+## Att göra på nivå 1:
+* Försök alltid först själv lösa ett problem som du får innan du frågar om hjälp.
+* Redovisa skriftligt så det går att följa vad du har gjort på alla frågorna.
+
+### Uppgifter:
+
+1. Utgå ifrån ER-diagrammet ovan. Använd __phpMyAdmin__ för att skapa en databas "TestData" som har ett innehåll som motsvarar ER-diagrammet.
+
+2. Fyll tabellen med "rimliga" värden. Inför minst tio olika värden. 
+
+3. Ställ frågorna nedan. Om du inte får ett enda resultat på din fråga, lägg till data så det blir minst ett svar. Använd gärna __phpMyAdmin__, men redovisa även sql-koden.
+    * Hur många böcker har mer än 200 sidor?
+    * Vilka böcker är skrivna innan 1984?
+    * Vilka böcker har en titel som börjar på bokstaven "I".
+    * Vilka böcker har en titel som innehåller "Q" eller "q".
+ 
+4. Anslut till din databas ifrån din webbsajt med hjälp utav php.
+
+## Att göra på nivå 2:
+* Du ska inte fråga läraren om hjälp efter att du börjat med att lösa en uppgift. Så tänk efter före! Du kan också diskutera med läraren när som helst.
+* Din kod ska vara lätt att först och se snygg ut.
+
+### Uppgifter:
+
+
+
+## Att göra på nivå 3:
+
+* Gör som för nivå 2.
+* Du ska arbeta snabbt och noggrant.
+
+### Uppgifter:
