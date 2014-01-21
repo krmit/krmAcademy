@@ -39,7 +39,7 @@ Vi undersöker några komponenter lite noggrannare.
   4. Transistor - Välj en transistor och undersök denna.
     1. Hitta ett datablad för denna transistor. Om du inte kan hitta _rätt_ datablad. Hitta något som skulle kunna vara det rätta.
     2. Utifrån databladet välj ut ett par data som du anser vara viktiga och redovisa dem.
-    3. Gör ström och spänningsmätningar. Gör tre olika mätningar.
+    3. Gör ström och spänningsmätningar. Gör tre olika mätningar mellan bas och kollektor eller bas och emittern.
     4. Vad används ett transistor till?
     5. Vad bör man tänka på när man väljer en transistor?
 
