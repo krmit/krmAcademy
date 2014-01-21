@@ -37,3 +37,5 @@ Det här är en lista som på kurser som krm har på hts.
   * __Moment 1__
     * [Förklaring]( http://htsit.se/krmAcademy/WebServer/Part2/explanation.html)
     * [Laboration]( http://htsit.se/krmAcademy/WebServer/Part2/laboration.html)
+  * __Moment 2__
+    * [Laboration]( http://htsit.se/krmAcademy/WebServer/Part3/laboration.html)
