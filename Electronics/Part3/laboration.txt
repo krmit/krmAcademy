@@ -11,16 +11,38 @@ Vi undersöker några komponenter lite noggrannare.
 
 ## Att göra på nivå 1:
 * Försök alltid först själv lösa ett problem som du får innan du frågar om hjälp.
-* Välj komponter tillsamman och gör mättningarn tillsammans. Resten av uppgiften gör ni enskild. 
+* Välj komponenter tillsamman och gör mätningar tillsammans. Resten av uppgiften gör ni enskild. 
 
 ### Uppgifter:
 
-  1. Motstånd - Välj ett motstånd.
-    1. Hitta ett datablad för detta motstånd. Om du inte kan hitta _rätt_ databald. Hitta något som skulle kunna vara det rätta.
-    2. Utifrån databladet välj ut et bara data som du anser vara viktiga och redovisa dem.
-    3. Gör ström och spänningsmätningar. Gör ett U/I diagram.
+  1. Motstånd - Välj ett motstånd och undersök detta.
+    1. Hitta ett datablad för detta motstånd. Om du inte kan hitta _rätt_ datablad. Hitta något som skulle kunna vara det rätta.
+    2. Utifrån databladet välj ut ett par data som du anser vara viktiga och redovisa dem.
+    3. Gör ström och spänningsmätningar. Gör ett I/U-diagram. Tips: En Wikipedia sidan om detta finns [här](http://en.wikipedia.org/wiki/Current%E2%80%93voltage_characteristic) 
     4. Vad används ett motstånd till?
     5. Vad bör man tänka på när man väljer ett motstånd?
+    
+  2. Diod - Välj en diod och undersök denna.
+    1. Hitta ett datablad för denna diod. Om du inte kan hitta _rätt_ datablad. Hitta något som skulle kunna vara det rätta.
+    2. Utifrån databladet välj ut ett par data som du anser vara viktiga och redovisa dem.
+    3. Gör ström och spänningsmätningar. Gör tre olika mätningar.
+    4. Vad används ett diod till?
+    5. Vad bör man tänka på när man väljer en diod?
+
+  3. Kondensator - Välj en kondensator och undersök denna.
+    1. Hitta ett datablad för denna kondensator. Om du inte kan hitta _rätt_ datablad. Hitta något som skulle kunna vara det rätta.
+    2. Utifrån databladet välj ut ett par data som du anser vara viktiga och redovisa dem.
+    3. Gör ström och spänningsmätningar. Gör tre olika mätningar.
+    4. Vad används ett kondensator till?
+    5. Vad bör man tänka på när man väljer en kondensator?
+    
+  4. Transistor - Välj en transistor och undersök denna.
+    1. Hitta ett datablad för denna transistor. Om du inte kan hitta _rätt_ datablad. Hitta något som skulle kunna vara det rätta.
+    2. Utifrån databladet välj ut ett par data som du anser vara viktiga och redovisa dem.
+    3. Gör ström och spänningsmätningar. Gör tre olika mätningar.
+    4. Vad används ett transistor till?
+    5. Vad bör man tänka på när man väljer en transistor?
+
 
 ## Att göra på nivå 2:
 * Du ska inte fråga läraren om hjälp efter att du börjat med att lösa en uppgift. Så tänk efter före! Du kan också diskutera med läraren när som helst.
