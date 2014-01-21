@@ -13,6 +13,8 @@ Det här är en lista som på kurser som krm har på hts.
   * __Moment 2__
     * [Förklaring]( http://htsit.se/krmAcademy/Electronics/Part2/explanation.html)
     * [Laboration]( http://htsit.se/krmAcademy/Electronics/Part2/laboration.html)
+  * __Moment 3__
+    * [Laboration]( http://htsit.se/krmAcademy/Electronics/Part3/laboration.html)
 
 ### Programmering 1
   * [Introduktion](http://htsit.se/krmAcademy/Programing/intro.html)

@@ -1,0 +1,38 @@
+Title: Experimentera med Elektronik komponenter
+CSS: ../../Tools/Framwork/css/magnum.css
+
+#Experimentera med Elektronik komponenter
+
+Vi undersöker några komponenter lite noggrannare.
+
+## Vad som gäller under laborationen:
+
+* Uppgiften ska redovisas individuellt, beskriv vad du har gjort och förklara vad ni har gjort.
+
+## Att göra på nivå 1:
+* Försök alltid först själv lösa ett problem som du får innan du frågar om hjälp.
+* Välj komponter tillsamman och gör mättningarn tillsammans. Resten av uppgiften gör ni enskild. 
+
+### Uppgifter:
+
+  1. Motstånd - Välj ett motstånd.
+    1. Hitta ett datablad för detta motstånd. Om du inte kan hitta _rätt_ databald. Hitta något som skulle kunna vara det rätta.
+    2. Utifrån databladet välj ut et bara data som du anser vara viktiga och redovisa dem.
+    3. Gör ström och spänningsmätningar. Gör ett U/I diagram.
+    4. Vad används ett motstånd till?
+    5. Vad bör man tänka på när man väljer ett motstånd?
+
+## Att göra på nivå 2:
+* Du ska inte fråga läraren om hjälp efter att du börjat med att lösa en uppgift. Så tänk efter före! Du kan också diskutera med läraren när som helst.
+* Din kod och koppling ska vara lätt att först och se snygg ut.
+
+### Uppgifter:
+
+
+
+## Att göra på nivå 3:
+* Gör som för nivå 2.
+* Du ska arbeta snabbt och noggrant.
+
+### Uppgifter:
+
