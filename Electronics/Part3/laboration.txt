@@ -50,6 +50,19 @@ Vi undersöker några komponenter lite noggrannare.
 
 ### Uppgifter:
 
+  1. Motstånd
+    1. Hur avgör man hur noggrant ett motstånd är?
+    
+  2. Diod
+    1. Gör ett I/U-diagram där man tydligt kan se diodens karakteristik. 
+    2. Förklara översiktligt hur en NP-diod är är uppbygd och hur den kan fungera utifrån sina delar?
+
+  3. Kondensator
+    1. Förklara översiktligt hur en kondensator är är uppbygd och hur den kan fungera utifrån sina delar?
+
+  4. Transistor
+    1. Förklara översiktligt hur en NPN-transistor är är uppbygd och hur den kan fungera utifrån sina delar?
+
 
 
 ## Att göra på nivå 3:
@@ -58,3 +71,15 @@ Vi undersöker några komponenter lite noggrannare.
 
 ### Uppgifter:
 
+  1. Motstånd
+    1. Beskriv något smart man kan göra med ett motstånd.
+    
+  2. Diod - Välj en till diod, men inte samma typ som den förra.
+    1. Gör ett I/U-diagram där man tydligt kan jämföra de båda diodernas karakteristik. 
+    2. Beskriv en rolig tillämpning av diodrar.
+
+  3. Kondensator
+    1. Gör ett diagram, inte nödvändigt viss ett I/U diagram, där man tydligt kan se diodens karakteristik.
+
+  4. Transistor
+    1. Gör ett I/U-diagram där man tydligt kan se transistorn karakteristik.
