@@ -1,0 +1,37 @@
+Title: Programmering med Java
+CSS: ../../Tools/Framwork/css/magnum.css
+
+#Börja programmer med Greenfoot och java
+I denna labboration ska du visa att du bemästrar några utvalda grundläggande färdigheter i java. Som vanligt har du stor möjlighet att själva välja hur uppgifterna ska lösas så länge som du visar att du verkligen kan ett lämpligt programmeringsspråk.
+
+## Vad som gäller under labborationen:
+
+* Uppgiften är individuell, försök att hitta din egen lösning på uppgifterna nedan.
+* Om koden i ditt program har kopieras ifrån någon annan så får du göra om labborationen. Är det mer än något enstaka likheter __eller__ det är uppenbarligen uppsåtligt kommer du att anmälas för fusk, se skolan ordningsregler.
+* Uppgift ska i första hand lösas med java och greenfoot. Om du verkligen vill och är beredd att arbeta helt på egen hand kan du lösa dem med andra lämpliga programmeringsspråk eller miljöer men fråga mig först om tillåtelse, annars kan jag tvinga dig att skriva om dem i java och greenfoot.
+
+## Att göra på nivå 1:
+* Försök alltid först själv lösa ett problem som du får innan du frågar om hjälp.
+
+### Uppgifter:
+
+
+1. 
+
+## Att göra på nivå 2:
+
+* Du ska inte fråga läraren om hjälp efter att du börjat med att lösa en uppgift. Så tänk efter före! Du kan också diskutera med läraren när som helst.
+* Din kod ska vara lätt att först och se snygg ut.
+
+### Uppgifter:
+
+1.
+
+## Att göra på nivå 3:
+
+* Gör som för nivå 2.
+* Du ska arbeta snabbt och noggrant.
+
+### Uppgifter:
+
+1.
