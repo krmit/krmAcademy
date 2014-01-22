@@ -1,0 +1,53 @@
+Title: Att använda Linux/Unix I ett nätverk.
+CSS: ../../Tools/Framwork/css/magnum.css
+
+# Att använda Linux/Unix I ett nätverk.
+
+## Vad som gäller under labborationen:
+* Uppgiften är individuell, gör uppgifterna nedan själv.
+* Du kan använda det konto på htsit.se som jag har givit er för at lösa uppgiften.
+* I uppgiften ska du använda ett program som heter __script__. Att på rätt sätt använda __script__ är en viktig del av uppgiften, har du inte gjort det får du göra om __hela__ uppgiften. Gör därför uppgiften 1.1 noggrant och säker kopiera filen.
+
+## Att göra på nivå 1:
+* Försök alltid först själv lösa ett problem som du får innan du frågar om hjälp.
+* Du ska redovisa alla komandon som du användder för att installer mjukvaran nedan. Denna redovisning ska vara lätt att följa. 
+
+### Uppgifter:
+
+Installera och konfiguera programmen nedan så att de fungerar för ett test system.
+
+1. apache 
+2. mysql
+3. mod_mysql
+4. ftp
+5. mod_någont-språk (t.ex. mod_python, mod_perl, mod,_ruby, mod_lisp).
+
+
+## Att göra på nivå 2:
+* Gör som för nivå 1.
+* Du ska inte fråga läraren om hjälp efter att du börjat med att lösa en uppgift. Så tänk efter före! Du kan också diskutera med läraren när som helst.
+* Kommentera allt du gör så det är möjligt att först vad du gör.
+
+### Uppgifter:
+
+Installera och konfiguera programmen nedan så att de fungerar för personligt bruk.
+
+1. mod_proxy, observera att konfigurationen kan vara krånglig. 
+2. mumble, du kan välja ett annat liknade program om du vill.
+3. webDAV.
+
+
+## Att göra på nivå 3:
+* Gör som för nivå 2.
+* Du ska också göra nograna kommentarer.
+* Du ska arbeta snabbt och effektivit.
+
+### Uppgifter:
+
+Välj ett av programmen nedan. Installera och konfiguera programmen nedan så att programmen fungerar och är säkra.
+
+1. mail-server.
+2. irc.
+3. samba.
+4. Någon annat, men se till att du får det godkänd av mig först.
+
