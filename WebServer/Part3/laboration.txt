@@ -34,6 +34,17 @@ Vi ska här lära oss att använda SQL. SQL behöver vi för att hantera kunna h
 
 ### Uppgifter:
 
+1. Utgå ifrån ER-diagrammet ovan. Korrigera den databas du har gjort tidigare. 
+
+2. Komplettera databasen så du har minst 10 olika värden som är bra. 
+
+3. Ställ frågorna nedan. Om du inte får ett enda resultat på din fråga, lägg till data så det blir minst ett svar. Använd gärna __phpMyAdmin__, men redovisa även sql-koden.
+    * Hur många böcker har mellan 100 och 200 sidor?
+    * Vilka böcker är skrivna mellan 1968 och 1984?
+    * Vilka böcker har en titel som börjar på bokstaven "H", "T" eller "S".
+    * Vilka författare har skrivit mer än 2 böcker?
+ 
+4. Du ska lägga in all kod för att ansluta till en webbserver i en separatfil.
 
 
 ## Att göra på nivå 3:
@@ -42,3 +53,11 @@ Vi ska här lära oss att använda SQL. SQL behöver vi för att hantera kunna h
 * Du ska arbeta snabbt och noggrant.
 
 ### Uppgifter:
+
+1. Fundera ut en egen sajt som behöver ha en databas. Gör ett ER-diagram för denna databas. 
+
+2. Ställ frågorna nedan med SQL.
+    * Vilka böcker är skrivna av en författare som börjar på "A"?
+    * Visa en lista där både bokens författares namn och 
+ 
+3. Förklara vad man menar med ACID i databas sammanhang.
