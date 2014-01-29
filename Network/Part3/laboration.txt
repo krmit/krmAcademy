@@ -49,5 +49,5 @@ Välj ett av programmen nedan. Installera och konfiguera programmen nedan så at
 1. mail-server.
 2. irc.
 3. samba.
-4. Någon annat, men se till att du får det godkänd av mig först.
+4. Något annat, men se till att du får det godkänd av mig först.
 
