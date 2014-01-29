@@ -20,7 +20,7 @@ Installera och konfiguera programmen nedan så att de fungerar för ett test sys
 2. mysql
 3. mod_mysql
 4. ftp
-5. mod_någont-språk (t.ex. mod_python, mod_perl, mod,_ruby, mod_lisp).
+5. mod_något-språk (t.ex. mod_python, mod_perl, mod,_ruby, mod_lisp).
 
 
 ## Att göra på nivå 2:
