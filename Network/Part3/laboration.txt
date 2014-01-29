@@ -40,7 +40,7 @@ Installera och konfiguera programmen nedan så att de fungerar för personligt b
 ## Att göra på nivå 3:
 * Gör som för nivå 2.
 * Du ska också göra nograna kommentarer.
-* Du ska arbeta snabbt och effektivit.
+* Du ska arbeta snabbt och effektivt.
 
 ### Uppgifter:
 
