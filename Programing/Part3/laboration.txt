@@ -12,11 +12,19 @@ I denna labboration ska du visa att du bemästrar några utvalda grundläggande 
 
 ## Att göra på nivå 1:
 * Försök alltid först själv lösa ett problem som du får innan du frågar om hjälp.
+* Utgå ifrån AlgorithmFun som du hittar på htsit.se/f. Kompletera denna med nya funktioner i ListManager så att du löser uppgifterna nedan. De nya funktionerna ska anropas på samma sätt som andra liknade funktioner i ListManager.
 
 ### Uppgifter:
 
+1. Gör en funktion som skapar en lista med bara 3:or. Funktionen ska anropas på samm sätt som "one" i ListManager.
 
-1. 
+2. Gör en funktion som skapar en lista som bara består av uddatal.
+
+3. Gör en funktion som liknar "add", men istället för addera så drar den ifrån ett element ifrån ett annat.
+
+4. Skapa en ny ListManger och TestLista. Denna ska istället för int ha double som type. Implentera minst 3 olika funktioner i ListManager och testa dem.
+
+5. Gör ett eller flera program som skriver ett värde till variabler med olika datattyper för tal. Datatypen ska vara byte, int, long, float och double. Skriv några värdern som datatypen kan hantera och minst ett som den inte kan hantera för att det är för stort.
 
 ## Att göra på nivå 2:
 
@@ -25,7 +33,11 @@ I denna labboration ska du visa att du bemästrar några utvalda grundläggande 
 
 ### Uppgifter:
 
-1.
+1. Gör en bubbelsort och använd hjälp funktionerna compare och move ifrån ListManger.
+
+2. Testa med olika listor och se hur många move och compare som krävs. Dra en slutsats om hur många som i medeltal behövs.
+
+3. Skapa en ny ListManger och TestLista. Istället för tal ska den skapa och hantera listor som innehåller texter, dvs. string. Implentera misnt tre olika funktionern och känn dig fri att själv bestämma hur hanteraren ska fungera i detalj.
 
 ## Att göra på nivå 3:
 
@@ -34,4 +46,4 @@ I denna labboration ska du visa att du bemästrar några utvalda grundläggande 
 
 ### Uppgifter:
 
-1.
+1. Lös uppgifter på Programmeringsolympiaden, så att du antingen har minst 4 rätt på skolkvalet eller 200 poäng på onlinekvalet. Har du redan deltagit och fått så hög poäng behöver du inte göra något mer, i annat fall får ni ta och komplettera.
