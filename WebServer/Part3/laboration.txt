@@ -16,6 +16,8 @@ Vi ska här lära oss att använda SQL. SQL behöver vi för att hantera kunna h
 
 ### Uppgifter:
 
+![Böcker](books.png)
+
 1. Utgå ifrån ER-diagrammet ovan. Använd __phpMyAdmin__ för att skapa en databas "TestData" som har ett innehåll som motsvarar ER-diagrammet.
 
 2. Fyll tabellen med "rimliga" värden. Inför minst tio olika värden. 
@@ -33,6 +35,8 @@ Vi ska här lära oss att använda SQL. SQL behöver vi för att hantera kunna h
 * Din kod ska vara lätt att först och se snygg ut.
 
 ### Uppgifter:
+
+![Böcker och författare](booksAndAuthor.png)
 
 1. Utgå ifrån ER-diagrammet ovan. Korrigera den databas du har gjort tidigare. 
 
