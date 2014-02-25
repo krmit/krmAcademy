@@ -24,7 +24,7 @@ I denna laboration ska du visa att du bemästrar några utvalda grundläggande f
 
 4. Skapa en ny ListManger och TestLista. Denna ska istället för _int_ ha _double_ som typ. Om implementera minst 3 olika funktioner i ListManager och testa dem.
 
-5. Gör ett eller flera program som skriver ett värde till variabler med olika datattyper för tal. De olika datatyperna ska vara byte, int, long, float och double. Skriv några värden som datatypen kan hantera och minst ett som den inte kan hantera för att det är för stort. Observera resultatet och inför kommentarer i programmet som beskriver vad som händer om man använder för stora tal. 
+5. Gör ett eller flera program som skriver ett värde till variabler med olika datattyper för tal. De olika datatyperna ska vara byte, int, long, float och double. Skriv några värden som datatypen kan hantera och minst ett som den inte kan hantera för att det är för stort. Observera resultatet och inför kommentarer i programmet som beskriver vad som händer om man använder för stora tal.
 
 ## Att göra på nivå 2:
 

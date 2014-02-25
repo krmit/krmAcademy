@@ -16,10 +16,15 @@ Vi undersöker några komponenter lite noggrannare.
 ### Uppgifter:
 
   1. Växelström och oscilloskop
+    1. Använd en funktionsgenerator. Koppla upp en ljusdiod och ett motstånd mot signalgivaren. Vilken är den högsta frekvens då du forfarande kan se ljusdioden blinka.
+    2. Koppla upp ett oscilloskop mot funktionsgivaren. Får fram en bra bild på en sinusvåg. Testa med och utan diod inkopplat mot oscilloskop. Vad är skillnaden mellan dessa fall? 
     
-  2. Transformatiorer
+  2. Transformatorer
+    1. Ställ en transformator mellan funktionsgivaren och oscilloskop. Få en signal att passera över transformation. 
 
   3. Motorer och generatorer
+	1. Beskriv med egna ord och gärna exempel motorprincipen.
+	2. Koppla upp en multimeter mot mot en generator och gör en avläsning. Beskriv vad du gör och vad det är för värde som du läser av.
 
 ## Att göra på nivå 2:
 * Du ska inte fråga läraren om hjälp efter att du börjat med att lösa en uppgift. Så tänk efter före! Du kan också diskutera med läraren när som helst.
@@ -27,7 +32,7 @@ Vi undersöker några komponenter lite noggrannare.
 
 ### Uppgifter:
 
-  1. 
+  1. Transformatorer
 
 ## Att göra på nivå 3:
 * Gör som för nivå 2.
