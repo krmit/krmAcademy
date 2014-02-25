@@ -32,7 +32,19 @@ Vi undersöker några komponenter lite noggrannare.
 
 ### Uppgifter:
 
-  1. Transformatorer
+  1. Växelström och oscilloskop
+    1. Läs av toppspänningen med hjälp av oscilloskop.
+    2. Beräkna den effektiva spänningen.
+
+  2. Transformatorer
+    1. Utgå ifrån uppgift 1.1 och mätt hur mycket spänningen har ökat eller minskat efter signalen passerat transformatorn.
+    2. Jämför med formelen för transformatorn spänningsomvandling, stämmer den eller inte?
+    
+   
+  3. Motorer och generatorer
+	1. Beskriv med egna ord och gärna exempel generatorprincipen.
+	2. Koppla upp en multimeter mot mot en generator och försök göra en avläsning. Beskriv ditt resultat.
+    
 
 ## Att göra på nivå 3:
 * Gör som för nivå 2.
@@ -40,4 +52,11 @@ Vi undersöker några komponenter lite noggrannare.
 
 ### Uppgifter:
 
-  1. 
+   1. Transformatorer
+    1. Utgå ifrån uppgift 1.1 och 2.2. Testa med olika frekvenser och skriv ned dina resultat.
+    2. Vad kan du dra för slutsats?
+    
+   
+  3. Motorer och generatorer
+	1. Beskriv med egna ord och nyanserat hur induktion orsakar generatorprincipen.
+	2. Försök att påvisa att vi har en motor och undersök motorn med ett oscilloskop.
