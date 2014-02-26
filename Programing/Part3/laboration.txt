@@ -8,7 +8,7 @@ I denna laboration ska du visa att du bemästrar några utvalda grundläggande f
 
 * Uppgiften är individuell, försök att hitta din egen lösning på uppgifterna nedan.
 * Om koden i ditt program har kopieras ifrån någon annan så får du göra om laborationen. Är det mer än något enstaka likheter __eller__ det är uppenbarligen uppsåtligen kommer du att anmälas för fusk, se skolan ordningsregler.
-* Uppgift ska i första hand lösas med java och greenfoot. Om du verkligen vill och är beredd att arbeta helt på egen hand kan du lösa dem med andra lämpliga programmeringsspråk eller miljöer men fråga mig först om tillåtelse, annars kan jag tvinga dig att skriva om dem i java och greenfoot.
+* Uppgift ska i första hand lösas med java. Om du verkligen vill och är beredd att arbeta helt på egen hand kan du lösa dem med andra lämpliga programmeringsspråk eller miljöer men fråga mig först om tillåtelse, annars kan jag tvinga dig att skriva om dem i java och greenfoot.
 
 ## Att göra på nivå 1:
 * Försök alltid först själv lösa ett problem som du får innan du frågar om hjälp.
@@ -22,7 +22,7 @@ I denna laboration ska du visa att du bemästrar några utvalda grundläggande f
 
 3. Gör en funktion som liknar "add", men istället för addera så drar den ifrån ett element ifrån ett annat.
 
-4. Skapa en ny ListManger och TestLista. Denna ska istället för _int_ ha _double_ som typ. Om implementera minst 3 olika funktioner i ListManager och testa dem.
+4. Skapa en ny ListManger och TestLista. Denna ska istället för _int_ ha _double_ som typ. Du behöver inte implementera alla funktioner som finns i ListManager. Men implementera minst 3 olika funktioner som finns i ListManager och testa dem.
 
 5. Gör ett eller flera program som skriver ett värde till variabler med olika datattyper för tal. De olika datatyperna ska vara byte, int, long, float och double. Skriv några värden som datatypen kan hantera och minst ett som den inte kan hantera för att det är för stort. Observera resultatet och inför kommentarer i programmet som beskriver vad som händer om man använder för stora tal.
 
@@ -37,7 +37,7 @@ I denna laboration ska du visa att du bemästrar några utvalda grundläggande f
 
 2. Testa med olika listor och se hur många move och compare som krävs. Dra en slutsats om hur många som i medeltal behövs.
 
-3. Skapa en ny ListManger och TestLista. Istället för tal ska den skapa och hantera listor som innehåller texter, dvs. string. Implementera minst tre olika funktioner och känn dig fri att själv bestämma hur hanteraren ska fungera i detalj.
+3. Skapa en ny ListManger och TestLista. Istället för tal ska den skapa och hantera listor som innehåller texter, dvs. "string". Implementera minst tre olika funktioner och känn dig fri att själv bestämma hur hanteraren ska fungera i detalj.
 
 ## Att göra på nivå 3:
 
@@ -46,4 +46,4 @@ I denna laboration ska du visa att du bemästrar några utvalda grundläggande f
 
 ### Uppgifter:
 
-1. Lös uppgifter på Programmeringsolympiaden, så att du antingen har minst 4 rätt på skolkvalet eller 200 poäng på onlinekvalet. Har du redan deltagit och fått så hög poäng behöver du inte göra något mer, i annat fall får du ta lägga till din lösningar till ditt projekt.
+1. Lös uppgifter på Programmeringsolympiaden(PO), så att du antingen har minst 4 rätt på skolkvalet eller 200 poäng på onlinekvalet. Detta motsvarar att göra två uppgifter på PO. Har du redan deltagit och fått så hög poäng behöver du inte göra något mer, i annat fall får du ta lägga till din lösningar till ditt projekt. Observera att du kan göra uppgifter ifrån olika års PO.
