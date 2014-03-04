@@ -17,14 +17,14 @@ Vi undersöker några komponenter lite noggrannare.
 
   1. En kombinationskrets. I bilden ovan används en IC-krets 74LS08N.
 	1. Koppla ihop kretsen ovan.
-	2. Utifrån denna koppling, rita en sanningstabell. Observera att bokstäverna A,B och C ska användas som förkortningar för ingångarna och D som förkortning av utgången.
+	2. Utifrån denna koppling, rita en sanningstabell. Observera att bokstäverna A,B,C,D och E ska användas som förkortningar för ingångarna och D som förkortning av utgången.
 	3. Beskriv kretsen med dina egna ord. Vad krävs för att IC kretsen ska fungera? Hur skulle du beskriva vad som krävs för att lampan ska lyser eller inte lyser?
 
-![Logiskt schema](AndAndSchema.jpg)
+  ![Logiskt schema](AndAndSchema.jpg)
 
-  2. En logisk krets.
+  2. En logisk krets. Observera att namnen på in- och utgångar ovan inte har med uppgiften att göra.
 	1. Koppla ihop kretsen ovan.
-	2. Hur skriver man A och B med Boolsk algebra.
+	2. Hur skriver man "A och B" med Boolskalgebra.
 
   3. Vippor.
     Beskriv med egna ord vad vippan nedan gör för något.
@@ -64,4 +64,4 @@ Vi undersöker några komponenter lite noggrannare.
 ### Uppgifter:
 
   1. Koppla upp en 555 som en astabil vippa. Beskriv hur du gjorde och hur kretsen fungerar.
-  2. Rita upp en logisktshema över vilka grindar("gates") som motsvar det boolska utrycket _A*B+C*D_.
+  2. Rita upp ett logisktshemma över vilka grindar("gates") som motsvar det boolskauttrycket _A*B+C*D_. 
