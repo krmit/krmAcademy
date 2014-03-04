@@ -11,12 +11,11 @@ Vi undersöker några komponenter lite noggrannare.
 
 ## Att göra på nivå 1:
 * Försök alltid först själv lösa ett problem som du får innan du frågar om hjälp.
-* Välj komponenter tillsamman och gör mätningar tillsammans. Resten av uppgiften gör ni enskild. 
+* Välj komponenter tillsamman och gör mätningar tillsammans. Resten av uppgiften gör ni enskild.
 
 ![Bild på koppling](AndAndImage.jpg)
 
-  1. En kombinationskrets.
-    I bilden ovan används en IC-krets 74LS08N.
+  1. En kombinationskrets. I bilden ovan används en IC-krets 74LS08N.
 	1. Koppla ihop kretsen ovan.
 	2. Utifrån denna koppling, rita en sanningstabell. Observera att bokstäverna A,B och C ska användas som förkortningar för ingångarna och D som förkortning av utgången.
 	3. Beskriv kretsen med dina egna ord. Vad krävs för att IC kretsen ska fungera? Hur skulle du beskriva vad som krävs för att lampan ska lyser eller inte lyser?
@@ -31,19 +30,29 @@ Vi undersöker några komponenter lite noggrannare.
     Beskriv med egna ord vad vippan nedan gör för något.
 	1. Monostabil vippa.
 	2. Bistabil vippa
-	3. Astabil vippa. 
+	3. Astabil vippa.
 
   4. Diskret och analogt.
   Redogör för vad förkortningarna nedan står för och ge exempel på vad dessa kan användas till.
 	1. ADC
 	2. DAC
 	3. PWM
-	
+
 ### Uppgifter:
 
 ## Att göra på nivå 2:
 * Du ska inte fråga läraren om hjälp efter att du börjat med att lösa en uppgift. Så tänk efter före! Du kan också diskutera med läraren när som helst.
 * Din kod och koppling ska vara lätt att först och se snygg ut.
+
+![Logiskt schema](Nand.jpg)
+
+  1. En ännu en logisk krets. Välj själv vilken IC krets du ska använda.
+	1. Koppla ihop kretsen ovan.
+	2. Gör en sanningstabell över kretsen.
+
+  2. Utgå ifrån uppgift 1.3. Ge exempel på vad de olika vipporna kan användas till.
+	1. Koppla ihop kretsen ovan.
+	2. Hur skriver man A och B med Boolsk algebra.
 
 ### Uppgifter:
 
@@ -53,3 +62,6 @@ Vi undersöker några komponenter lite noggrannare.
 * Du ska arbeta snabbt och noggrant.
 
 ### Uppgifter:
+
+  1. Koppla upp en 555 som en astabil vippa. Beskriv hur du gjorde och hur kretsen fungerar.
+  2. Rita upp en logisktshema över vilka grindar("gates") som motsvar det boolska utrycket _A*B+C*D_.
