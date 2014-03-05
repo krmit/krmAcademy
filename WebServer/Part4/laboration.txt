@@ -1,10 +1,10 @@
-Title: Att använda SQL
+Title: Skapa en sajt.
 CSS: ../../Tools/Framwork/css/magnum.css
 
-#Att använda SQL
+#Skapa en sajt
 
-__Deadline:__ _2014-03-05_
-Vi ska här lära oss att använda SQL. SQL behöver vi för att hantera kunna hantera data på en webbsajt.
+__Deadline:__ _2014-04-01_
+Vi ska här lära oss att göra en enkel webbsajt med php- och databasbackend.
 
 ## Vad som gäller under laborationen:
   * Uppgiften är individuell, försök att hitta din egen lösning på uppgifterna nedan.
