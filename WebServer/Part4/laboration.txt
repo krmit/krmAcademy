@@ -1,0 +1,45 @@
+Title: Att använda SQL
+CSS: ../../Tools/Framwork/css/magnum.css
+
+#Att använda SQL
+
+__Deadline:__ _2014-03-05_
+Vi ska här lära oss att använda SQL. SQL behöver vi för att hantera kunna hantera data på en webbsajt.
+
+## Vad som gäller under laborationen:
+  * Uppgiften är individuell, försök att hitta din egen lösning på uppgifterna nedan.
+  * Om koden i ditt program har kopieras ifrån någon annan så får du göra om laborationen. Är det mer än något enstaka likheter __eller__ det är uppenbarligen uppsåtligen kommer du att anmälas för fusk, se skolan ordningsregler.
+  * Uppgift ska lösas med SQL, PHP och html. Du får använda css om du vill men det är inget krav. Det finns heller inga krav på kvalitén på din html kod.
+
+## Att göra på nivå 1:
+* Försök alltid först själv lösa ett problem som du får innan du frågar om hjälp.
+* Redovisa skriftligt så det går att följa vad du har gjort på alla frågorna.
+
+### Uppgifter:
+
+
+1. Fundera ihop en datamodell som du vill göra. Det kan vara vad som helst som kräver minst två tabeller för att implementeras. Beskriv datamodellen med ord eller ett ER-diagram. Du ska ange vilket typ varje attribut har.    
+
+2. Implementera dessa i phpMyAdmin. Fyll databaserna också med några test data.
+
+3. Skriv ut en av tabellernas innehåll som en lista i ett html dokument med hjälp av php.
+
+4. Gör ett formulär som du kan använda för att föra in information i databasen.
+
+
+## Att göra på nivå 2:
+* Du ska inte fråga läraren om hjälp efter att du börjat med att lösa en uppgift. Så tänk efter före! Du kan också diskutera med läraren när som helst.
+* Din kod ska vara lätt att först och se snygg ut.
+
+### Uppgifter:
+
+1. Gör så att bara användare som är inloggade kan se data och 
+
+## Att göra på nivå 3:
+
+* Gör som för nivå 2.
+* Du ska arbeta snabbt och noggrant.
+
+### Uppgifter:
+
+1. Gör så att sajten blir en välfungerande helhet med flera sidor som är kopplade till databaser. All data i databasen ska också kunna uppdateras ifrån sidan.
