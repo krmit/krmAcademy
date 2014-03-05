@@ -4,6 +4,7 @@ CSS: ../../Tools/Framwork/css/magnum.css
 #Skapa en sajt
 
 __Deadline:__ _2014-04-01_
+
 Vi ska här lära oss att göra en enkel webbsajt med php- och databasbackend.
 
 ## Vad som gäller under laborationen:
@@ -18,7 +19,7 @@ Vi ska här lära oss att göra en enkel webbsajt med php- och databasbackend.
 ### Uppgifter:
 
 
-1. Fundera ihop en datamodell som du vill göra. Det kan vara vad som helst som kräver minst två tabeller för att implementeras. Beskriv datamodellen med ord eller ett ER-diagram. Du ska ange vilket typ varje attribut har.    
+1. Fundera ihop en datamodell som du vill göra. Det kan vara vad som helst som kräver minst två tabeller för att implementeras. Beskriv datamodellen med ord eller ett ER-diagram. Du ska ange vilket typ varje attribut har.
 
 2. Implementera dessa i phpMyAdmin. Fyll databaserna också med några test data.
 
@@ -33,7 +34,7 @@ Vi ska här lära oss att göra en enkel webbsajt med php- och databasbackend.
 
 ### Uppgifter:
 
-1. Gör så att bara användare som är inloggade kan se data och 
+1. Gör så att bara användare som är inloggade kan se data och skriva in uppgifter i formuläret.
 
 ## Att göra på nivå 3:
 
@@ -42,4 +43,4 @@ Vi ska här lära oss att göra en enkel webbsajt med php- och databasbackend.
 
 ### Uppgifter:
 
-1. Gör så att sajten blir en välfungerande helhet med flera sidor som är kopplade till databaser. All data i databasen ska också kunna uppdateras ifrån sidan.
+1. Gör så att sajten blir en välfungerande helhet med flera sidor som är kopplade till tabeller. All data i databasen ska också kunna uppdateras ifrån sidan.
