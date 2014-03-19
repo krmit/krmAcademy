@@ -1,0 +1,126 @@
+== Gå tillbaka till fabriksinställningar:
+
+write erase
+
+reload
+
+Svara “no” på frågan om du vill spara inställningar.
+
+= Allmäna komandon
+
+_Ger hjälp om allting_
+?
+
+__Visar de kommandon som körst för tillfället__
+show running-configuration
+_kort alternativ_
+sh run
+
+__Sparar dina inställningar så de finns kvar vi omstart__
+copy running-configuration startup-configuration
+_kort alternativ_
+copy run star
+
+= Användar hantering på routern
+__Byter namn på routern__
+hostname <namn>
+
+__Byter lösen ord__
+password <lösenord>
+
+__Byter lösen ord till enable mode.__
+enable password <lösenord>
+
+__Skapar en användare med ett vist lösen ord och visa privilägger__
+user <användarnamn> password <lösenord> privileage 15
+
+__Bootar routern, anävnds om du har ställt in det så det inte görs automatiskt.__
+boot
+
+__Startar om routern__
+reload
+
+= Byta mod =
+__Gå till priviligera mod__
+enable
+
+__Forsätt till terminalen för att göra ändringar där__
+config terminal
+_kort alternativ_
+config t
+
+__Forsätt till ett interface om du vill gör ändringar på ett interface.__
+interface <interface>
+
+__Eller forsätt till protokoll mod om du vil göra ändringar där.__
+router <protokoll>
+
+__Om du vill gå ut ur ett mod__
+exit
+
+= Få information och statestik
+
+__Visar status för ett interface__
+show <interface>
+
+__Visa information om firmware__
+show version
+
+__Visar routern routing tabell__
+show ip route
+
+= Inställningar =
+
+__Skapar välkomsmedelande _
+banner motd
+
+__ Skapa loggin medelande__
+banner login $ <Text> $
+
+banner exec
+
+banner incoming
+
+= Interface =
+
+__Ger ett namn till interfaced som du kna använda i andra sammanhang.__
+nameif
+
+__Gör så att ett interface är tillgängligt__
+no shutdown
+
+
+= Skapa ett VLAN för konfiguration. =
+
+int vlan 2
+
+description “Labb sal”
+
+nameif inside
+
+//Gör det du ska göra
+
+exit
+
+int e0/2
+
+switchport access vlan 2
+
+=Ge tillåtna ip adresse för ett interface.
+
+ip address 10.0.0.1 255.255.255.0
+
+no shutdown
+
+Alternativt om du har dhcp server.
+
+ip address dhcp setroute
+
+Starta en dhcp server
+
+dhcpd address 192.168.2.100-192.168.2.120 balder
+
+dhcpd dns 8.8.8.8 int balder
+
+dhcpd lease 4096  - Antal timmar innan förnyad ip.
+dhcpd enable balder
