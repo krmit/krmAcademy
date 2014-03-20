@@ -1,0 +1,56 @@
+Title: Programmering med Java
+CSS: ../../Tools/Framwork/css/magnum.css
+__Deadline:__ 2014-04-01
+
+#Börja programmer med Greenfoot och java
+I denna laboration ska du visa att du bemästrar några utvalda grundläggande färdigheter i java. Som vanligt har du stor möjlighet att själva välja hur uppgifterna ska lösas så länge som du visar att du verkligen kan ett lämpligt programmeringsspråk.
+
+## Vad som gäller under labborationen:
+
+* Uppgiften är individuell, försök att hitta din egen lösning på uppgifterna nedan.
+* Om koden i ditt program har kopieras ifrån någon annan så får du göra om laborationen. Är det mer än något enstaka likheter __eller__ det är uppenbarligen uppsåtligen kommer du att anmälas för fusk, se skolan ordningsregler.
+* Uppgift ska i första hand lösas med java. Om du verkligen vill och är beredd att arbeta helt på egen hand kan du lösa dem med andra lämpliga programmeringsspråk eller miljöer men fråga mig först om tillåtelse, annars kan jag tvinga dig att skriva om dem i java och greenfoot.
+
+## Att göra på nivå 1:
+* Försök alltid först själv lösa ett problem som du får innan du frågar om hjälp.
+* Utgå ifrån AlgorithmFun som du hittar på htsit.se/f. Komplettera denna med nya funktioner i ListManager så att du löser uppgifterna nedan. De nya funktionerna ska anropas på samma sätt som andra liknade funktioner i ListManager.
+* Arbetet ska utföras i grupp.
+
+### Uppgifter:
+
+1. Lägg till _set_ och _get_ funktioner till _Action_ klassen.
+2. Funder ut ett roligt monster.
+3. Skapa ditt monster.
+4. Skapa en variant av RagnarRandom som hanterar ditt monster.
+5. Testa hur det fungerar i strid, se _Game_ klassen, och korrigerar eventulla buggar.
+6. Gör om steg 2-5 minst 3 gånger.
+
+#### Enskild
+
+7. Välj ett monster, men inte samma som din partner.
+
+8. Kommentera det med hjälp av __doxygen__.
+
+
+## Att göra på nivå 2:
+
+* Du ska inte fråga läraren om hjälp efter att du börjat med att lösa en uppgift. Så tänk efter före! Du kan också diskutera med läraren när som helst.
+* Din kod ska vara lätt att först och se snygg ut.
+
+### Uppgifter:
+
+1. Se till att ditt monster fungerar utifrån din beskrivning.
+
+2. Se till att din doukmentering är bra.
+
+3. Se ockås till att monstret är balanserad i srid med de andra monstrerna som ni gjort i er grupp.
+
+
+## Att göra på nivå 3:
+
+* Gör som för nivå 2.
+* Du ska arbeta snabbt och noggrant.
+
+### Uppgifter:
+
+1. Gör en player utifrån _player_ klassen som använder sig av många olika monster och attacker på ett smart sätt. Försök gärna med lite enkel AI.

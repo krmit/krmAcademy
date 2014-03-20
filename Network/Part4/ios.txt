@@ -1,12 +1,25 @@
-== Gå tillbaka till fabriksinställningar:
+# IOS komandon
 
+## Gå tillbaka till fabriksinställningar:
+
+_Kör ifrån config terminal_
 write erase
-
 reload
+_Svara “n” på frågan om du vill spara inställningar._
 
-Svara “no” på frågan om du vill spara inställningar.
 
-= Allmäna komandon
+_Alternativt kommando_
+config factory-default
+
+__Vid uppstart, fungerar även om du glömt lösenord__
+_Tryck "ESC"_
+confreg
+_Svara "y" på första frågan om att byta inställning_
+_Svara default på resten, förutom_
+_frågan om ???._
+
+
+## Allmäna komandon
 
 _Ger hjälp om allting_
 ?
@@ -21,7 +34,7 @@ copy running-configuration startup-configuration
 _kort alternativ_
 copy run star
 
-= Användar hantering på routern
+## Användar hantering på routern
 __Byter namn på routern__
 hostname <namn>
 
@@ -40,9 +53,11 @@ boot
 __Startar om routern__
 reload
 
-= Byta mod =
+## Byta "mod" på komandotolken.
+
 __Gå till priviligera mod__
 enable
+_skriv sedan password_
 
 __Forsätt till terminalen för att göra ändringar där__
 config terminal
@@ -58,7 +73,7 @@ router <protokoll>
 __Om du vill gå ut ur ett mod__
 exit
 
-= Få information och statestik
+## Få information och statestik
 
 __Visar status för ett interface__
 show <interface>
@@ -69,7 +84,7 @@ show version
 __Visar routern routing tabell__
 show ip route
 
-= Inställningar =
+## Inställningar av meddelanden
 
 __Skapar välkomsmedelande _
 banner motd
@@ -77,36 +92,66 @@ banner motd
 __ Skapa loggin medelande__
 banner login $ <Text> $
 
+__Skapar medelandet du ser när du loggar ut__
 banner exec
 
+__Skapar ett medelande som enheter ser när de ansluter till datorn.__
 banner incoming
 
-= Interface =
+## Verktyg för nätverks analys
+
+__Du kan pinga!__
+ping <ip adress>
+
+## Interface
 
 __Ger ett namn till interfaced som du kna använda i andra sammanhang.__
 nameif
 
+__Ger en beskrivning av vad interfaced gör__
+description "<Text>"
+
+__Ge säkerhets nivå__
+_ Högre tal för sådan du anser vara mer säkert, mindre tal är för mer osäkert._
+_100 betyder att du litar helt och hållet på objektet.
+_0 betyder att du inte alls litar på den__
+security-level <Heltal>
+
+__Ställ in ip adress för interfacet__
+_Ip masken är ofta 255.255.255.0_
+ip address <ip adress> <ip mask>
+_Observera att ip adressen och ip masken måste vara i enlighet med hur dhcp servern är instäld.
+
 __Gör så att ett interface är tillgängligt__
 no shutdown
 
+# dhcp
 
-= Skapa ett VLAN för konfiguration. =
 
-int vlan 2
+## Skapa ett VLAN för konfiguration.
 
+#Skapa ett vlan interface.
+_Vi måste skapa ett vlan eftersom vi har en asa 5505_
+
+__Konfigurerar vlan 1 för insidan av NAT__
+interface vlan 1
 description “Labb sal”
-
 nameif inside
+security-level 100
+exit
 
-//Gör det du ska göra
-
+__Konfigurerar vlan 2 för utsidan av NAT__
+interface vlan 2
+description “UNIKOMs farliga värld”
+nameif outside
+security-level 0
 exit
 
 int e0/2
 
 switchport access vlan 2
 
-=Ge tillåtna ip adresse för ett interface.
+## Ge tillåtna ip adresse för ett interface.
 
 ip address 10.0.0.1 255.255.255.0
 
