@@ -43,6 +43,8 @@ Det här är en lista som på kurser som krm har på hts.
     * [Laboration]( http://htsit.se/krmAcademy/Network/Part2/laboration.html)
   * __Moment 3__
     * [Laboration]( http://htsit.se/krmAcademy/Network/Part3/laboration.html)
+  * __Moment 4__
+    * [Laboration]( http://htsit.se/krmAcademy/Network/Part4/ios.html)
 
 ### Webbserverprogrammering 1
   * [Introduktion](http://htsit.se/krmAcademy/WebServer/intro.html)
