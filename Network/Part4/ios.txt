@@ -3,17 +3,24 @@
 ## Gå tillbaka till fabriksinställningar:
 
 _Kör ifrån config terminal_
+
+'''
 write erase
 reload
+'''
+
 _Svara “n” på frågan om du vill spara inställningar._
 
 
 _Alternativt kommando_
+'''
 config factory-default
-
+'''
 __Vid uppstart, fungerar även om du glömt lösenord__
 _Tryck "ESC"_
+'''
 confreg
+'''
 _Svara "y" på första frågan om att byta inställning_
 _Svara default på resten, förutom_
 _frågan om ???._
