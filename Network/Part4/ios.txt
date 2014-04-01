@@ -11,7 +11,6 @@ reload
 
 _Svara “n” på frågan om du vill spara inställningar._
 
-
 _Alternativt kommando_
 ```
 config factory-default
@@ -22,119 +21,188 @@ __Vid uppstart, fungerar även om du glömt lösenord__
 
 _Tryck "ESC"_
 
-'''
+```
 confreg
-'''
+```
+
   _Svara "y" på första frågan om att byta inställning_
+
   _Svara default på resten, förutom_
+
   _frågan om ???._
 
 
 ## Allmäna komandon
 
 _Ger hjälp om allting_
+```
 ?
+```
 
 __Visar de kommandon som körst för tillfället__
+```
 show running-configuration
+```
+
 _kort alternativ_
+```
 sh run
+```
 
 __Sparar dina inställningar så de finns kvar vi omstart__
+```
 copy running-configuration startup-configuration
+```
+
 _kort alternativ_
+```
 copy run star
+```
 
 ## Användar hantering på routern
 __Byter namn på routern__
+```
 hostname <namn>
+```
 
 __Byter lösen ord__
+```
 password <lösenord>
+```
 
 __Byter lösen ord till enable mode.__
+```
 enable password <lösenord>
+```
 
 __Skapar en användare med ett vist lösen ord och visa privilägger__
+```
 user <användarnamn> password <lösenord> privileage 15
+```
 
 __Bootar routern, anävnds om du har ställt in det så det inte görs automatiskt.__
+```
 boot
+```
 
 __Startar om routern__
+```
 reload
+```
 
 ## Byta "mod" på komandotolken.
 
 __Gå till priviligera mod__
+```
 enable
+```
 _skriv sedan password_
 
 __Forsätt till terminalen för att göra ändringar där__
+```
 config terminal
+```
+
 _kort alternativ_
+```
 config t
+```
 
 __Forsätt till ett interface om du vill gör ändringar på ett interface.__
+```
 interface <interface>
+```
 
 __Eller forsätt till protokoll mod om du vil göra ändringar där.__
+```
 router <protokoll>
+```
 
 __Om du vill gå ut ur ett mod__
+```
 exit
+```
 
 ## Få information och statestik
 
 __Visar status för ett interface__
+```
 show <interface>
+```
 
 __Visa information om firmware__
+```
 show version
+```
 
 __Visar routern routing tabell__
+```
 show ip route
+```
 
 ## Inställningar av meddelanden
 
 __Skapar välkomsmedelande _
+```
 banner motd
+```
 
 __ Skapa loggin medelande__
+```
 banner login $ <Text> $
+```
 
 __Skapar medelandet du ser när du loggar ut__
+```
 banner exec
+```
 
 __Skapar ett medelande som enheter ser när de ansluter till datorn.__
+```
 banner incoming
+```
 
 ## Verktyg för nätverks analys
 
 __Du kan pinga!__
+```
 ping <ip adress>
+```
 
 ## Interface
 
 __Ger ett namn till interfaced som du kna använda i andra sammanhang.__
+```
 nameif
+```
 
 __Ger en beskrivning av vad interfaced gör__
+```
 description "<Text>"
+```
 
 __Ge säkerhets nivå__
+
 _ Högre tal för sådan du anser vara mer säkert, mindre tal är för mer osäkert._
+
 _100 betyder att du litar helt och hållet på objektet.
+
 _0 betyder att du inte alls litar på den__
+```
 security-level <Heltal>
+```
 
 __Ställ in ip adress för interfacet__
 _Ip masken är ofta 255.255.255.0_
+```
 ip address <ip adress> <ip mask>
+```
 _Observera att ip adressen och ip masken måste vara i enlighet med hur dhcp servern är instäld.
 
 __Gör så att ett interface är tillgängligt__
+```
 no shutdown
+```
 
 # dhcp
 
@@ -145,38 +213,43 @@ no shutdown
 _Vi måste skapa ett vlan eftersom vi har en asa 5505_
 
 __Konfigurerar vlan 1 för insidan av NAT__
+```
 interface vlan 1
 description “Labb sal”
 nameif inside
 security-level 100
 exit
+```
 
 __Konfigurerar vlan 2 för utsidan av NAT__
+```
 interface vlan 2
 description “UNIKOMs farliga värld”
 nameif outside
 security-level 0
 exit
-
 int e0/2
-
 switchport access vlan 2
+```
 
 ## Ge tillåtna ip adresse för ett interface.
 
+```
 ip address 10.0.0.1 255.255.255.0
-
 no shutdown
+```
+
 
 Alternativt om du har dhcp server.
-
+```
 ip address dhcp setroute
+```
 
 Starta en dhcp server
+```
 
 dhcpd address 192.168.2.100-192.168.2.120 balder
-
 dhcpd dns 8.8.8.8 int balder
-
 dhcpd lease 4096  - Antal timmar innan förnyad ip.
 dhcpd enable balder
+```
