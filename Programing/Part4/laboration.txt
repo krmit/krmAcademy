@@ -1,19 +1,18 @@
 Title: Programmering med Java
 CSS: ../../Tools/Framwork/css/magnum.css
-__Deadline:__ 2014-04-01
 
-#Börja programmer med Greenfoot och java
+#Bemästrra monster med java
+__Deadline:__ 2014-03-31
+
 I denna laboration ska du visa att du bemästrar några utvalda grundläggande färdigheter i java. Som vanligt har du stor möjlighet att själva välja hur uppgifterna ska lösas så länge som du visar att du verkligen kan ett lämpligt programmeringsspråk.
 
 ## Vad som gäller under labborationen:
 
-* Uppgiften är individuell, försök att hitta din egen lösning på uppgifterna nedan.
 * Om koden i ditt program har kopieras ifrån någon annan så får du göra om laborationen. Är det mer än något enstaka likheter __eller__ det är uppenbarligen uppsåtligen kommer du att anmälas för fusk, se skolan ordningsregler.
 * Uppgift ska i första hand lösas med java. Om du verkligen vill och är beredd att arbeta helt på egen hand kan du lösa dem med andra lämpliga programmeringsspråk eller miljöer men fråga mig först om tillåtelse, annars kan jag tvinga dig att skriva om dem i java och greenfoot.
 
 ## Att göra på nivå 1:
 * Försök alltid först själv lösa ett problem som du får innan du frågar om hjälp.
-* Utgå ifrån AlgorithmFun som du hittar på htsit.se/f. Komplettera denna med nya funktioner i ListManager så att du löser uppgifterna nedan. De nya funktionerna ska anropas på samma sätt som andra liknade funktioner i ListManager.
 * Arbetet ska utföras i grupp.
 
 ### Uppgifter:
