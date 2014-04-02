@@ -1,0 +1,49 @@
+Title: Att använda Linux/Unix I ett nätverk.
+CSS: ../../Tools/Framwork/css/magnum.css
+
+# Att använda Linux/Unix I ett nätverk.
+
+## Vad som gäller under labborationen:
+* Uppgiften är individuell, gör uppgifterna nedan själv.
+* Du kan använda det konto på htsit.se som jag har givit er för at lösa uppgiften.
+* I uppgiften ska du använda ett program som heter __script__. Att på rätt sätt använda __script__ är en viktig del av uppgiften, har du inte gjort det får du göra om __hela__ uppgiften. Gör därför uppgiften 1.1 noggrant och säker kopiera filen.
+
+## Att göra på nivå 1:
+* Försök alltid först själv lösa ett problem som du får innan du frågar om hjälp.
+* Du ska redovisa alla komandon som du användder för att installer mjukvaran nedan. Denna redovisning ska vara lätt att följa.
+
+### Uppgifter:
+
+1. Skapa filer som vi kan arbeta med.
+    1. Skapa en mapp lern.
+    2. I mappen skapa 3 png-filer, observera att du kan kopiera dessa filer ifrån ett annat ställe genom att använda _wget_.
+    3. Skapa 2 text filer.
+    4. Skapa 1 fil som heter "password" och innnehåller några tänkbara lösenord.
+    5. Skap en pdf-fil.
+    6. Skapa en ny mapp i den aktuella.
+    7. Lägg in två stycken text filer i den mapp som du precis har skapat.
+    8. Skapa tre olika bash filer, som i stort sätt ska ha innehållet nedan men du ska ändra texten i _echo_ komandot.
+```bash
+#!/bin/bash
+
+echo "Ändra denna text"
+```
+
+2.
+3. I windows
+
+## Att göra på nivå 2:
+* Gör som för nivå 1.
+* Du ska inte fråga läraren om hjälp efter att du börjat med att lösa en uppgift. Så tänk efter före! Du kan också diskutera med läraren när som helst.
+* Kommentera allt du gör så det är möjligt att först vad du gör.
+
+### Uppgifter:
+
+
+## Att göra på nivå 3:
+* Gör som för nivå 2.
+* Du ska också göra nograna kommentarer.
+* Du ska arbeta snabbt och effektivt.
+
+### Uppgifter:
+
