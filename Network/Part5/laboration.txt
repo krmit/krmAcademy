@@ -5,39 +5,55 @@ CSS: ../../Tools/Framwork/css/magnum.css
 
 ## Vad som gäller under labborationen:
 * Uppgiften är individuell, gör uppgifterna nedan själv.
-* Du kan använda det konto på htsit.se som jag har givit er för at lösa uppgiften.
-* I uppgiften ska du använda ett program som heter __script__. Att på rätt sätt använda __script__ är en viktig del av uppgiften, har du inte gjort det får du göra om __hela__ uppgiften. Gör därför uppgiften 1.1 noggrant och säker kopiera filen.
 
 ## Att göra på nivå 1:
 * Försök alltid först själv lösa ett problem som du får innan du frågar om hjälp.
-* Du ska redovisa alla komandon som du användder för att installer mjukvaran nedan. Denna redovisning ska vara lätt att följa.
+* Du ska redovisa alla komandon som du användder för att lösa deluppgifterna i uppgift 2 nedan. Denna redovisning ska vara lätt att följa.
+
 
 ### Uppgifter:
 
 1. Skapa filer som vi kan arbeta med.
-    1. Skapa en mapp lern.
-    2. I mappen skapa 3 png-filer, observera att du kan kopiera dessa filer ifrån ett annat ställe genom att använda _wget_.
-    3. Skapa 2 text filer.
-    4. Skapa 1 fil som heter "password" och innnehåller några tänkbara lösenord.
+    1. Skapa en mapp "lern".
+    2. I mappen skapa tre png-filer, observera att du kan kopiera dessa filer ifrån ett annat ställe genom att använda _wget_.
+    3. Skapa två text filer.
+    4. Skapa en fil som heter "password" och innnehåller några tänkbara lösenord.
     5. Skap en pdf-fil.
-    6. Skapa en ny mapp i den aktuella.
+    6. Skapa en ny mapp i den aktuella mappen.
     7. Lägg in två stycken text filer i den mapp som du precis har skapat.
-    8. Skapa tre olika bash filer, som i stort sätt ska ha innehållet nedan men du ska ändra texten i _echo_ komandot.
+    8. Skapa tre olika bash filer, som på något sätt är numrerade. Filerna ska i stort sätt ska ha innehållet nedan men du ska ändra texten i _echo_ komandot så det är olika i alla filerna..
+
 ```bash
 #!/bin/bash
 
 echo "Ändra denna text"
 ```
 
-2.
-3. I windows
+2. Ändra rättigheter. Om det i intruktionerna nedan inte explisit står att något är tillåtet, ska det inte gå.
+    1. Gör så att alla kan läsa pdf filen, men ingen kan skriva till den eller "köra" den.
+    2. Gör så att ägaren till en pdf, kan skriva till den men andra kan bara läsa den.
+    3. Gör så att alla kan läsa och skriva png-filerna.
+    4. Gör så att alla text-filerna är skrivbara för ägaren, men inte för någon annan.
+    5. Gör så att den första bash-filerna är blir körbar, men ej läs eller skrivbar.
+    6. Skapa en grupp "girlpower" eller något annat namn som du föredrar. Tpis: du kan använda _addgroup_.
+    7. Ändra så att pdf-filen har den nya gruppen som grupp.
+    8. Gör så att medlemmar i gruppen kan läsa och skriva till pdf-filen.
+    9. Gör så att medlemmar i gruppen kan läsa och skriva till en av text filerna..
+    10. Ändra så att ägaren av någon annan  bash-filerna blir root.
+    11. Gör så  denna bash-fil blir körbar för root.
+    12. Kör den andra bash filen medan du är inloggad som en vanlig användare.
+    13. Testa att köra den tredje bashfilen, observera att det inte går.
+    14. Gör så att bara root och gruppen du skapat kan läsa och skriva till password filen.
 
 ## Att göra på nivå 2:
 * Gör som för nivå 1.
 * Du ska inte fråga läraren om hjälp efter att du börjat med att lösa en uppgift. Så tänk efter före! Du kan också diskutera med läraren när som helst.
-* Kommentera allt du gör så det är möjligt att först vad du gör.
 
 ### Uppgifter:
+
+1. I lösningarna till uppgift 2 ovan ska ha varit helt utan anmärkningar och max ett komando per deluppgift.
+2. Förklara varför det är bra att använda sudo istället för att vara inloggat som root.
+3. Varför är det en dålig idé att låta personer som du inte litar på ha fysisk åtkomst till din dator? Vad kan de komma åt för information på din dator och hur ska du skydda dig?
 
 
 ## Att göra på nivå 3:
@@ -47,3 +63,4 @@ echo "Ändra denna text"
 
 ### Uppgifter:
 
+1. Du ska sätta upp ett Linux system så att många användare ska kunna logga in till ett användar konto med ssh. Problemet är att du inte riktigt kan lita på dina användare och du därför inte vill att de ska läsa dina eller varandras filer. Beskriv vilka åtgärder du ska göra för att på ett effektivit sätt förhindra detta.
