@@ -2,7 +2,7 @@
 
 ## Gå tillbaka till fabriksinställningar:
 
-_Kör ifrån config terminal_
+__Kör ifrån config terminal__
 
 ```
 write erase
@@ -33,10 +33,12 @@ confreg
 
   _frågan om ???._
 
+  _När du givit nytt password och sparat inställningarna_
+
 
 ## Allmäna komandon
 
-_Ger hjälp om allting_
+__Ger hjälp om allting__
 
 ```
 ?
@@ -48,7 +50,7 @@ __Visar de kommandon som körst för tillfället__
 show running-configuration
 ```
 
-_kort alternativ_
+__kort alternativ__
 
 ```
 sh run
@@ -60,13 +62,26 @@ __Sparar dina inställningar så de finns kvar vi omstart__
 copy running-configuration startup-configuration
 ```
 
-_kort alternativ_
+__kort alternativ__
 
 ```
 copy run star
 ```
 
-## Användar hantering på routern
+
+__Bootar ASA, anävnds om du har ställt in det så det inte görs automatiskt.__
+
+```
+boot
+```
+
+__Startar om ASA__
+
+```
+reload
+```
+
+## Användar hantering
 __Byter namn på routern__
 
 ```
@@ -74,7 +89,6 @@ hostname <namn>
 ```
 
 __Byter lösen ord__
-
 
 ```
 password <lösenord>
@@ -92,19 +106,7 @@ __Skapar en användare med ett vist lösen ord och visa privilägger__
 user <användarnamn> password <lösenord> privileage 15
 ```
 
-__Bootar routern, anävnds om du har ställt in det så det inte görs automatiskt.__
-
-```
-boot
-```
-
-__Startar om routern__
-
-```
-reload
-```
-
-## Byta "mod" på komandotolken.
+## Byta kontext("mode") på komandotolken.
 
 __Gå till priviligera mod__
 
@@ -120,25 +122,25 @@ __Forsätt till terminalen för att göra ändringar där__
 config terminal
 ```
 
-_kort alternativ_
+__kort alternativ__
 
 ```
 config t
 ```
 
-__Forsätt till ett interface om du vill gör ändringar på ett interface.__
+__Forsätt till ett interface om du vill gör ändringar på ett _interface_.__
 
 ```
 interface <interface>
 ```
 
-__Eller forsätt till protokoll mod om du vil göra ändringar där.__
+__Eller forsätt till protokoll _mode_ om du vil göra ändringar där.__
 
 ```
 router <protokoll>
 ```
 
-__Om du vill gå ut ur ett mod__
+__Om du vill gå ut ur ett _mode_ __
 
 ```
 exit
@@ -146,19 +148,19 @@ exit
 
 ## Få information och statestik
 
-__Visar status för ett interface__
+__Visar status för ett _interface_ __
 
 ```
 show <interface>
 ```
 
-__Visa information om firmware__
+__Visa information om _firmware_ __
 
 ```
 show version
 ```
 
-__Visar routern routing tabell__
+__Visar routern _routing tabell_ __
 
 ```
 show ip route

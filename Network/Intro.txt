@@ -11,13 +11,13 @@ Termen Nätverksteknik kan användas för att beskriva olika saker. Det som mena
 
 ## Innehåll
 
-Under kursen kommer vi gå igenom följande moment. Se annat schema för vilka tider som gäller för varje moment och vid vilka deadline ni senast ska vara klara med laborationer. 
+Under kursen kommer vi gå igenom följande moment. Se annat schema för vilka tider som gäller för varje moment och vid vilka deadline ni senast ska vara klara med laborationer.
 
 1. Nätverkskomponenter
 > OSI, klienter, servar, routrar, omkopplare, nätslutsar, skrivare, nätverkskort, kablage
 
 2. Linux som server operativsystem.
-> operativsystem, filsystem, datalagring, installation, säkerhetskopiering, 
+> operativsystem, filsystem, datalagring, installation, säkerhetskopiering,
 
 3. Installation och användning av olika servrar.
 > apach, mysql, http, ftp, WebDAV, Samba, webmail.
