@@ -9,19 +9,19 @@ CSS: ../../Tools/Framwork/css/magnum.css
 ## Att göra på nivå 1:
 * Försök alltid först själv lösa ett problem som du får innan du frågar om hjälp.
 * Du ska redovisa alla komandon som du användder för att lösa deluppgifterna i uppgift 2 nedan. Denna redovisning ska vara lätt att följa.
-
+* Du ska också visa upp resultatet av att köra kommandot "ls -laR" i mappen som du skapar i uppgift 2.
 
 ### Uppgifter:
 
 1. Skapa filer som vi kan arbeta med.
     1. Skapa en mapp "lern".
-    2. I mappen skapa tre png-filer, observera att du kan kopiera dessa filer ifrån ett annat ställe genom att använda _wget_.
+    2. I mappen skapa tre png filer, observera att du kan kopiera dessa filer ifrån ett annat ställe genom att använda _wget_.
     3. Skapa två text filer.
     4. Skapa en fil som heter "password" och innnehåller några tänkbara lösenord.
-    5. Skap en pdf-fil.
+    5. Skap en pdf fil.
     6. Skapa en ny mapp i den aktuella mappen.
     7. Lägg in två stycken text filer i den mapp som du precis har skapat.
-    8. Skapa tre olika bash filer, som på något sätt är numrerade. Filerna ska i stort sätt ska ha innehållet nedan men du ska ändra texten i _echo_ komandot så det är olika i alla filerna..
+    8. Skapa tre olika bash filer, som på något sätt är numrerade. Filerna ska i stort sätt ska ha innehållet nedan men du ska ändra texten i _echo_ kommandot så den är olika i alla filerna..
 
 ```bash
 #!/bin/bash
@@ -40,7 +40,7 @@ echo "Ändra denna text"
     8. Gör så att medlemmar i gruppen kan läsa och skriva till pdf-filen.
     9. Gör så att medlemmar i gruppen kan läsa och skriva till en av text filerna..
     10. Ändra så att ägaren av någon annan  bash-filerna blir root.
-    11. Gör så  denna bash-fil blir körbar för root.
+    11. Gör så  denna bash fil blir körbar för root.
     12. Kör den andra bash filen medan du är inloggad som en vanlig användare.
     13. Testa att köra den tredje bashfilen, observera att det inte går.
     14. Gör så att bara root och gruppen du skapat kan läsa och skriva till password filen.
@@ -63,4 +63,4 @@ echo "Ändra denna text"
 
 ### Uppgifter:
 
-1. Du ska sätta upp ett Linux system så att många användare ska kunna logga in till ett användar konto med ssh. Problemet är att du inte riktigt kan lita på dina användare och du därför inte vill att de ska läsa dina eller varandras filer. Beskriv vilka åtgärder du ska göra för att på ett effektivit sätt förhindra detta.
+1. Du ska sätta upp ett Linux system så att många användare ska kunna logga in till ett användar konto med ssh. Problemet är att du inte riktigt kan lita på dina användare och du därför inte vill att de ska läsa dina eller varandras filer. Beskriv vilka åtgärder du ska göra för att på ett effektivt sätt förhindra detta.
