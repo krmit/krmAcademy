@@ -1,0 +1,36 @@
+Title: Att installera och använda Windows Server.
+CSS: ../../Tools/Framwork/css/magnum.css
+
+# Att installer och använda Windows Server.
+
+## Vad som gäller under labborationen:
+* Uppgiften är individuell, gör uppgifterna nedan själv.
+
+## Att göra på nivå 1:
+* Försök alltid först själv lösa ett problem som du får innan du frågar om hjälp.
+* Du ska visa upp resultatet för en lärare när du är klar.
+* Läs i kursboken, där förklaras detta väldigt noga.
+
+### Uppgifter:
+
+1. Installera Windows Server 2008 på en "virtualbox".
+2. Gör grundläggande inställningar, så som tid etc.
+3. Installera en webbserver med hjälp av "roller".
+4. Installera en dhcp-server. Observera att det är rätt så mycket som ska göras för detta. Du behöver inte få det att fungera i "verkligheten" men du ska presentera för mig vad du gjort.
+
+## Att göra på nivå 2:
+* Gör som för nivå 1.
+* Du ska inte fråga läraren om hjälp efter att du börjat med att lösa en uppgift. Så tänk efter före! Du kan också diskutera med läraren när som helst.
+
+### Uppgifter:
+
+1. Se till att din dhcp server fungerar korrekt på ett internt nätverk, dvs olika virtualbox på samma dator.
+
+## Att göra på nivå 3:
+* Gör som för nivå 2.
+* Du ska också göra nograna kommentarer.
+* Du ska arbeta snabbt och effektivt.
+
+### Uppgifter:
+
+1. Gör server till host för active directory och ha virtuela maskiner som ansluter som användare av domänen.

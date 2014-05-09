@@ -1,0 +1,39 @@
+Title: Programmering med Java
+CSS: ../../Tools/Framwork/css/magnum.css
+
+#Bemästrra monster med java
+__Deadline:__ 2014-05-11
+
+I denna laboration ska du visa att du bemästrar några utvalda grundläggande färdigheter i java. Som vanligt har du stor möjlighet att själva välja hur uppgifterna ska lösas så länge som du visar att du verkligen kan ett lämpligt programmeringsspråk.
+
+## Vad som gäller under labborationen:
+
+* Om koden i ditt program har kopieras ifrån någon annan så får du göra om laborationen. Är det mer än något enstaka likheter __eller__ det är uppenbarligen uppsåtligen kommer du att anmälas för fusk, se skolan ordningsregler.
+* Uppgift ska i första hand lösas med java. Om du verkligen vill och är beredd att arbeta helt på egen hand kan du lösa dem med andra lämpliga programmeringsspråk eller miljöer men fråga mig först om tillåtelse.
+
+## Att göra på nivå 1:
+* Försök alltid först själv lösa ett problem som du får innan du frågar om hjälp.
+* Arbetet ska utföras enskild.
+
+### Uppgifter:
+
+1. Gör ett spel baserade på ett av de månster som du gjort tidigare. Två spelare ska spela mot varandra och varje spelare har ett monster. Spelaren väljer en attack som monstret har. Denna attack utförs och resultatet skriv ut som en text. Sedan är det nästa spelares tur. Den vars monster dör har förlorat och denna andra har vunnit. Se följande exempel: http://htsit.se/f/HTSBattle3.zip
+
+
+## Att göra på nivå 2:
+
+* Du ska inte fråga läraren om hjälp efter att du börjat med att lösa en uppgift. Så tänk efter före! Du kan också diskutera med läraren när som helst.
+* Din kod ska vara lätt att först och se snygg ut.
+
+### Uppgifter:
+
+1. Kompletera spelet ovan så man också kan köpa sig ett monster. Spelaren har en viss mängd pengar och den som inte kan köpa ett nytt monster när det gamla har dött har förlorat.
+
+## Att göra på nivå 3:
+
+* Gör som för nivå 2.
+* Du ska arbeta snabbt och noggrant.
+
+### Uppgifter:
+
+1. Kompletera spelet så det blir roligt att spela. Hitta en egen lösning för det grafiska gränsnittet och se till att spelet är välbalanserad.
