@@ -1,0 +1,38 @@
+Title: Programmering 1
+CSS: ../Tools/Framwork/css/magnum.css
+
+# Programmering 1 
+
+>>>>> ![En flicka sitter och programmerar][] Daxs att programmera! 
+
+Programmering är ett annat sätt att tänka. Det skiljer sig ifrån matematiken genom att vara dynamisk, en föränderlig process som påverkar sin omgivning.
+
+Vi kommer att lära oss java, eftersom det är ett språk som är vanligt på universiteten och för att det har en syntax som liknar många andra programmeringsspråk. Men vilket programmeringsspråk du lär dig är egentligen inte så intressant. Det viktigaste är att lära sig att tänka som en programmerare.
+
+## Innehåll
+
+Vi kommer att betona principerna för programmering och kommer sedan allt mer att introducera java som ett universellt programmeringsspråk.
+
+1. [Introduktion med olika förberedande övningar.](./Part/index.html)
+>>  _datorer,bebras - it-tävling, programmering, scrats, spelprogrammering, olika programmeringsspråk, java - för och nackdelar_
+
+2. Komma igång med java program och euclipse
+>>  _euclipse, projekt, **system.out**, **scanf**, variabler, **if**, **for**_
+
+3. HTS Battel I   -  Funktioner för att figtas
+>>  _**while**, **switch**, **function**, datatyper_
+
+4. HTS Battel II  -  Klasser och inteface för att strukturera 
+>>  _object orientering, typer, **class**, medlemar, metoder, arv, **interface**_
+
+5. HTS Battel III -  GUI för att få spelet
+>>  _API, olika ramverk för GUI, swing, awt, händelse styrd programmering_
+
+6. HTS Battel IV  -  Listor och rekursipon för att få AI 
+>>  _listor, matriser, hashtabeller, trädstrukturer, algoritmer, rekursion_
+
+7. Prov
+8. Slut uppgift
+
+
+[En flicka sitter och programmerar]: girl-progaming.png "Programmera flitigt och du ska bli belönad" height=256px width=256px
