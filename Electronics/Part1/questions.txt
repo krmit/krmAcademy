@@ -5,30 +5,35 @@ CSS: ../../Tools/Framwork/css/magnum.css
 
 ## Kopplingar
 
-![image0][]
+![En koppling][]
 
-1. Utifrån kretsen ovan beräkna om R1 är 550 Ohm.
+1. Utifrån kretsen ovan beräkna om R1 = 500 Ohm, R2 = 1,5, kOhm, R3 = 3 kOhm och U = 10 V.0
     1. Beräkna resistansen i hela kretsen.
-    2. Beräkna späning i och ström över R1
-    3. Beräkna ström över R1
+    2. Beräkna ström i R1.
+    3. Beräkna spänning över R1.
+    4. Beräkna spänning över R2.
+    5. Beräkna spänning över R3.
     
-![image1][]
+![En koppling till][]
 
-2. Utifrån kretsen ovan beräkna om R1 är 550 Ohm.
+2. Utifrån kretsen ovan beräkna om R1 = 350 Ohm, R2 = 150 Ohm, kOhm, R3 = 210 Ohm och U = 40 V.
     1. Beräkna resistansen i hela kretsen.
-    2. Beräkna späning i och ström över R1
+    2. Beräkna spänning över R1.
+    3. Beräkna ström i R1.
+    4. Beräkna ström i R2.
+    5. Beräkna ström i R3.
 
     
-![image2][]
+![En svår koppling][]
 
-3. Utifrån kretsen ovan beräkna om R1 är 550 Ohm.
+3. Utifrån kretsen ovan beräkna om R1 = 200 Ohm, R2 = 600 Ohm, kOhm, R3 = 300 Ohm och U = 9 V.
     1. Beräkna resistansen i hela kretsen.
-    2. Beräkna späning i och ström över R3
+    2. Beräkna spänning i och ström över R3.
 
-![image3][]
+![Vad är nu detta?][]
 4. Rita upp kretsen ovan i ett simuleringsprogram. Vad är det kretsen gör för något?
 
-[image0]: image/circuit-0.png "Detta är en seriekoppling"
-[image1]: image/circuit-1.png "Detta är en parallekoppling"
-[image2]: image/circuit-2.png "Detta är en fler stegskoppling"
-[image3]: image/circuit-3.png "Detta är en enkel likriktare"
+[En koppling]: image/circuit-0.png "Detta är en seriekoppling"
+[En koppling till]: image/circuit-1.png "Detta är en parallekoppling"
+[En svår koppling]: image/circuit-2.png "Detta är en fler stegskoppling"
+[Vad är nu detta?]: image/circuit-3.png "Detta är en enkel likriktare"
