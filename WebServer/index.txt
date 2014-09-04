@@ -1,0 +1,41 @@
+Title: Webbserverprogrammering 1
+CSS: ../Tools/Framwork/css/magnum.css
+
+# Webbserverprogrammering 1 
+
+>>>>> ![En flicka skickar webbsidor][] Webben är allt! 
+
+Denna kurs är den mest spännande men också den mest krävande kurs som HTSIT ger. Vi kommer att lära oss hur man skapar sin egen sajt på Internet så att du kan förverkliga dina drömmar.
+
+Vi kommer gå igenom hur man sätter upp en webbservern, programmerar och designar en sajt på den och slutligen ska vi kvalitettsäkra och gör den säker mot attacker. Vi kommer använda oss av PHP för att programmera sajten, sql för att hantera databasen, html för att skapa struktur på sidan och css för att få till ett bra utseende.
+ 
+Vi ska lära oss att programmera med PHP och använda det i verkligheten.
+
+## Innehåll
+
+Vi kommer först att lära oss allmänt om hur webbservrar fungerar och vilka olika tekniska alternativ det finns. Sedan kommer vi gå igenom de tekniker du behöver kunna för att skriva din egen sajt.
+
+1. [Genomgång av alla större webbramverk](./Part1/index.html)
+>>  _ server-client, Protokoll, http, RESTFul, JSONP,  Open Source, CGI, webserver _
+
+2. [Grunderna i PHP för den som kan programmera](./Part2/index.html)
+>>  _vilkorssatser, loopar, funktioner, **echo**, variabler _
+
+3. [PHP och HTML för att skapa en sajt](./Part3/index.html)
+>>  _mallar, inbäddad, *string*, listor, php manualen, php:s standard bibliotek _
+
+4. [Databaser med relationer och sql](./Part4/index.html) 
+>>  _sql, **mysql**, **select**, relationer, attribut, index, nycklar, ER-diagram, ACID _
+
+5. [Dynamisksajt med användare och inlogning](./Part5/index.html) 
+>>  _projekplan, olika arbetsätt, inloggning,_
+
+6. [Säkerhet och kvalité på dina sajt](./Part6/index.html)
+>>  _**phpDoc**, test suit, injection attacs, hacking, penetrationstest, olika hattar, metaexploit _
+
+7. [Prov](./Examination/index.html)
+
+8. [Slut uppgift](./Thesis/index.html)
+
+
+[En flicka skickar webbsidor]: girl-webb.png "För att få många besökare behöver du en bra sajt!" height=256px width=256px
