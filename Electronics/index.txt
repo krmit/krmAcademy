@@ -1,0 +1,41 @@
+Title: Elektronik och mikrodatorteknik
+CSS: ../Tools/Framwork/css/magnum.css
+
+# Elektronik och mikrodatorteknik
+
+>>>>> ![En flicka med oscilloskop][] Och elektronen sade: varde ljus! 
+
+Denna kurs är kanske den som känns som den har minst med IT att göra på IT-inriktningen, samtidgt är den extrem matnyttig för något som tänkt arbeta med datorer hela sitt liv. Vi kommer att lära oss hur man går ifrån bitar till atomer.
+
+Vi kommer gå igenom grundläggande el-lära och elektronik. För att sedan lära oss att bemästra en mikrodator. Med mikrodatorns hjälp kan vi sedan låta våra program styra värden.
+
+Vi ska lära oss att använda Arduino och kringkomponenter till denna.
+
+## Innehåll
+
+Vi kommer först att lära oss allmänt om hur ellära och de vanligaste elektronik komponenterna. Sedan lär vi oss om Arduino och använder denna till att utforska de andra områdena i kursen.
+
+1. [Grundläggande elektronik och ellära](./Part1/index.html)
+>>  _  _
+
+2. [Enkel programmering med Arduino](./Part2/index.html)
+>>  _ _
+
+3. [Experimentera med Elektronik komponenter](./Part3/index.html)
+>>  _ _
+
+4. [Växelström och Tranformatorer](./Part4/index.html) 
+>>  _ _
+
+5. [Digital elektronik](./Part5/index.html)
+>>  _ _
+
+6. [Sensorer, Displayer och optiska komponeter.](./Part6/index.html)
+>>  _ _
+
+7. [Prov](./Examination/index.html)
+
+8. [Slut uppgift](./thesis/index.html)
+
+
+[En flicka med oscilloskop]: girl-oscilloskop.png "Du ska kontrollera elektroniken. Elektroniken kontrollerar maskinerna. Maskinerna kontrollerar värden!" height=256px width=256px
