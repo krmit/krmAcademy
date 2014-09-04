@@ -1,0 +1,34 @@
+Title: Elektronik frågor 1
+CSS: ../../Tools/Framwork/css/magnum.css
+
+#Studiefrågor för Elektronik och mikrodatorer del 1
+
+## Kopplingar
+
+![image0][]
+
+1. Utifrån kretsen ovan beräkna om R1 är 550 Ohm.
+    1. Beräkna resistansen i hela kretsen.
+    2. Beräkna späning i och ström över R1
+    3. Beräkna ström över R1
+    
+![image1][]
+
+2. Utifrån kretsen ovan beräkna om R1 är 550 Ohm.
+    1. Beräkna resistansen i hela kretsen.
+    2. Beräkna späning i och ström över R1
+
+    
+![image2][]
+
+3. Utifrån kretsen ovan beräkna om R1 är 550 Ohm.
+    1. Beräkna resistansen i hela kretsen.
+    2. Beräkna späning i och ström över R3
+
+![image3][]
+4. Rita upp kretsen ovan i ett simuleringsprogram. Vad är det kretsen gör för något?
+
+[image0]: image/circuit-0.png "Detta är en seriekoppling"
+[image1]: image/circuit-1.png "Detta är en parallekoppling"
+[image2]: image/circuit-2.png "Detta är en fler stegskoppling"
+[image3]: image/circuit-3.png "Detta är en enkel likriktare"
