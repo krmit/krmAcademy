@@ -31,6 +31,7 @@ CSS: ../../Tools/Framwork/css/magnum.css
     2. Beräkna spänning i och ström över R3.
 
 ![Vad är nu detta?][]
+
 4. Rita upp kretsen ovan i ett simuleringsprogram. Vad är det kretsen gör för något?
 
 [En koppling]: image/circuit-0.png "Detta är en seriekoppling"
