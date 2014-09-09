@@ -1,0 +1,13 @@
+Title: Elektronik och mikrodatorer 1 - Moment 1
+CSS: ../../Tools/Framwork/css/magnum.css
+
+# Introduktion till ellära och elektronik
+
+Vi ska lära oss grunderna i ellära samt översiktliga om de viktigaste elektronikkomponenterna.
+
+* [Förklaringar](./explanation.html)
+>> Några förklaringar.
+* [Frågor](./questions.html)
+>> Några studiefrågor.
+* [Laboration](./laboration.html)
+>> Laborationen som du ska göra.
