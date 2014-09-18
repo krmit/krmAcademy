@@ -34,6 +34,22 @@ CSS: ../../Tools/Framwork/css/magnum.css
 
 4. Rita upp kretsen ovan i ett simuleringsprogram. Vad är det kretsen gör för något?
 
+
+## Dioder
+
+1. Vad har dioden för funktion?
+2. Hur ser en schemasymbol ut?
+3. Förklara vad är framspänningsfall("forward voltage") hos en diod?
+4. Förklara vad är genombrottsspänningen("breakdown voltage") hos en diod?
+5. På vilket sätt är en diod dopat?
+6. På en typsik ljusdiod. Vad är framspäningfallet?
+7. Vad är en RGB-diod?
+8. Vad är zenerdiod? Vad är så speciellt med den?
+9. Nämn minst tre användningsområden av dioder.
+10. Förklara hur du vet vilken sida av en ljusdiod som ska gå mot den negativa spänningskällan. 
+11. Nämn tre viktiga egenskaper som en diod har.
+12. Ge ett ungefärligt pris för en grön hålmonterad ljusdiod.
+
 [En koppling]: image/circuit-0.png "Detta är en seriekoppling"
 [En koppling till]: image/circuit-1.png "Detta är en parallekoppling"
 [En svår koppling]: image/circuit-2.png "Detta är en fler stegskoppling"
