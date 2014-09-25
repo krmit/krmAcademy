@@ -50,6 +50,23 @@ CSS: ../../Tools/Framwork/css/magnum.css
 11. Nämn tre viktiga egenskaper som en diod har.
 12. Ge ett ungefärligt pris för en grön hålmonterad ljusdiod.
 
+## Kondensator
+
+1. Förklara med egna ord hur en kondensator fungerar.
+2. På vilket sätt är ett elektrisktfält viktigt för en kondensator?
+3. Vilken enhet används för att ange hur mycket elektrisk laddning som kan lagras i en kondensator?
+4. Vilken eller vilka anndra egenskap är viktig att känna till hos en kondensator?
+5. Vilka prefix brukar användas framför grundenheten för att beskriva laddningen i en kondensator?
+6. Ge minst tre exempel på hur en kondensator kan användas.
+
+## Spole
+
+1. Hur lagras den elektriska energin i en spole?
+2. På vilka sätt kan du förbättra hur start magnetfältet blir ifrån en spole?
+3. Med vilken enhet mätter man hur starkt ett magnet fält ät ifrån en spole?
+4. Vad är en drossel?
+5. Vad kan en spole användas till?
+
 [En koppling]: image/circuit-0.png "Detta är en seriekoppling"
 [En koppling till]: image/circuit-1.png "Detta är en parallekoppling"
 [En svår koppling]: image/circuit-2.png "Detta är en fler stegskoppling"
