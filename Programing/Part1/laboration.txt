@@ -12,7 +12,12 @@ Denna labboration går ut på att du ska visa att du är skicklig på att använ
 * Uppgift 1.1 ska du lösa med Scratch, men på övriga uppgifter kan du använda vilket programmeringsspråk du vill på.
 * Lämnas in via forummet htsit.se/bb som ett personligt meddelande till krm. Bifoga era filer i en mapp som är komprimerad med zip alternativt "tar -xzvf". Ämnet på meddelandet ska börja med "T2PP1". Har inlämningen lämnas in på något annat sätt så är det inte giltigt.
 
-1. Gör ett program där en figur frågar användaren "Hur många trianglar?" och sedan fråga "Vilken färg?". Det ska sedan visas på skärmen så många trianglar med rätt färg. Du ska minst ha stöd för färgerna "röd" och "blå", men du kan ha stöd för flera färger och förkortningar om du vill. Trianglarna måste ritas upp med hjälp av ett block som du har skapat.
+## Att göra på nivå 1:
+* Försök alltid först själv lösa ett problem som du får innan du frågar om hjälp.
+
+### Uppgifter:
+
+1. Gör ett program där en figur frågar användaren "Hur många trianglar?" och sedan fråga "Vilken färg?". Det ska sedan visas på skärmen så många trianglar med rätt färg. Du ska minst ha stöd för färgerna "röd" och "blå", men du kan ha stöd för flera färger och förkortningar om du vill.
 2. Skapa ett eget spel! Spelet får vara precis som du vill, men måste innehålla en uppgift som går att lösa. Denna uppgift kan vara mycket enkel.
 
 ## Att göra på nivå 2:
