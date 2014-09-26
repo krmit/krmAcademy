@@ -9,13 +9,9 @@ Vi kommer få en översikt över alla möjliga webbserver teknologier som finns.
 
 * Uppgiften är individuell, försök att ge egna svar på uppgiften nedan.
 * Om kod i ditt program har kopieras ifrån någon annan så får du inga poäng på laborationen. Är det mer än något enstaka likheter _eller_ det är uppenbarligen uppsåtligen kommer du att anmälas för fusk, se skolan ordningsregler.
-* Lämnas in via forummet htsit.se/bb som ett personligt meddelande till krm. Bifoga era filer i en mapp som är komprimerad med zip alternativt "tar -xzvf". Ämnet på meddelandet ska börja med "T2W1". Har inlämningen lämnas in på något annat sätt så är det inte giltigt.
-* Du ska på inlämningslektionen också muntligt kunna presentera vad du har gjort.
-* Uppgifter som inte redovisas på redovisnings lektionen eller inte inlämnas i skriftlig form senast samma dag kommer inte att bedömas. Däremot får du en ny möjlighet att lämna in vid slutet av kursen, men uppgiften kan då se annorlunda ut. 
-
-## Att göra på nivå 1:
+* Lämnas in via forummet htsit.se/bb som ett personligt meddelande till krm. Bifoga era filer i en mapp som är komprimerad med zip alternativt "tar -xzvf". Ämnet på meddelandet ska börja med "w1" samt en siffra som motsvarar hur många år du gått på HTS. T. ex. går du i årskurs 3 ska du skriva "w13"
 * Försök alltid först själv lösa ett problem som du får innan du frågar om hjälp.
-
+	
 ### Uppgifter:
 
 1. Skriv på forumet i tråden http://htsit.se/bb/viewtopic.php?f=18&t=12 vilken webbserverframework du valt.
