@@ -1,0 +1,28 @@
+Title: Valda övningar med Java del 0
+CSS: ../../Tools/Framwork/css/magnum.css
+
+# Uppgift 0
+
+## Kompilera och skriva ut.
+
+Vi ska lära oss använda __System.out.println()__ och __System.out.print()__ funktionen. 
+
+### Uppgift 1
+
+1.  Kompilera programmet.
+    Genom att trycka på knappen med den gröna pilen.
+2.  Gör så att programmer skriver ut "Hej HTSIT"
+
+ ```java
+		System.out.println("Hello World!!");
+ ```
+
+### Uppgift 2
+
+1.  Gör så att programmet skriver ut 42.
+2.  Gör så att 42 skrivs ut först på en ny rad.
+
+ ```java
+		System.out.print("Meningen med livet är: ");
+		System.out.println(7);
+ ```
