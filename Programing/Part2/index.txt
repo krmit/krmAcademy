@@ -1,0 +1,13 @@
+Title: Programmering 1 - Moment 1
+CSS: ../../Tools/Framwork/css/magnum.css
+
+# Introduktion med olika förberedande övningar.
+
+Vi ska börja lära oss programmera genom att först förstå vad programmering är och sedan lära oss ett enkelt språk. 
+
+* [Förklaringar](./explanation.html)
+>> Några förklaringar.
+* [Laboration](./laboration.html)
+>> Laborationen som du ska göra.
+* [Guide](./guide/guide.html)
+>> En guide för att lära dig java.
