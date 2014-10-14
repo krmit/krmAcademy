@@ -10,7 +10,7 @@ Vi ska lära oss använda __System.out.println()__ och __System.out.print()__ fu
 ### Uppgift 1
 
 1.  Kompilera programmet.
->>> Genom att trycka på knappen med den gröna pilen.
+> Genom att trycka på knappen med den gröna pilen.
 2.  Gör så att programmer skriver ut "Hej HTSIT"
 
  ```java
