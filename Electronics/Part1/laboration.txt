@@ -3,6 +3,7 @@ CSS: ../../Tools/Framwork/css/magnum.css
 
 #Grundläggande elektronik och ellära
 Vi går igenom några uppgifter som behandlar grundläggande elektronik och ellära. Dessa kunskaper ska vi sedan använda för att förstå oss på mikrodatorer.
+
 ## Vad som gäller under labborationen:
 * Arbeta i grupp om max två personer.
 * Uppgiften är individuell, försök att hitta din egen lösning på uppgifterna nedan.
@@ -20,7 +21,7 @@ Vi går igenom några uppgifter som behandlar grundläggande elektronik och ell�
 2. Koppla upp kretsen nedan och gör uppgifterna nedan. Välj själv värden på R1 och R2.
 	1. Läs av motstånden och mätt också upp hur stort motstånd de har.
 	2. Mätt strömen i en av grenarna av kopplingarna
-	3. Beräkna alla strömmar i kretsen, .
+	3. Beräkna alla olika strömmar i kretsen.
 ![parallellkoppling][]
 
 3. Välj ut 3 olika motstånd med olika värden, men som inte skiljer sig med mer än 10 gånger ifrån varandra.
@@ -29,12 +30,12 @@ Vi går igenom några uppgifter som behandlar grundläggande elektronik och ell�
 	3. Beräkna hur mycket ström som går i kretsen totalt.
 	4. Rita en Kopplingsschema för din krets. Du kan använda Falsted för att rita upp kretsen. 
 	
-4. Gå in på sidan _http://htsit.se/f/T4u.txt_. Lös alla studieuppgifter som står vid ditt namn.
+4. Lös 7 olika studieuppgifter nogrant. Fördela dessa uppgifter mellan de olika rubrikernba som finns och undvik titta på vilka din kompisar har löst. 
 
 ## Att göra på nivå 2:
 
 * Du ska inte fråga läraren om hjälp efter att du börjat med att lösa en uppgift. Så tänk efter före! Du kan också diskutera med läraren när som helst.
-* Din kod ska vara lätt att först och se snygg ut.
+* Dinna kopplingar ska vara väl strukturerade och vara lätta att förstå.
 
 ### Uppgifter:
 
@@ -50,6 +51,7 @@ Vi går igenom några uppgifter som behandlar grundläggande elektronik och ell�
 ## Att göra på nivå 3:
 
 * Gör som för nivå 2.
+* Du ska inte fråga läraren om hjälp, men du får gäran diskutera uppgifter.
 * Du ska arbeta snabbt och noggrant.
 
 ### Uppgifter:
@@ -61,7 +63,7 @@ Vi går igenom några uppgifter som behandlar grundläggande elektronik och ell�
     4. Mätt späning i och ström över R3
 ![kombinationskoppling2][]
 
-[seriekoppling]: ./image/serie.png "Detta är en seriekoppling"
+[seriekoppling]: ./image/seriel.png "Detta är en seriekoppling"
 [parallellkoppling]: ./image/parallell.png "Detta är en parallellkoppling "
 [kombinationskoppling1]: ./image/combi-0.png "Detta är flera olika typer av kopplingar tillsammans"
 [kombinationskoppling2]: ./image/combi-1.png "Detta är en liten svårare koppling"
