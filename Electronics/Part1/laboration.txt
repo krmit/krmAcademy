@@ -16,18 +16,20 @@ Vi går igenom några uppgifter som behandlar grundläggande elektronik och ell�
     1. Läs av värdet på motstånden och mätt också upp hur stort motstånd de har i verkligheten.
     2. Mätt upp alla spänningar i kretsen och beräkna sedan strömmen genom motstånden.
 ![seriekoppling][]
+
 2. Koppla upp kretsen nedan och gör uppgifterna nedan. Välj själv värden på R1 och R2.
 	1. Läs av motstånden och mätt också upp hur stort motstånd de har.
 	2. Mätt strömen i en av grenarna av kopplingarna
 	3. Beräkna alla strömmar i kretsen, .
 ![parallellkoppling][]
+
 3. Välj ut 3 olika motstånd med olika värden, men som inte skiljer sig med mer än 10 gånger ifrån varandra.
 	1. Koppla upp en kretsen med motstånden ovan som innehåller en seriekoppling och en parallellkoppling. Försäkra dig om att de leder ström.
 	2. Mätt upp alla olika spänningar.
 	3. Beräkna hur mycket ström som går i kretsen totalt.
 	4. Rita en Kopplingsschema för din krets. Du kan använda Falsted för att rita upp kretsen. 
 	
-4. Gå in på sidan _http://htsit.se/f/T4qust.txt_. Lös alla studieuppgifter som står vid ditt namn.
+4. Gå in på sidan _http://htsit.se/f/T4u.txt_. Lös alla studieuppgifter som står vid ditt namn.
 
 ## Att göra på nivå 2:
 
@@ -40,8 +42,8 @@ Vi går igenom några uppgifter som behandlar grundläggande elektronik och ell�
     1. Beräkna resistansen i hela kretsen.
     2. Beräkna späning i och ström över R1
     3. Mätt resistansen i hela kretsen.
-    4. Mätt späning i och ström över R1
-![image1][]
+    4. Mätt späning över R1
+![kombinationskoppling1][]
 
 2. Hitta en kondensator i labbsalen. Försök att hitta ett datablad för denna kondensator. Går det inte hitta ett datablad för en liknade kondensator. Ange var du hittade databladet.  Vilka värden tror du det är bra att känna till för att kunna använda komponeten i en något mindre strikt miljö. Skriv ned värdena och motivera ditt svar med ett par meningar.
 
@@ -57,9 +59,7 @@ Vi går igenom några uppgifter som behandlar grundläggande elektronik och ell�
     2. Beräkna späning i och ström över R3
     3. Mätt resistansen i hela kretsen.
     4. Mätt späning i och ström över R3
-![image2][]
-2. Nedan ser du en enklare krets för att omvandla växelström till likström. Egenskaperna hos växelström är här inte intressanta, men du kan utgå ifrån att vi har en top späning på 10 V som du behöver ta hänsyn till. Övriga egenskaper hös växelströmen kan du utgå ifrån inte ställer till några problem. Försök hitta komponeter som skulle fungera i kretsen nedan. Ange namnet på komponenterna samt en länk till databladet. Ange också priset för att göra en enhet, samt priset per eneht om du skulle göra 100 enheter.
-![image3][]
+![kombinationskoppling2][]
 
 [seriekoppling]: ./image/serie.png "Detta är en seriekoppling"
 [parallellkoppling]: ./image/parallell.png "Detta är en parallellkoppling "
