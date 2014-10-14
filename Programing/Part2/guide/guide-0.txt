@@ -1,7 +1,7 @@
-Title: Valda övningar med Java del 0
+Title: Valda övningar med Java guide 0
 CSS: ../../Tools/Framwork/css/magnum.css
 
-# Uppgift 0
+# Guide 0
 
 ## Kompilera och skriva ut.
 
@@ -10,7 +10,7 @@ Vi ska lära oss använda __System.out.println()__ och __System.out.print()__ fu
 ### Uppgift 1
 
 1.  Kompilera programmet.
-    Genom att trycka på knappen med den gröna pilen.
+>>> Genom att trycka på knappen med den gröna pilen.
 2.  Gör så att programmer skriver ut "Hej HTSIT"
 
  ```java
