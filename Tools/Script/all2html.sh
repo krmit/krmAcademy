@@ -7,7 +7,7 @@ function amCommonHTMLAdds {
         9 i<div class="ym-wrapper">\n<div class="ym-wbox">\n<header>
        11 i</header>\n<main>\n<div class="ym-column linearize-level-1">\n<div class="ym-col1">\n<div class="ym-cbox">\n<section>
        /<\/body>/ i</section>\n</div>\n</main>\n<div class="ym-wbox" />\n<div class="ym-wbox" />\n<footer>\n<div class="ym-wrappe">\n<div class="ym-wbox">\n<p>©  2013 &ndash; Magnus Kronnäs</p>\n</div>\n</div>\</footer>\n</div>\n</div>
-       /\ <code>java/ c<pre class="prettyprint lang-java">
+       /\<code>java/ c<pre class="prettyprint lang-java">
        /\<code>bash/ c<pre class="prettyprint lang-bash">
        /<\/code>/ c<\/pre>'
 }
