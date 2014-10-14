@@ -1,5 +1,5 @@
 Title: Valda övningar med Java
-CSS: ../../Tools/Framwork/css/magnum.css
+CSS: ../../../Tools/Framwork/css/magnum.css
 
 #Börja programmer med java
 
