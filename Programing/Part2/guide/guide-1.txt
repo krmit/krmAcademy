@@ -1,0 +1,58 @@
+Title: Valda övningar med Java guide 0
+CSS: ../../../Tools/Framwork/css/magnum.css
+
+# Guide 0
+
+## Använda text variabler
+
+Vi ska lära oss använda __String__  deklarationen för att skapa en varaibel av typen _string_. Den kan vi använda för att lagra en text.
+
+### Uppgift 1
+
+1.  Kompilera programmet.
+2.  Observera att vi har ett fungerande program som lagrar en text, dvs. en tecken sträng, i en variabel.
+
+ ```java
+		String Text;
+		Text="Hej";
+ ```
+
+### Uppgift 2
+
+1.  Kompilera programmet.
+2.  Gör så att programmer skriver ut "Hej HTSIT"
+
+ ```java
+		String Text="krm";
+		
+		System.out.println("hej "+Text + "!");
+ ```
+
+### Uppgift 3
+
+1.  Kompilerar programmet. Vad kommer vi få för ut skrift?
+2.  Tag bort en rad i koden så att programmet skriver ut "Hässleholm är bäst!"
+
+ ```java
+		String Text="Lund";
+		Text="Hässleholm";
+		Text="Södertälje";
+				
+		System.out.println("Text + " är bäst!");
+ ```
+ 
+### Uppgift 4
+
+1.  Gär så programmet hälsar och säger adjö på dig genom att ändra så lite som möjligt i koden.
+2.  Gör så att alla utskrifter blir på samma rad i konsolen. Utan att ta bort en rad i koden.
+3.  Använd bara ett skriv ut kommando för att skriva ut texten på en rad.
+
+ ```java
+		String Hello="Hej på";
+		String Bye="Hej då";
+		String Namn="krm";
+		Hello=Hello+" " + Namn
+		Bye = Bye + " " +Namn
+		System.out.println(Hello);
+		System.out.println(Bye);
+ ```

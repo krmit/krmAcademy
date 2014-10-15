@@ -6,6 +6,6 @@ CSS: ../../../Tools/Framwork/css/magnum.css
 Vi kommer stegviss gå igenom vad du behöver kunna för att programmera i java.
 
   * [Guide 0 - Kompilera och skriva ut](./guide-0.html)
-  * [Guide 1](./guide-1.html)
-  * [Guide 2](./guide-2.html)
+  * [Guide 1 - Använda text variabler](./guide-1.html)
+  * [Guide 2 - Använda heltals variabler](./guide-2.html)
 

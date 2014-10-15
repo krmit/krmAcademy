@@ -1,0 +1,19 @@
+Title: Valda övningar med Java guide 0
+CSS: ../../../Tools/Framwork/css/magnum.css
+
+# Guide 0
+
+## K
+
+Vi ska lära oss använda __int__ för att deklarera en variabel som kan hantera heltal. 
+
+### Uppgift 1
+
+1.  Kompilera programmet. Vad tror du att du kommer att se?
+2.  Gör så att programmer skriver ut 3040.
+
+ ```java
+		int a = 3;
+
+		System.out.println(a);
+ ```
