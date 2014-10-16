@@ -12,34 +12,34 @@ Vi ska lära oss använda __String__  deklarationen för att skapa en varaibel a
 1.  Kompilera programmet.
 2.  Observera att vi har ett fungerande program som lagrar en text, dvs. en tecken sträng, i en variabel.
 
- ```java
+```java
 		String Text;
 		Text="Hej";
- ```
+```
 
 ### Uppgift 2
 
 1.  Kompilera programmet.
-2.  Gör så att programmer skriver ut "Hej HTSIT"
+2.  Gör så att programmer skriver ut "Hej HTSIT".
 
- ```java
+```java
 		String Text="krm";
 		
 		System.out.println("hej "+Text + "!");
- ```
+```
 
 ### Uppgift 3
 
 1.  Kompilerar programmet. Vad kommer vi få för ut skrift?
-2.  Tag bort en rad i koden så att programmet skriver ut "Hässleholm är bäst!"
+2.  Tag bort en rad i koden så att programmet skriver ut "Hässleholm är bäst!".
 
- ```java
+```java
 		String Text="Lund";
 		Text="Hässleholm";
 		Text="Södertälje";
 				
 		System.out.println("Text + " är bäst!");
- ```
+```
  
 ### Uppgift 4
 
