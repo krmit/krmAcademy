@@ -1,7 +1,7 @@
 Title: Valda övningar med Java guide 0
 CSS: ../../../Tools/Framwork/css/magnum.css
 
-# Guide 0
+# Guide 1
 
 ## Använda text variabler
 
