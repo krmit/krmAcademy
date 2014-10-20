@@ -13,6 +13,7 @@ Vi ska lära oss använda __double__ för att deklarera en variabel som kan hant
 2.  Ta bort alla rader som använder variabel a. Vad får du då se?
 
  ```java
+ 
 		int a = 3.1415;
 		double b = 3.1415
 
@@ -26,6 +27,7 @@ Vi ska lära oss använda __double__ för att deklarera en variabel som kan hant
 2.  Testa med några andra värden på variablerna och gör din egen formel.
 
  ```java
+ 
 		double a, b;
 		a = 5.5;
 		b=2;
@@ -40,6 +42,7 @@ Vi ska lära oss använda __double__ för att deklarera en variabel som kan hant
 
 
  ```java
+ 
  		int a = 8;
 		int b = 7;
         int c = 11;
@@ -67,6 +70,7 @@ Vi ska lära oss använda __double__ för att deklarera en variabel som kan hant
 
 
  ```java
+ 
  		double a = 7.77;
  		double b = 9.99;
 		String text;
@@ -86,6 +90,7 @@ Vi ska lära oss använda __double__ för att deklarera en variabel som kan hant
 3. Ta ett djupt andetag och tänk på något annat.
 
  ```java
+ 
 		double a = 1E308;  
 		double b = (a * a) / a;
  ```

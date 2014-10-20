@@ -13,6 +13,7 @@ Vi ska lära oss använda __int__ för att deklarera en variabel som kan hantera
 2.  Gör så att programmer skriver ut 3040.
 
  ```java
+ 
 		int a = 3;
 
 		System.out.println(a);
@@ -24,6 +25,7 @@ Vi ska lära oss använda __int__ för att deklarera en variabel som kan hantera
 2.  Testa att ta bort paranteserna krin (a+b) nedan på rad 13. Vad händer? Varför då?
 
  ```java
+ 
 		int a = 0;
 		int b = 0;
 
@@ -37,6 +39,7 @@ Vi ska lära oss använda __int__ för att deklarera en variabel som kan hantera
 3. Gör en tredjeformel nedan. Använd variblerna nedan och kombinera dem hur du vill med "+", "-", "*" och "/". Använd gärna paranteser.
 
  ```java
+ 
  		int a = 2;
 		int b = 4;
         int c = 6;
@@ -53,6 +56,7 @@ Vi ska lära oss använda __int__ för att deklarera en variabel som kan hantera
 3. Vad kallas den serie av tal som värdena av variablererna nedan är början av? Är matematik viktigt för programmering?
 
  ```java
+ 
 		int a = 2;
 		int b = 3;
         int c = 5;

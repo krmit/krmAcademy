@@ -14,6 +14,7 @@ Vi ska lära oss använda __System.out.println()__ och __System.out.print()__ fu
 2.  Gör så att programmer skriver ut "Hej HTSIT"
 
  ```java
+ 
 		System.out.println("Hello World!!");
  ```
 
@@ -23,6 +24,7 @@ Vi ska lära oss använda __System.out.println()__ och __System.out.print()__ fu
 2.  Gör så att 42 skrivs ut först på en ny rad.
 
  ```java
+ 
 		System.out.print("Meningen med livet är: ");
 		System.out.println(7);
  ```
