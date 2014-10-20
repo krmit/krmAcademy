@@ -1,0 +1,91 @@
+Title: Valda övningar med Java guide 0
+CSS: ../../../Tools/Framwork/css/magnum.css
+
+# Guide 3
+
+## Använda decimaltals variabler
+
+Vi ska lära oss använda __double__ för att deklarera en variabel som kan hantera så kallade flytal. Det är tal som har decimaler, men var försikt nör du använder dessa eftersom det kan bli konstiga avrundningsfel. 
+
+### Uppgift 1
+
+1.  Kompilera programmet. Vad tror du att du kommer att se?
+2.  Ta bort alla rader som använder variabel a. Vad får du då se?
+
+ ```java
+		int a = 3.1415;
+		double b = 3.1415
+
+		System.out.println(a);
+		System.out.println(b);
+ ```
+
+### Uppgift 2
+
+1.  Gör så att programmet skiriver ut värdet av 5.5/2 genom att ändra värder på variablerna och i formeln.
+2.  Testa med några andra värden på variablerna och gör din egen formel.
+
+ ```java
+		double a, b;
+		a = 5.5;
+		b=2;
+
+		System.out.println("5,5/2="+(a*b+a));
+ ```
+ 
+### Uppgift 3
+
+1. Gå igenom formlerna nedan och fundera på vad svaret blir. Kompilera sedan programmet.
+2. Ändra sedan alla int typer till double typer. Gå igenom alla avar och se skillnaden.
+
+
+ ```java
+ 		int a = 8;
+		int b = 7;
+        int c = 11;
+        
+		System.out.println("8/16=");
+		System.out.println(8/16);
+		
+		System.out.println("b/a=");
+		System.out.println(b/a);
+		
+		System.out.println("b/c=");
+		System.out.println(b/c);
+		
+		System.out.println("(a*b)/4=");
+		System.out.println((a*b)/4);
+		
+		System.out.println("c/(c*c)+c=");
+		System.out.println(c/(c*c)+c);
+ ```
+ 
+### Uppgift 4
+
+1. Gör så att programmet skriver ut värdet av variabeln _a_ istället för _5.55_.
+2. Lägg värdet av varibeln _b_ i variabeln _integer_.
+
+
+ ```java
+ 		double a = 7.77;
+ 		double b = 9.99;
+		String text;
+		int integer;
+		
+		text=Double.toString(5.55);
+		integer=(int)3.33;
+		
+		System.out.println("En text " + text);
+		System.out.println("Ett heltal " + integer);
+ ```
+
+### Uppgift 5
+
+1. Skriv kod som skriver ut värder på variablerna _a_ och _b_ är.
+2. Vad är det som är så fel?
+3. Ta ett djupt andetag och tänk på något annat.
+
+ ```java
+		double a = 1E308;  
+		double b = (a * a) / a;
+ ```
