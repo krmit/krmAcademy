@@ -55,9 +55,9 @@ Vi ska använda oss av __scanner__ objectet för att läsa in värden och lägga
  
 ### Uppgift 4
 
-1. Gör så att lägger in ditt för namn i varabel _a_ och ditt efternamn i variabel _b_.
+1. Gör så att programmet lägger in ditt för namn i varabel _a_ och ditt efternamn i variabeln _b_.
 2. Gör så programmet hälsar på dig med ditt namn.
-3. Variabeln namnet _a_  och _b_ är inte lämpliga variabelnamn eftersom de inte säger något om vad variberlan används till. Byt till ett bättre namn.
+3. Variabeln namnet _a_  och _b_ är inte lämpliga variabelnamn eftersom de inte säger något om vad variabelen används till. Byt till ett bättre namn.
 
  ```java
  
