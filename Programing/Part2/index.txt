@@ -9,5 +9,5 @@ Vi ska börja lära oss programmera genom att först förstå vad programmering 
 >> Några förklaringar.
 * [Laboration](./laboration.html)
 >> Laborationen som du ska göra.
-* [Guide](./guide/guide.html)
+* [Guide](./guide/index.html)
 >> En guide för att lära dig java.
