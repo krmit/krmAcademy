@@ -1,0 +1,66 @@
+Title: Valda övningar med Java guide 4
+CSS: ../../../Tools/Framwork/css/magnum.css
+
+# Guide 4
+
+## Läsa in värden
+
+Vi ska använda oss av __scanner__ objectet för att läsa in värden och lägga dem i variabler. Sedan kan vi använda dessa värden i vårt program. Du måste lägga till följande rader högst upp i ditt java program för att det ska fungera.
+
+ ```java
+ 
+		import java.util.Scanner;
+ ```
+
+### Uppgift 1
+
+1.  Kompilera programmet och se vad som händer.
+2.  Lägg till en variabel _b_. Lår användaren av programmet skriva in ett heltal som lagras i _b_. 
+3.  Skriv ut summan av _a+b_.
+
+ ```java
+ 
+		Scanner sc = new Scanner(System.in);
+		int a = sc.nextInt();
+
+		System.out.println(a);
+ ```
+
+### Uppgift 2
+
+1.  Kompilera programmet, läs fel medelandet och korrigera sedan felet.
+2.  Lägg till en variabel _b_. Lår användaren av programmet skriva in ett decimaltal som lagras i _b_. 
+3.  Skriv ut produkten av _a*b_.
+
+ ```java
+
+		Scanner sc = new Scanner(System.in);
+		int a = sc.nextDouble();
+
+		System.out.println(a);
+ ```
+ 
+### Uppgift 3
+
+1. Kompilera programmet och skriv in en text.
+2. Det är lite svårt att komma på att en text ska skrivas in, så låt programmet först be användaren skriva in en text.
+
+ ```java
+ 
+		Scanner sc = new Scanner(System.in);
+		String a = sc.next();
+
+		System.out.println(a);
+ ```
+ 
+### Uppgift 4
+
+1. Gör så att lägger in ditt för namn i varabel _a_ och ditt efternamn i variabel _b_.
+2. Gör så programmet hälsar på dig med ditt namn.
+3. Variabeln namnet _a_  och _b_ är inte lämpliga variabelnamn eftersom de inte säger något om vad variberlan används till. Byt till ett bättre namn.
+
+ ```java
+ 
+ 		String name;
+ 		String family_name;
+ ```
