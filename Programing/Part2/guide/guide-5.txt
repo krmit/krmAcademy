@@ -1,0 +1,94 @@
+Title: Valda övningar med Java guide 5
+CSS: ../../../Tools/Framwork/css/magnum.css
+
+# Guide 5
+
+## Läsa in värden
+
+Vi ska använda oss av bibiloteket __math__, dels för att få möjlighet att programmera intressanta formeler men också för att lära oss hur en funktion fungerar i java. I denna guide utgår vi från att ett tal är ett decimaltal om inget annat anges.
+
+### Uppgift 1
+
+1.  Fundera hur många decimaler av _pi_ du kommer ihåg. Jämför med hur många decimaler av _pi_ som java använder.
+2.  Få programmet att skriva ut den naturliga logaritmen, dvs _e_. Tips: den finns lagrat i konstanten __Math.E__
+
+ ```java
+ 
+		System.out.println(Math.PI);
+ ```
+
+### Uppgift 2
+
+1. Kör programmet och testa med olika inväden. Vad gör funktionen __Math.abs()__?
+2. Testa att byta ut funktionen _abs_ till _round_. Vad gör denna funktion?
+3. Vad gör funktionerna _floor_ och _ceil_?
+
+ ```java
+ 
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Skriv ett decimal tal:");
+		double tal = sc.nextDouble();
+		
+		tal = Math.abs(tal);
+
+		System.out.println(tal);
+ ```
+ 
+ ### Uppgift 3
+
+1. Lägg till _print_ kommandon som hjälper användaren förstå vad detta program gör.
+2. Skriv om programmet så det hittar det minsta talet istället.
+3. Gör om programmet så att det skriver ut 5 om någon skriver ut ett tal större än 5. Annars det tal som användaren skrivit in.
+
+ ```java
+ 
+		Scanner sc = new Scanner(System.in);
+		
+		double tal1 = sc.nextDouble();
+		double tal2 = sc.nextDouble();
+
+		System.out.println(Math.max(tal1,tal2));
+ ```
+ 
+### Uppgift 4
+
+1.  Koden nedan räknar ut vad 3 upphöjd i 4 är för något. Få programmet att skriva ut vad 2 upphöjd i 10 är.
+2.  Använd __math.sqrt(9)__ för att beräkna roten av 9. Skriv ut svaret.
+3.  Vad är roten av 6561?
+ 
+
+ ```java
+
+		double answer = pow(3,4);
+
+		System.out.println(answer);
+ ```
+ 
+### Uppgift 5
+
+När vi använder trigonometriska funktioner i java anger vi vinklarna i radianer, inte grader. En hel cirkel är 2Pi radianer, så 180 grader är Pi, 90 grader är Pi/2 osv.
+
+1.	Testa olika värden på indatat. Vad kan du säga om sinus funktionen?
+2.  Testa med cos och tan också!
+
+ ```java
+ 
+		System.out.println("Skriv ett heltal:");
+		Scanner sc = new Scanner(System.in);
+		
+		int multiple_of_angle = sc.nextInt();
+		double answer = Math.sin(multiple_of_angle*Math.PI/2);
+
+		System.out.println(answer);
+ ```
+ 
+### Uppgift 6
+
+1. Skriv ett program som läser in en radie och beräknar arean av en cirkel.
+2. Gör ett program som frågar efter en sida och beräknar volymen av en kub.
+
+
+ ```java
+ 
+ 		/* Skriv din egen kod! */
+ ```
