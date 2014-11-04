@@ -1,0 +1,96 @@
+Title: Valda övningar med Java guide 6
+CSS: ../../../Tools/Framwork/css/magnum.css
+
+# Guide 6
+
+## Använda sant och falskt i variabler
+
+Vi ska lära oss använda __bool__ för att deklarera en variabel som kan hantera _falskt_ eller _sant_.
+
+### Uppgift 1
+
+1.  Kompilera programmet. Vad tror du att du kommer att se?
+2.  Ändra så att programmet är korrekt genom att ändra _a_ värde till __true___.
+
+ ```java
+ 
+		boolean hts_is_best = false;
+
+		System.out.println(a);
+ ```
+
+### Uppgift 2
+
+1.  Gör så att programmet skiriver ut värdet "true" genom att ändra på variablerna.
+2.  Testa med olika värden på _a_ och _b_. Vad krävs för att programmet ska skriva ut "true"?
+
+ ```java
+ 
+		int a = false;
+		int b = true;
+
+		System.out.println("a och b="+(a && b));
+ ```
+ 
+### Uppgift 3
+
+1.  Gör så att programmet skiriver ut värdet "true" genom att ändra på variablerna.
+2.  Testa med olika värden på _a_ och _b_. Vad krävs för att programmet ska skriva ut "true"?
+
+ ```java
+ 
+		int a = false;
+		int b = false;
+
+		System.out.println("a eller b="+(a || b));
+ ```
+ 
+
+### Uppgift 4
+
+1. Testa att svara sant eller falskt på uppgiften nedan.
+2. Testa med ett svar som inte är boolean. Vad händer?
+3. Innan sista utskriften i programmet. Lägg till följande rad "bool = !bool;". Vad händer?
+
+ ```java
+ 
+ src.nextBoolean();
+		System.out.println("Är jorden rund?");
+ 
+ 		Scanner sc = new Scanner(System.in);
+		System.out.println("Skriv true/false");
+		boolean bool = sc.nextBoolean();
+ 
+		System.out.println("Svar: "+ bool);
+ ```
+
+### Uppgift 5
+
+1. Kör programmet några gånger och testa med olika värden på _a_, _b_ och _c_.
+2. Skriv in de uträkningar som saknas på de tre sista raderna nedan.
+3. Skriv in din egna logiska formel nedan.
+
+ ```java
+ 
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Är a sant eller falskt?");
+		boolean a = sc.nextBoolean();
+		
+		System.out.println("Är b sant eller falskt?");
+		boolean b = sc.nextBoolean();
+ 
+		System.out.println("Är c sant eller falskt?");
+		boolean c = sc.nextBoolean();
+ 
+        System.out.println("a=" + a );
+        System.out.println("b=" + b );
+        System.out.println("c=" + c );
+		System.out.println("a och b" + (a && b));
+		System.out.println("inte a=" + !a );
+		System.out.println("inte a och inte b=" + (!a && !b));
+		System.out.println("a och b eller c=" + (a && b || c));
+		System.out.println("inte a och b=");
+		System.out.println("a eller inte b=");
+		System.out.println("a eller b eller c=");
+ ```
