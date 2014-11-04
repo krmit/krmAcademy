@@ -12,9 +12,15 @@ Vi kommer stegviss gå igenom vad du behöver kunna för att programmera i java.
   * [Guide 4 - Läsa in värden](./guide-4.html)
   * [Guide 5 - Använd "math" biblioteket](./guide-5.html)
   * [Guide 6 - Att få programmet göra beräkningar](./guide-6.html)
-  * [Guide 7 - Att skapa en om-vilkorsatser med __if__](./guide-7.html)
-  * [Guide 8 - Att skapa en annars-vilkorsatser med __else__](./guide-8.html)
-  * [Guide 9 - Att kombinera __if__ och __else__ i en __else if__](./guide-9.html)
-  * [Guide 10 - Att skapa loopar med hjälp av en __for__](./guide-10.html)
-
+  * [Guide 7 - Använda sant och falskt i variabler](./guide-7.html)
+  * [Guide 8 - Testa om något är sant eller falskt](./guide-8.html)
+  * [Guide 9 - Att skapa en om-vilkorsatser med __if__](./guide-9.html)
+  * [Guide 10 - Att skapa en annars-vilkorsatser med __else__](./guide-10.html)
+  * [Guide 11 - Att kombinera __if__ och __else__ i en __else if__](./guide-11.html)
+  * [Guide 12 - Att skapa loopar med hjälp av en __for__](./guide-12.html)
+  * [Guide 13 - Använda __for__ med olika steglängd och start värde](./guide-13.html)
+  * [Guide 14 - Använda __for__-loopar i andra __for__-loopar](./guide-14.html)
+  
+  
+  * [Exemple 1 - Gissa talet!](./exemple-1.html)
 
