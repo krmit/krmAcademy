@@ -66,6 +66,23 @@ Vi ska använda oss av bibiloteket __math__, dels för att få möjlighet att pr
  
 ### Uppgift 5
 
+1.	Kör programmet många gånger. Vad gör programmet?
+2.  Ändra så att vi adderar 10 till answer istället för 1. 
+3.  Gör så programmet fungerar som en 6 sidig tärning.
+
+ ```java
+ 
+		System.out.println("Skriv ett heltal:");
+		Scanner sc = new Scanner(System.in);
+		
+		int answer = (int)(Math.random()*10)+1;
+
+		System.out.println(answer);
+
+ ```
+ 
+### Uppgift 6
+
 När vi använder trigonometriska funktioner i java anger vi vinklarna i radianer, inte grader. En hel cirkel är 2Pi radianer, så 180 grader är Pi, 90 grader är Pi/2 osv.
 
 1.	Testa olika värden på indatat. Vad kan du säga om sinus funktionen?
@@ -82,7 +99,7 @@ När vi använder trigonometriska funktioner i java anger vi vinklarna i radiane
 		System.out.println(answer);
  ```
  
-### Uppgift 6
+### Uppgift 7
 
 1. Skriv ett program som läser in en radie och beräknar arean av en cirkel.
 2. Gör ett program som frågar efter en sida och beräknar volymen av en kub.
