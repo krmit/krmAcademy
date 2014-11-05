@@ -1,0 +1,92 @@
+Title: Valda övningar med Java guide 6
+CSS: ../../../Tools/Framwork/css/magnum.css
+
+# Guide 6
+
+## Att få programmet göra beräkningar
+
+Eller framför allt att försöka få den att göra rätt beräkningar.
+
+### Uppgift 1
+
+1. I java och de flesta andra programmeringspråk används de prioriteringsregler du lärt dig i matematik. Se exmplen nedan.
+2. Ändra på siffrorna på uppgift 4,5 och 6. Förstår duhur uträkningen fungerar?
+3. Lägg till ett 7:e exempel.
+
+ ```java
+		System.out.println("0: 2 + 3 * 5 " + (2+3*5));
+		System.out.println("1: (2 + 3) * 5=" + (2+3)*5);
+		System.out.println("2: 2 * 3 + 5=" + (2 * 3 + 5));
+		System.out.println("4: 2 + 3 * 5 + 7=" + (2 + 3 * 5 + 7));
+		System.out.println("5: 2 * 3 + 5 * 7=" + (2 * 3 + 5 * 7));
+		System.out.println("6: (2 + 3) * (5 + 7)=" + ((2 + 3) * (5 + 7)));
+ ```
+ 
+ ### Uppgift 2
+
+1.  Beräkningar av negativa tal fungerar också så som vi är vana. Gå igenom exempeln nedan och fundera först ut vad resultatet ska vara innan du kompilerar programmet.
+2.  Byt ut "*" mot "/" och observera resultatet.  
+3.  Byt ut 2 mot 2.0 och 3 mot 3.0. Vad händer?
+
+ ```java
+		System.out.println("0: -2 * -3 " + (-2*-3));
+		System.out.println("1: (-2 * 3) * 5=" + (-2 * 3));
+		System.out.println("2: 2 * -3=" + (2 * -3));
+		System.out.println("2: 2 * 3=" + (2 * 3));
+
+ ```
+
+### Uppgift 3
+
+1.  Om du dividerar 5 med 2. Vad får du då? Observera att vi inte gillar decimaltal!
+2.  Ändra 5 och 2 till andra tal. Fundera ut resultatet innan du kompilerar programmet.
+3.  Testa med talet 374 delat på 19. VAd blir resultatet.
+
+ ```java
+		System.out.println("5/2="+(5/2));
+		System.out.println("5%2=" +(5%2));
+ ```
+
+### Uppgift 4
+
+1.  Kompilera programmet. Varför blir utskrifterna fel?"
+2.  Ändra programmet så att utskrifterna blir rätt.
+3.  Räkna ut kvoten mellan talen och ge svaret som ett decimaltal.
+
+ ```java
+ 		Scanner sc = new Scanner(System.in);
+		System.out.println("Skriv ett heltal tal:");
+		int tal1 = sc.nextInt();
+	    System.out.println("Skriv ett tal till:");
+		int tal2 = sc.nextInt();
+		
+		System.out.println("Heltalskvoten av första talet delat på andra talet blir     : "+5/7));
+		System.out.println("Resten om första tallet delas med det andra talet är : "+5%7));
+ ```
+ 
+ ### Uppgift 5
+
+1.  Testa med några olika värden på m och v. Pröva också med några omöjliga värden på m och v. Notera vad rörelsemängden blir.
+2.  Ändra programmet så det räknar ut den kinetiska energin. Om du glömt bort så se första formeln på denna länk: http://sv.wikipedia.org/wiki/Kinetisk_energi. 
+3.  Innan du använder v i formeln tag absolut beloppet av den, _v=math.abs(v)_. Hur förändrar detta programmet. 
+
+ ```java
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Hur stor är massan: ");
+		double m = sc.nextDouble();
+		System.out.println("\nHur stor är hastigheten: ");
+		double v = sc.nextDouble();
+		
+		System.out.println("\nRörelsemängden är: "+(m*v));
+ ```
+ 
+ ### Uppgift 6
+
+1.  Leta rätt på din favorit formel. Den ska inte vara för enkel. Har du ingen favorit formel, ta min `t_0=t/sqrt(1-v^2/c^2)`
+2.  Testa med olika värden i din formel. När bli resultatet orimligt?
+
+ ```java
+ 		/* Skriv din egen kod! */
+ ```
+ 
+ 
