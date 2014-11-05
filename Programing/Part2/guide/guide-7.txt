@@ -1,7 +1,7 @@
-Title: Valda övningar med Java guide 6
+Title: Valda övningar med Java guide 7
 CSS: ../../../Tools/Framwork/css/magnum.css
 
-# Guide 6
+# Guide 7
 
 ## Använda sant och falskt i variabler
 
