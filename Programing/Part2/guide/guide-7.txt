@@ -5,12 +5,12 @@ CSS: ../../../Tools/Framwork/css/magnum.css
 
 ## Använda sant och falskt i variabler
 
-Vi ska lära oss använda __bool__ för att deklarera en variabel som kan hantera _falskt_ eller _sant_.
+Vi ska lära oss använda __boolean__ för att deklarera en variabel som kan hantera _falskt_ eller _sant_.
 
 ### Uppgift 1
 
 1.  Kompilera programmet. Vad tror du att du kommer att se?
-2.  Ändra så att programmet är korrekt genom att ändra _a_ värde till __true___.
+2.  Ändra så att programmet är korrekt genom att ändra _a_ värde till __true__.
 
  ```java
  
@@ -21,26 +21,26 @@ Vi ska lära oss använda __bool__ för att deklarera en variabel som kan hanter
 
 ### Uppgift 2
 
-1.  Gör så att programmet skiriver ut värdet "true" genom att ändra på variablerna.
-2.  Testa med olika värden på _a_ och _b_. Vad krävs för att programmet ska skriva ut "true"?
+1.  Gör så att programmet skiriver ut värdet __true__ genom att ändra på variablerna.
+2.  Testa med olika värden på _a_ och _b_. Vad krävs för att programmet ska skriva ut __true__?
 
  ```java
  
-		int a = false;
-		int b = true;
+		boolean a = false;
+		boolean b = true;
 
 		System.out.println("a och b="+(a && b));
  ```
  
 ### Uppgift 3
 
-1.  Gör så att programmet skiriver ut värdet "true" genom att ändra på variablerna.
+1.  Gör så att programmet skiriver ut värdet __true__ genom att ändra på variablerna.
 2.  Testa med olika värden på _a_ och _b_. Vad krävs för att programmet ska skriva ut "true"?
 
  ```java
  
-		int a = false;
-		int b = false;
+		boolean a = false;
+		boolean b = false;
 
 		System.out.println("a eller b="+(a || b));
  ```
@@ -54,7 +54,6 @@ Vi ska lära oss använda __bool__ för att deklarera en variabel som kan hanter
 
  ```java
  
- src.nextBoolean();
 		System.out.println("Är jorden rund?");
  
  		Scanner sc = new Scanner(System.in);
