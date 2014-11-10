@@ -1,0 +1,25 @@
+Title: Programmering 1
+CSS: ../Tools/Framwork/css/magnum.css
+
+# Datorteknik
+
+>>>>> ![En flicka slår på dator][] Dator är din vän! 
+
+DAtor är vår civilications viktigaste verktyg och största bedrift. I denna kurs ska vi lära oss om hur den fungera och används.
+
+## Innehåll
+
+Vi går igenom datorn både praktiskt och teoretiskt. Mycket av undervisningen kommer vara fria diskusioner där du förväntas delta aktivt.
+
+1. [Introduktion till Linux](./Part1/index.html)
+>>  _datorer, olikaq operativsystem, unix/linux kommandon, installation av OS, datorns olika delar _
+
+2. [OSI-modellen](./Part2/index.html)
+>>  _ _
+
+
+7. [Prov](./Examination/index.html)
+8. [Slut uppgift](./thesis/index.html)
+
+
+[En flicka slår på dator]: girl-computer.png "Umgås mycket med din dator!" height=256px width=256px
