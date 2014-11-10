@@ -1,0 +1,85 @@
+Title: Valda övningar med Java guide 8
+CSS: ../../../Tools/Framwork/css/magnum.css
+
+# Guide 8
+
+## Testa om något är sant eller falskt
+
+Vi lär oss om att jämföra olika saker.
+ 
+ ### Uppgift 1
+
+1.  Testa med olika indata nedan. Vad händer?
+2.  Ändra "==" till "=". Testa åter igen med olika indata. Varför blir det konstigt?
+3.  Lova dig dyrt och heligt att du __alltid__ ska använda == när du jämför något.
+
+
+ ```java
+ 
+	Scanner sc = new Scanner(System.in);
+	System.out.println("Skriv ett heltal tal att jämföra med 7:");
+	
+	int compare_with = sc.nextInt();
+	System.out.println("Ditt tal är lika med sju: " + (compare_with == 7))
+
+ ```
+### Uppgift 2
+
+1.  Vad kommer koden nedan att visa? Fundera först och kompilera programmet sedan.
+2.  Byt tecknet ">" till "<". Vad blir det nu?
+3.  om du byter "5" till en "4". Vad händer då?
+
+ ```java
+ 
+		System.out.println("Fem myror är fler än fyra elefanter: " + (5>4));
+ ```
+
+### Uppgift 3
+
+1.  Testa koden och se om den fungerar.
+2.  Är 2 och 7 en del av intervallet? Dvs. programmet godkänner dem.
+3.  Testa att ändra intervallet med olika tal. Hur blir det om du har negativa tal?
+
+ ```java
+ 
+	Scanner sc = new Scanner(System.in);
+	System.out.println("Skriv ett heltal tal att jämföra mellan två och sju:");
+	int compare_with = sc.nextInt();
+	
+	System.out.println("Det klarade du av bra: " + (2 < compare_with && compare_with < 7));
+	
+ ```
+ 
+ ### Uppgift 4
+
+1.  Testa koden. Kan du räkna ut rätt svar? 
+2.  Varför skulle det vara svårt och skriva in rätt svar när programmet frågar efter det?
+3.  Testa med en annan liknade fråga och byt ut intervallet.
+ 
+
+ ```java
+ 
+	Scanner sc = new Scanner(System.in);
+	System.out.println("Vad är 2 delat på 3?");
+	int compare_with = sc.nextDouble();
+	
+	System.out.println("Du svarade rätt: " + (0.66 < compare_with && compare_with < 0.67));
+	
+ ```
+ 
+ ### Uppgift 5
+
+1.  Skriv in lösenord. Se om du kan komma på rätt!
+2.  Testa att byta ut '.equals("abc123")' mot '=="abc123"'. Blir det som du tänkt dig?
+3.  Skapa en variabel 'String my_passwd = passwd;'. Byta sedan ut '.equals("abc123")' mot '==my_passwd '. Vad händer då?
+4.  Fundera över att värden är obegriplig eller sök på internet, då finner kanske detta: http://stackoverflow.com/questions/513832/how-do-i-compare-strings-in-java.
+
+ ```java
+ 
+	Scanner sc = new Scanner(System.in);
+	System.out.println("Skriv in ditt hemligaste lösenord:");
+	String passwd = sc.next();
+	
+	System.out.println("Det skrev in rätt lösenord: " + (passwd.equals("abc123") ));
+	
+ ``` 
