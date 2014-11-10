@@ -1,0 +1,9 @@
+Title: Datorteknik 1 - Moment 1
+CSS: ../../Tools/Framwork/css/magnum.css
+
+# Introduktion med olika förberedande övningar.
+
+Vi ska börja lära oss att hantera terminalen i linux för att få bättre förstålse för hur en dato egentligen fungerar.
+
+* [Laboration](./laboration.html)
+>> Laborationen som du ska göra.
