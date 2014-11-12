@@ -1,0 +1,113 @@
+Title: Valda övningar med Java guide 9
+CSS: ../../../Tools/Framwork/css/magnum.css
+
+# Guide 9
+
+## Att skapa en om-vilkorsatser med __if__
+
+Vi lär oss att använda __if__ kommandot för att göra införa val i våra program. __if__ kombineras med ett vilkor, är detta sant så sker något.
+ 
+ ### Uppgift 1
+
+1.  Testa med olika indata nedan. Vad händer?
+2.  Ändra så att rätt svar blir talet 10.
+3.  Ändra så att rätt svar blir "hej"
+
+
+ ```java
+ 
+	Scanner sc = new Scanner(System.in);
+	System.out.println("Skriv '5'");
+	
+	int compare_with = sc.nextInt();
+	if( compare_with == 5) { 
+		System.out.println("Du skrev rätt!")
+	}
+ ```
+ 
+### Uppgift 2
+
+1.  Ändra koden nedan så att även 3,4,5,6,7 och 8 är godkända värden.
+2.  Gör nu så att alla heltal från och med 19 till 53 är godkända.
+3.  Gör så att alla tal som inte är godkända i föra uppgiften är godkända nu och alla som var godkända inte är det längre. 
+
+ ```java
+ 
+	Scanner sc = new Scanner(System.in);
+	System.out.println("Skriv '5'");
+	
+	int compare_with = sc.nextInt();
+	if( compare_with == 5 && compare_with == 6) { 
+		System.out.println("Du skrev ett godkänd värde!")
+	}
+ ```
+
+### Uppgift 3
+
+1.  Testa koden nedan. För vilka indata resultatet blir 0.
+2.  Lägg till en __if__ sats som skriver ut ett medelande om result är noll. 
+3.  Ändra saå programmet hanter decimaltal istället.
+
+ ```java
+ 
+	Scanner sc = new Scanner(System.in);
+	System.out.println("Skriv ett heltal som du vill ha för dubblat.");
+	
+	int compare_with = sc.nextInt();
+	
+	if( compare_with > 99) { 
+		compare_with =0;
+	}
+	
+	result = compare_with*2;
+	
+	System.out.println("Resultatet blev: " + result);
+	
+ ```
+ 
+ ### Uppgift 4
+
+1.  Vad händer när du kompilerar koden nedan? 
+2.  Ändra på koden så den blir korrekt.
+3.  Se till att alla variabler deklareras högst uppe i funktionen. 
+
+ ```java
+ 
+	Scanner sc = new Scanner(System.in);
+	System.out.println("Skriv ett heltal som är större än en miljon.");
+	
+	int compare_with = sc.nextInt();
+	
+	if( compare_with > 999999) { 
+		int number = 1;
+	}
+	
+	
+	System.out.println("Nu skriver jag ut en etta: " + result);
+	
+ ```
+ 
+ ### Uppgift 5
+ 
+1.  Testa koden nedan. Hittar den lösningen på ekvationen?
+2.  Vad händer om du tar till exempel . Varför?
+3.  Lägg till en __if__ sats som löser problemet. Tips: Ekvationen andra roten:
+
+
+
+ ```java
+ 
+	Scanner sc = new Scanner(System.in);
+	System.out.println("Skriv ett heltal som är större än en miljon.");
+	
+	int compare_with = sc.nextInt();
+	
+	if( compare_with > 999999) { 
+		int number = 1;
+	}
+	
+	
+	System.out.println("Nu skriver jag ut en etta: " + result);
+	
+ ```
+
