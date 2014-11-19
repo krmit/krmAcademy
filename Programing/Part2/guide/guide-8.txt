@@ -20,7 +20,7 @@ Vi lär oss om att jämföra olika saker.
 	System.out.println("Skriv ett heltal tal att jämföra med 7:");
 	
 	int compare_with = sc.nextInt();
-	System.out.println("Ditt tal är lika med sju: " + (compare_with == 7))
+	System.out.println("Ditt tal är lika med sju: " + (compare_with == 7));
 
  ```
 ### Uppgift 2

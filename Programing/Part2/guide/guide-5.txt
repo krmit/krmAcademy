@@ -93,7 +93,7 @@ När vi använder trigonometriska funktioner i java anger vi vinklarna i radiane
 		System.out.println("Skriv ett heltal:");
 		Scanner sc = new Scanner(System.in);
 		
-		int multiple_of_angle = sc.nextInt();
+		double multiple_of_angle = sc.nextDouble();
 		double answer = Math.sin(multiple_of_angle*Math.PI/2);
 
 		System.out.println(answer);

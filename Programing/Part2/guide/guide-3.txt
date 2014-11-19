@@ -15,7 +15,7 @@ Vi ska lära oss använda __double__ för att deklarera en variabel som kan hant
  ```java
  
 		int a = 3.1415;
-		double b = 3.1415
+		double b = 3.1415;
 
 		System.out.println(a);
 		System.out.println(b);

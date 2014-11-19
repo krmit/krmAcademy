@@ -60,8 +60,8 @@ Eller framför allt att försöka få den att göra rätt beräkningar.
 	    System.out.println("Skriv ett tal till:");
 		int tal2 = sc.nextInt();
 		
-		System.out.println("Heltalskvoten av första talet delat på andra talet blir     : "+5/7));
-		System.out.println("Resten om första tallet delas med det andra talet är : "+5%7));
+		System.out.println("Heltalskvoten av första talet delat på andra talet blir     : "+tal1/5));
+		System.out.println("Resten om första tallet delas med det andra talet är : "+tal1%5));
  ```
  
  ### Uppgift 5
