@@ -9,55 +9,83 @@ Det här är en lista som på kurser som krm har på hts.
 ### Elektronik
   * [Introduktion](http://htsit.se/krmAcademy/Electronics/intro.html)
   * __Moment 1__
-    * [Laboration]( http://htsit.se/krmAcademy/Electronics/Part1/laboration.html)
+    * [Intro]( http://htsit.se/krmAcademy/Electronics/Part1/index.html)
+    * [Laboration]( http://htsit.se/krmAcademy/Programing/Part1/laboration.html)
   * __Moment 2__
-    * [Förklaring]( http://htsit.se/krmAcademy/Electronics/Part2/explanation.html)
-    * [Laboration]( http://htsit.se/krmAcademy/Electronics/Part2/laboration.html)
+    * [Intro]( http://htsit.se/krmAcademy/Electronics/Part2/index.html)
+    * [Laboration]( http://htsit.se/krmAcademy/Programing/Part1/laboration.html)
   * __Moment 3__
-    * [Laboration]( http://htsit.se/krmAcademy/Electronics/Part3/laboration.html)
+    * [Intro]( http://htsit.se/krmAcademy/Electronics/Part3/index.html)
   * __Moment 4__
-    * [Laboration]( http://htsit.se/krmAcademy/Electronics/Part4/laboration.html)
+    * [Intro]( http://htsit.se/krmAcademy/Electronics/Part4/index.html)
   * __Moment 5__
-    * [Laboration]( http://htsit.se/krmAcademy/Electronics/Part5/laboration.html)
+    * [Intro]( http://htsit.se/krmAcademy/Electronics/Part5/index.html)
+  * __Moment 6__
+    * [Intro]( http://htsit.se/krmAcademy/Electronics/Part6/index.html)
+
+
 
 ### Programmering 1
   * [Introduktion](http://htsit.se/krmAcademy/Programing/intro.html)
   * __Moment 1__
-    * [Förklaring]( http://htsit.se/krmAcademy/Programing/Part1/explanation.html)
+    * [Intro]( http://htsit.se/krmAcademy/Programing/Part1/index.html)
     * [Laboration]( http://htsit.se/krmAcademy/Programing/Part1/laboration.html)
   * __Moment 2__
-    * [Förklaring]( http://htsit.se/krmAcademy/Programing/Part2/explanation.html)
-    * [Laboration](http://htsit.se/krmAcademy/Programing/Part2/laboration.html)
+    * [Intro]( http://htsit.se/krmAcademy/Programing/Part2/index.html)
   * __Moment 3__
-    * [Laboration](http://htsit.se/krmAcademy/Programing/Part3/laboration.html)
+    * [Intro]( http://htsit.se/krmAcademy/Programing/Part3/index.html)
   * __Moment 4__
-    * [Laboration](http://htsit.se/krmAcademy/Programing/Part4/laboration.html)
+    * [Intro]( http://htsit.se/krmAcademy/Programing/Part4/index.html)
   * __Moment 5__
-    * [Laboration](http://htsit.se/krmAcademy/Programing/Part5/laboration.html)
-
+    * [Intro]( http://htsit.se/krmAcademy/Programing/Part5/index.html)
+  * __Moment 6__
+    * [Intro]( http://htsit.se/krmAcademy/Programing/Part6/index.html)
+    
 
 ### Nätverksteknik
   * [Introduktion](http://htsit.se/krmAcademy/Network/Intro.html)
   * __Moment 1__
-    * [Förklaring]( http://htsit.se/krmAcademy/Network/Part1/Explanation.html)
+    * [Intro]( http://htsit.se/krmAcademy/Network/Part1/index.html)
     * [Laboration]( http://htsit.se/krmAcademy/Network/Part1/Laboration.html)
   * __Moment 2__
-    * [Laboration]( http://htsit.se/krmAcademy/Network/Part2/laboration.html)
+    * [Intro]( http://htsit.se/krmAcademy/Network/Part2/index.html)
   * __Moment 3__
-    * [Laboration]( http://htsit.se/krmAcademy/Network/Part3/laboration.html)
+    * [Intro]( http://htsit.se/krmAcademy/Network/Part3/index.html)
   * __Moment 4__
-    * [IOS tips]( http://htsit.se/krmAcademy/Network/Part4/ios.html)
+    * [Intro]( http://htsit.se/krmAcademy/Network/Part4/index.html)
   * __Moment 5__
-    * [Laboration]( http://htsit.se/krmAcademy/Network/Part5/laboration.html)
+    * [Intro]( http://htsit.se/krmAcademy/Network/Part5/index.html)
   * __Moment 6__
-    * [Laboration]( http://htsit.se/krmAcademy/Network/Part6/laboration.html)
+    * [Intro]( http://htsit.se/krmAcademy/Network/Part6/index.html)
 
 ### Webbserverprogrammering 1
   * [Introduktion](http://htsit.se/krmAcademy/WebServer/intro.html)
   * __Moment 1__
-    * [Förklaring]( http://htsit.se/krmAcademy/WebServer/Part2/explanation.html)
-    * [Laboration]( http://htsit.se/krmAcademy/WebServer/Part2/laboration.html)
+    * [Intro]( http://htsit.se/krmAcademy/WebServer/Part1/index.html)
+    * [Laboration]( http://htsit.se/krmAcademy/WebServer/Part1/laboration.html)
   * __Moment 2__
-    * [Laboration]( http://htsit.se/krmAcademy/WebServer/Part3/laboration.html)
+    * [Intro]( http://htsit.se/krmAcademy/WebServer/Part2/index.html)
   * __Moment 3__
-    * [Laboration]( http://htsit.se/krmAcademy/WebServer/Part4/laboration.html)
+    * [Intro]( http://htsit.se/krmAcademy/WebServer/Part3/index.html)
+  * __Moment 4__
+    * [Intro]( http://htsit.se/krmAcademy/WebServer/Part4/index.html)
+  * __Moment 5__
+    * [Intro]( http://htsit.se/krmAcademy/WebServer/Part5/index.html)
+  * __Moment 6__
+    * [Intro]( http://htsit.se/krmAcademy/WebServer/Part6/index.html)
+
+### Datorteknik 1
+  * [Introduktion](http://htsit.se/krmAcademy/Computer/intro.html)
+  * __Moment 1__
+    * [Intro]( http://htsit.se/krmAcademy/Computer/Part1/index.html)
+    * [Laboration]( http://htsit.se/krmAcademy/Computer/Part1/laboration.html)
+  * __Moment 2__
+    * [Intro]( http://htsit.se/krmAcademy/Computer/Part2/index.html)
+  * __Moment 3__
+    * [Intro]( http://htsit.se/krmAcademy/Computer/Part3/index.html)
+  * __Moment 4__
+    * [Intro]( http://htsit.se/krmAcademy/Computer/Part4/index.html)
+  * __Moment 5__
+    * [Intro]( http://htsit.se/krmAcademy/Computer/Part5/index.html)
+  * __Moment 6__
+    * [Intro]( http://htsit.se/krmAcademy/Computer/Part6/index.html)
