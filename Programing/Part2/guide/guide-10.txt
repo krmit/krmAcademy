@@ -1,0 +1,70 @@
+Title: Valda övningar med Java guide 10
+CSS: ../../../Tools/Framwork/css/magnum.css
+
+# Guide 10
+
+## Att skapa en annars-vilkorsatser med __else__
+
+Vi forsätter med __if__ kommandot och testar nu med __else__.
+ 
+ ### Uppgift 1
+
+1.  Testa med olika indata nedan. Vad händer?
+2.  Ändra så att gränsen inte längre är 10 utan 20.
+3.  Gör så att programmet säger att du gjort "Rätt" om du skriver in ett tal som är större än 20.
+
+ ```java
+ 
+	Scanner sc = new Scanner(System.in);
+	System.out.println("Skriv ett tal: ");
+	
+	int compare_with = sc.nextInt();
+	if( compare_with > 10) { 
+		System.out.println("Ditt tal är större än 10!")
+	}
+	else {
+		System.out.println("Ditt tal är mindre än 10!")
+	}
+ ```
+ 
+### Uppgift 2
+
+1.  Ändra koden nedan så att den blir korrekt. 
+2.  Gör nu så att alla heltal från och med 7 till 9 är godkända.
+3.  Hitta på en egen uppgift som programmet ska besvara.
+
+ ```java
+	
+	Scanner sc = new Scanner(System.in);
+	System.out.println("Vad är 3*3: ");
+	
+	int compare_with = sc.nextInt();
+	if( compare_with == 33) { 
+		System.out.println("Du kan räkna!")
+	}
+	else {
+		System.out.println("Du behöver gå om grundskolan!")
+	}
+ ```
+
+### Uppgift 3
+
+1.  Ändra koden nedan så att den blir korrekt. 
+2.  Gör så att även "Computer" är ett godkänd svar.
+3.  Skriv om uppgiften på engelska.
+
+ ```java
+	
+	Scanner sc = new Scanner(System.in);
+	System.out.println("Vad heter "dator" på engelska: ");
+	
+	String compare_with = sc.nextString();
+	if( compare_with == "computer") { 
+		System.out.println("Du kan engelska!")
+	}
+	else {
+		System.out.println("Du behöver titta mer på youtube!")
+	}
+ ```
+ 
+

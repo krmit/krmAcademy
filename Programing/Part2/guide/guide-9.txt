@@ -37,7 +37,7 @@ Vi lär oss att använda __if__ kommandot för att göra införa val i våra pro
 	System.out.println("Skriv '5'");
 	
 	int compare_with = sc.nextInt();
-	if( compare_with == 5 && compare_with == 6) { 
+	if( compare_with == 5 || compare_with == 6) { 
 		System.out.println("Du skrev ett godkänd värde!");
 	}
  ```
