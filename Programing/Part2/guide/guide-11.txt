@@ -1,0 +1,95 @@
+Title: Valda övningar med Java guide 11
+CSS: ../../../Tools/Framwork/css/magnum.css
+
+# Guide 11
+
+## Att kombinera __if__ och __else__ i en __else if__
+
+Ibland kan vi behöva göra många olika val beronde på indata. Då kan vi behöva kobinera flera __if__ och __else__ satser.
+ 
+ ### Uppgift 1
+
+1.  Testa "HTS-elev" visan nedan.
+2.  Skriv in en vers för söndagen också. Du kan skriva vad du vill.
+3.  Men ni tar ju helg även på lördagen! Ta bort de två sista alternativen så denna lilla ramsa blir anpassad 2000-talet.
+
+ ```java
+ 
+	Scanner sc = new Scanner(System.in);
+	System.out.println("Skriv ett tal mellan 0 och 6: ");
+	
+	int compare_with = sc.nextInt();
+	if( compare_with == 0) { 
+		System.out.println("Måndag gör jag ingenting, ingenting, ingenting.")
+	} else if(compare_with == 1) {
+		System.out.println(" Tisdag ser jag mig omkring, mig omkring, mig omkring.")
+	} else if(compare_with == 2) {
+		System.out.println("Onsdag går jag ut och vankar. ")
+	} else if(compare_with == 3) {
+		System.out.println("Torsdag sitter jag i tankar")
+	} else if(compare_with == 4) {
+		System.out.println("Fredag gör jag vad jag vill. ")
+	} else if(compare_with == 5) {
+		System.out.println("Lördag stundar helgen till.")
+	} else if(compare_with == 6) {
+		System.out.println("?")
+	}
+	
+ ```
+ 
+### Uppgift 2
+
+1.  Testa koden nedan.
+2.  Ändra texterna så det är med din smak överstämmande.
+3.  Sista fallet i __if-else__ komandot är en "default" text. Ändra den till något vettigt.
+4.  Lägg till fler spel till listan nedan.
+
+ ```java
+	
+	Scanner sc = new Scanner(System.in);
+	System.out.println("Skriv ett namn på ett spel(små bokstäver): ");
+	
+	String compare_with = sc.next();
+	if( compare_with.equals("starcraft")) { 
+		System.out.println("Ett bra spel!")
+	} else if(compare_with.equals("Counter-Strike") {
+		System.out.println("Överskattat!")
+	} else if(compare_with.equals("civilization") {
+		System.out.println("Lärorikt!")
+		}
+	else if(compare_with.equals("homm3") {
+		System.out.println("Historiens bästa spel!")
+		}
+	else {
+		System.out.println("Va?")
+	}
+		
+ ```
+
+### Uppgift 3
+
+1.  Testa programmet nedan tills du får veta att du kommer klara provet.
+2.  Ändra i programmet så det blir lättare att få spådomen om att leva lycklig i alla dina dagar.
+3.  Ändra i programmet så det blir lättare att få spådomen om att lyckas på provet.
+4.  Lägg till spådommar som du vill ska inträffa i ditt liv och hoppas java compilator i sin all vishet kommer fixa det till dig.
+
+ ```java
+ 
+	System.out.println("Jag ska spå din framtid!");
+	
+    int lucky_number = (int)(Math.random()*10)+1;
+	if( lucky_number == 1) { 
+		System.out.println("Du kommer att lyckas jätte bra på nästa prov!")
+	}
+	else if (1 <lucky_number && lucky_number <5) {
+		System.out.println("Du kommer träffa en lång mörk främling.");
+	} else if (5 <lucky_number && lucky_number < 7) {
+		System.out.println("Du kommer leva lyckliga i alla dinna dagar.");
+	}
+	else {
+		System.out.println("Du kommer ha en dålig dag.");
+	}
+	
+ ```
+ 
+
