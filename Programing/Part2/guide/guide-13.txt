@@ -1,0 +1,63 @@
+Title: Valda övningar med Java guide 13
+CSS: ../../../Tools/Framwork/css/magnum.css
+
+# Guide 13
+
+## Använda __for__ med olika steglängd och start värde
+
+Vi kan variera vår __for__ loop på många sätt.
+ 
+ ### Uppgift 1
+
+1.  Få koden nedan att skriva ut alla jämna tal upp till 100.
+2.  Få koden att skriva ut alla tal som är delbara med fyra mellan 25 och 75.
+3.  Få koden att skriva ut alla tal som är delbara med 15 mellan 3040 och 8080.
+
+
+ ```java
+ 
+	for(int i=20; i < 50; i=i+3) {
+		System.out.println(i);
+	}
+	
+ ```
+ 
+### Uppgift 2
+
+1.  Testa koden nedan. Hur många rader skriver koden ut?
+2.  Se till att även nollan skrivs ut. Annars blir det inget kul!
+3.  När programmet har räknat ned till noll, ska det skriva ut "Boom!"
+4.  Låt programmet räkan ned ifrån 100, men endast skriva ut jämna tal.
+
+ ```java
+
+	System.out.println("The final countdown");
+	
+	for(int i=10; i > 0; i--) {
+		System.out.println(i);
+	}
+		
+ ```
+
+### Uppgift 3
+
+1.  Använd programmet nedan och låt den få räkna upp till _4.4_. Hur många rader kommer programmet skriva ut? 
+2.  Gör så att vi börjar räkna ifrån 3.1 istället.
+2.  Gör sa att användare kan själv bestäma var vi ska börja räkna ifrån. Du måste alltså läsa in två decimaltal och använda i for loopen.
+
+ ```java
+	System.out.println("Vi räkna decimaltal!");
+	
+  	Scanner sc = new Scanner(System.in);
+	System.out.println("Till vilket tal ska jag räkna?");
+	
+	int counter = sc.nextDouble();
+	
+	
+	for(double d=0; d < counter; d=d+0.1) {
+		System.out.println(d);
+	}
+	
+ ```
+ 
+
