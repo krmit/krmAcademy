@@ -1,0 +1,67 @@
+Title: Valda övningar med Java guide 14
+CSS: ../../../Tools/Framwork/css/magnum.css
+
+# Guide 14
+
+## Använda __for__-loopar i andra __for__-loopar
+
+Ofta behöver vi använda __for__-loopar i andra __for__-loopar
+ 
+ ### Uppgift 1
+
+1.  Kör koden nedan. Koden räknar med basen _8_, vilket kallas octalt. Mellan vilka octala tal räknar den?
+2.  Få även decimal talsräknaren _counter_ att fungera. Nu visar den bara _0_, men se till att den ökar med 1 för varje varv i den innnersta loopen.
+3.  Se till att det högsta tal som skrivs ut är _47_.
+
+
+ ```java
+ 
+	int counter=0;
+	for(int i=0; i < 8; i=i++) {
+		for(int j=0; j < 8; j=j++) {
+			System.out.println("Dec: " + counter + (", Oct: "+i)+j);
+		}
+	}
+	
+ ```
+ 
+### Uppgift 2
+
+1.  Testa koden nedan. Fungerar den bra? Hur kan du veta det?
+2.  Låt programmet visa de olika summorna ifrån _10_ tal upp till _20_ tal.
+3.  Låt användaren själv få skriva in mellan vilka tal summorna ska beräknas.
+4.  Låt programmet beräkna den total summan av alla summor som programmet beräknar.
+5.  Testa med några riktigt stora summeringar.
+
+
+ ```java
+
+	for(int i=0; i < 10; i=i++) {
+		int sum=0;
+		for(int j=0; j < i; j=j++) {
+			sum=sum+j;
+		}
+		System.out.println("Summera " + i +" tal ger summan: "+ sum);
+	}
+		
+ ```
+
+### Uppgift 3
+
+1.  Testa programmet nedan. Vad gör programmet?
+2.  Gör så att användaren kan själv skriva in hur hög och bred bilden ska vara.
+3.  Testa att skriva "j%2" i _print_ funktionen i innnersta __for__-loopen.
+4.  Försök att skapa ett eget mönster.
+
+ ```java
+	
+	for(int i=0; i < 10; i=i++) {
+		for(int j=0; j < 10; j=j++) {
+			System.out.print((int)(Math.random()*2));
+		}
+		System.out.print("\n"));
+	}
+	
+ ```
+ 
+
