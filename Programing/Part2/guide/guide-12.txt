@@ -1,0 +1,93 @@
+Title: Valda övningar med Java guide 12
+CSS: ../../../Tools/Framwork/css/magnum.css
+
+# Guide 12
+
+## Att skapa loopar med hjälp av en __for__
+
+Ett program ska kunna göra samma sak många gågner, så att vi slipper. Därför ska vi lära oss om __for__ komandot.
+ 
+ ### Uppgift 1
+
+1.  Få koden nedan att räkna ända upp till 10.
+2.  Pröva med några riktigt stora tal. Hur stora tal kan du skriva in innnan programmet slutar fungera på ett bra sätt? 
+3.  Ändra koden så att den bara räknar till och med 10 oavsett vilket värde användaren skriver in.
+
+
+ ```java
+ 
+	Scanner sc = new Scanner(System.in);
+	System.out.println("Huir många tal ska jag skriva?");
+	
+	int counter = sc.nextInt();
+	for(int i=0; i < counter; i++) {
+		System.out.println(i);
+	}
+	
+ ```
+ 
+### Uppgift 2
+
+1.  Testa koden nedan. Hur många rader skriver koden ut?
+2.  Det är inte så intressant att veta hur många ben noll får har. Så gör om koden så du börja ifrån ett får istället.
+3.  Gör så att användaren kan skriva in hur många intressanta rader med upplysningar om får som ska skrivas ut.  
+4.  Myror har sex ben. Skriv om programmet så det gäller för myror.
+
+ ```java
+
+	for(int i=0; i < 10; i++) {
+		System.out.println(i + " får har " + 4*i + " ben");
+	}
+		
+ ```
+
+### Uppgift 3
+
+1.  Testa koden nedan med 100. Du kommer väl ihåg vad 1+2+3+4+...+100 är ifrån matematik undervisningen?
+2.  Gör så att varje gång vi lägger till ett tal till _sum_  variabeln. Så skriv summan ut.
+2.  Testa med att multiplicera talen istället! Observera att du måste tänka på att byta startvärde, annars blir ditt svar trivialt.
+
+ ```java
+	System.out.println("Vi ska summera tal!");
+	
+  	Scanner sc = new Scanner(System.in);
+	System.out.println("Hur många tal ska jag summera?");
+	
+	int counter = sc.nextInt();
+	int sum = 0;
+	
+	for(int i=0; i < counter; i++) {
+		sum = sum + i;
+	}
+	
+	System.out.println("Summan blir: " + sum);
+ ```
+ 
+ ### Uppgift 4
+
+1.  När du kompilerar koden nedan kommer det bli fel. Varför då? Korrigera felet.
+2.  Gör så att varje gång vi lägger till ett tal till _sum_  variabeln. Så skriv summan ut.
+2.  Testa med att multiplicera talen istället! Observera att du måste tänka på att byta startvärde, annars blir ditt svar trivialt.
+
+ ```java
+	System.out.println("Vi ska summera tal och dublicera dem!");
+	
+  	Scanner sc = new Scanner(System.in);
+	System.out.println("Hur många tal ska jag summera?");
+	int counter_1 = sc.nextInt();
+	
+	System.out.println("Hur många gånger ska jag dublisera?");
+	int counter_2 = sc.nextInt();
+	
+	for(int i=0; i < counter_1; i++) {
+		int number = number + i;
+	}
+	
+	for(int i=0; i < counter_2; i++) {
+		number = number * 2;
+	}
+	
+	System.out.println("Talet du söker blir: " + number);
+ ```
+ 
+
