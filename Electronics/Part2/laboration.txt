@@ -12,28 +12,28 @@ Vi börjar programmera med Arduino.
 ## Att göra på nivå 1:
 * Försök alltid först själv lösa ett problem som du får innan du frågar om hjälp.
 * Se till att ni växlar uppgifter i gruppen, så att om någon kopplar mycket på en uppgift så ska hen inte programmera mycket på nästa.
+* Visa varje krets för lärare och fotografera den när ni är klara. Ge också en kort beskrivning av vad ni har gjort, inklusive de problem ni stötte på och hur ni löste dem.
 
 ### Uppgifter:
 
-1. Du ska göra ett reaktionsspel i Greenfoot. Det ska vara två knappar, varje knapp ska styras av knappar på tangentbordet. Det ska finnas tre lampor på en rad. Lampan i mitten lyser när spelet börjar, när lampan slocknar efter 2,63 sekunder. Ska båda spelarna trycka ned sin knapp så fort som möjligt. Den lampa som är närmast en spelare som trycker ska tändas. Se mitt Scratch projektet: [Reaktionsspel](http://scratch.mit.edu/projects/13923016)
+1. Koppla upp en knapp och en lampa. När en knapp blir tryckt, ska lampan blinka en SOS signal, dvs tre korta, tre långa och tre korta blinkningar.
 
-2. Koppla upp en knapp och en lampa. När en knapp blir tryckt, ska lampan blinka en SOS signal, dvs tre korta, tre långa och tre korta blinkningar.
-
-3. I denna uppgift ska vi hjälpa någon som räknar kollekt. Gör tre knappar, om någon trycker på första knappen motsvarar det en krona, om någon trycker på andra knappen motsvarar det en femkrona och om någon trycker på den sista motsvara det en tiokrona. Låt Arduino skriva ut en kontinuerlig rapport över hur kollekt räknandet går.
+2. I denna uppgift ska vi hjälpa någon som räknar kollekt. Gör tre knappar, om någon trycker på första knappen motsvarar det en krona, om någon trycker på andra knappen motsvarar det en femkrona och om någon trycker på den sista motsvara det en tiokrona. Låt Arduino skriva ut en kontinuerlig rapport över hur kollekt räknandet går.
 
 
 ## Att göra på nivå 2:
-
+* Gör som för nivå 1.
 * Du ska inte fråga läraren om hjälp efter att du börjat med att lösa en uppgift. Så tänk efter före! Du kan också diskutera med läraren när som helst.
 * Din kod och koppling ska vara lätt att först och se snygg ut.
 
 ### Uppgifter:
 
-1. Förbättra spelet så att om en spelar trycker ned knappen ska inte den andra spelaren kunna tända sin lampa. Se också till att tiden innan lampan släcks blir slumpmässig mellan 1 till 5 sekunder.
+1. Du ska göra ett reaktionsspel med hjälp av Arduino. Det ska vara två knappar, varje knapp ska styras av knappar på tangentbordet. Det ska finnas tre lampor på en rad. Lampan i mitten lyser när spelet börjar, när lampan slocknar efter 2,63 sekunder. Ska båda spelarna trycka ned sin knapp så fort som möjligt. Den lampa som är närmast en spelare som trycker ska tändas. Se mitt Scratch projektet: [Reaktionsspel](http://scratch.mit.edu/projects/13923016).
+
+2. Förbättra spelet ovan så att om en spelar trycker ned knappen ska inte den andra spelaren kunna tända sin lampa. Se också till att tiden innan lampan släcks blir slumpmässig mellan 1 till 5 sekunder. __Tips:__ Du kan använda _random(min, max)_ som finns dokumenterat här: http://arduino.cc/en/reference/random
 
 
 ## Att göra på nivå 3:
-
 * Gör som för nivå 2.
 * Du ska arbeta snabbt och noggrant.
 
