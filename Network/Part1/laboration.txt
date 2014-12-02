@@ -1,0 +1,54 @@
+Title: Nätverksteknik 1 - Moment 1 - Filsystem
+CSS: ../../Tools/Framwork/css/magnum.css
+
+# Att använda filsystem
+
+Vi ska testa att installera olika operativ system och filsystem.
+
+## Vad som gäller under labborationen:
+
+* Uppgiften är individuell, försök att hitta din egen lösning på uppgifterna nedan.
+* Om kod i ditt program har kopieras ifrån någon annan så får du inga poäng på laborationen. Är det mer än något enstaka likheter _eller_ det är uppenbarligen uppsåtligen kommer du att anmälas för fusk, se skolan ordningsregler.
+
+## Att göra på nivå 1:
+* Försök alltid först själv lösa ett problem som du får innan du frågar om hjälp.
+
+### Uppgifter:
+
+
+1. Installera ett eller flera operativsystem i Virtualbox, alternativ direkt på en maskin.
+
+2. Vilket/vilka operativsystem har ni installerat?
+
+3. Varför valde du det?
+
+4. Se till att du har minst två olika filsystem på ditt system.
+
+5. Vilka olika filsystem har du?
+
+6. Till vad hade du tänkt använda dem? 
+
+7. Ladda ned programmet fsTest och pröva att köra programmet.
+
+## Att göra på nivå 2:
+
+* Du ska inte fråga läraren om hjälp efter att du börjat med att lösa en uppgift. Så tänk efter före! Du kan också diskutera med läraren när som helst.
+* Du ska själv hitta lösningar på eventuella problem som uppstår.
+
+### Uppgifter:
+
+1. Testa att köra fsTest på minst tre olika filsystem, alternativt olika lagringsmedium. Skapa olika många filer och se hur lång tid de tar att kopiera dessa. __Tips:__ På unix system finns ett kommando __time__ som mätter tid.
+
+2. Dra en slutsats ifrån data du fick ovan.
+
+## Att göra på nivå 3:
+
+* Gör som för nivå 2.
+* Du ska arbeta helt självständigt.
+* Du ska arbeta snabbt och noggrant.
+
+### Uppgifter:
+
+1. Jämför många olika filsystem på samma lagringsmedium. 
+
+2. Gör en analys ifrån din data ovan.
