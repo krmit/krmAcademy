@@ -1,0 +1,91 @@
+#Uppgit 1
+
+1.  Skriv ett enklt program som säger "Hello world"!
+
+```java
+
+// Din kod här!
+
+```
+
+#Uppgit 2
+
+2.  Gör så att mellan "hej" och "!" nedan så ska värdet av "Text" skrivas ut.
+
+```java
+
+		String Text="HTS";
+		
+		System.out.println("hej!");
+```
+
+#Uppgift 3
+
+3.  Lägg till variabeldeklarationer nedan så koden kompilerar. Inget variabel får ha samma värde. Du kan själv välja värden och typer.
+
+```java
+        
+		System.out.println("a+b+c="+(a+b+c));
+		System.out.println("a/b/c="+(a/b/c));
+
+```
+
+#Uppgift 4
+
+4.  Lite tråkigt med pi som är avrundat till 3. Gör om koden så den räknar med pi lika med 3.141592 istället.
+
+```java
+		int pi=3;
+		int radien=3
+
+		System.out.println("Cirkelns area är: "+(pi*radien*radien));
+```
+
+#Uppgift 5
+
+5.  Gör om koden nedan så det motsvarar en sexsidig tärning.
+
+```java
+		int answer = (int)(Math.random()*18)+3;
+
+		System.out.println(answer);
+```
+
+#Uppgift 6
+
+6.  Kompletera formlerna nedan så rätt svar skrivs ut.
+
+```java
+		System.out.println("Är a sant eller falskt?");
+		boolean a = sc.nextBoolean();
+		
+		System.out.println("Är b sant eller falskt?");
+		boolean b = sc.nextBoolean();
+ 
+        System.out.println("a=" + a );
+        System.out.println("b=" + b );
+        
+		System.out.println("a eller b =");
+		System.out.println("inte a=");
+		System.out.println("inte a och inte b=");
+```
+
+#Uppgift 7
+
+7.  Kompletera programmet så det skriver "Ja, det är det!" om användaren skriver in ditt namn.
+
+```java
+		System.out.println("Vad är mitt förnamn?");
+		String namn = sc.next();
+		
+
+```
+
+#Uppgift 8
+
+8.  Skriv än for-loop som skriver ut alla jämna tal mellan 29 och 41.
+
+```java
+		System.out.println("Jämt ska det var här!");
+
+```

@@ -18,7 +18,7 @@ Denna labboration går ut på att du behärskar några grundläggande kommandon 
 
 ### Uppgifter:
 
-1. Ladda ned guiden som du hittar på följande adress: __Kommer på måndag__
+1. Ladda ned guiden som du hittar på följande adress: [Prov](./prov/prov-2014.html)
 2. Lös alla uppgifter under lektionen. Det kommer totalt finnas 8 frågor som ger två poäng styck. Du behöver ha minst 10 poäng för att bli godkänd.
 
 ## Att göra på nivå 2:
