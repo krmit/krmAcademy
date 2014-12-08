@@ -35,6 +35,7 @@
 4.  Lite tråkigt med pi som är avrundat till 3. Gör om koden så den räknar med pi lika med 3.141592 istället.
 
 ```java
+
 		int pi=3;
 		int radien=3
 
@@ -46,6 +47,7 @@
 5.  Gör om koden nedan så det motsvarar en sexsidig tärning.
 
 ```java
+
 		int answer = (int)(Math.random()*18)+3;
 
 		System.out.println(answer);
@@ -56,6 +58,7 @@
 6.  Kompletera formlerna nedan så rätt svar skrivs ut.
 
 ```java
+
 		System.out.println("Är a sant eller falskt?");
 		boolean a = sc.nextBoolean();
 		
@@ -75,6 +78,7 @@
 7.  Kompletera programmet så det skriver "Ja, det är det!" om användaren skriver in ditt namn.
 
 ```java
+
 		System.out.println("Vad är mitt förnamn?");
 		String namn = sc.next();
 		
@@ -86,6 +90,7 @@
 8.  Skriv än for-loop som skriver ut alla jämna tal mellan 29 och 41.
 
 ```java
+
 		System.out.println("Jämt ska det var här!");
 
 ```
