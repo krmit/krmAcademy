@@ -7,3 +7,6 @@ Vi ska lära oss grunderna i att programmera Arduino.
 
 * [Laboration](./laboration.html)
 >> Laborationen som du ska göra.
+
+* [Lathund](./explanation.html)
+>> En nogran genomgång av ett enkelt program.

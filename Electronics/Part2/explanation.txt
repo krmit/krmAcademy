@@ -48,13 +48,14 @@ Vi börjar med de första raderna:
  
  __int__: Betyder att variabeln måste vara ett heltal. Vi kan alltså bara stoppa in ett helt tal i vår tänkta låda. Andra användbara typer är *double* för att spara decimaltal och *string* för att spara texter.
  
- __;__ : Måste alltid vara med på slutet av en rad.
+ __;__: Måste alltid vara med på slutet av en rad.
 
 ## Koppla upp
 
 ### T-koppling, posetiv
 
 För att koppla upp en knapp mot Ardunon måste vi använda ett litet trick, se kopplingen nedan. Detta för att vi alldrig kan ha en "bruten" krets. Därför får vi koplla in oss mot jord via ett motstånd, så att vi alltid har kontakt med en späningsgivare. 
+
 ![Iposetiv][]
 
 
