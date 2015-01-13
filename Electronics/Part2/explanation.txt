@@ -1,69 +1,61 @@
-Title: Grundläggande Arduino programmering.
+Title: Elektronik och mikrodatorer 1 - Moment 2
 CSS: ../../Tools/Framwork/css/magnum.css
 
-# Grundläggande Arduino programmering.
-> setup, loop, for, if, variabel, digitala arduino funktioner
+# Introduktion till Arduino
 
-I denna labboration ska ni lära er lite grundläggande hårdvarunära programmering. Läs gärna igenom en tutorial, som du finner under ”Källor”, innan du går igenom begreppen nedan.
-## Viktiga principer och begrepp
-### Setup
+## Programmera
 
-void setup() {}
-: Den funktion kommer att utföras en gång när Arduino programmet startar. Här får du lägga in alla inställningar som behövs innan huvudelen av programmet startar.
+I denna lathund ska vi i detalj gå igenom ett Arduino program och förklara hur det är uppbygt. 
 
-Serial.begin(9600);
-: Ska finnas med I setup ifall du vill skriva ut några test medelanden. Det kommandot gör är att etablera en kontakt mellan Arduino kortet och din dator.
+ ```java
+ 
+		int knapp_ben = 13;
+        int diod_ben = 12;
 
-pinMode(10,INPUT);
-: Test
 
-pinMode(11,OUTPUT);
-: Test
+        void setup() {                
+            pinMode(diod_ben, OUTPUT);
+            pinMode(knapp_ben, INPUT);
+            Serial.begin(9600);
+        }
 
-### Loop
 
-void loop() {}
-: Test
+        void loop() {
+            digitalWrite(diod_ben, LOW);
+            delay(1000);
+            int knapp = digitalRead(knapp_ben);
+  
+            if(knapp == HIGH) {
+                digitalWrite(diod_ben, HIGH); 
+                Serila.printlm("På!");
+            }  
+            else {
+                Serila.printlm("Av!");
+            }
+            delay(1000);
+        }
+ ```
 
-for(int i = 0; i<10;i++){}
-: Test
+Vi börjar med de första raderna:
 
-if(i == 0){} else  {}
-: Test
+ ```java
+ 
+		int knapp_ben = 13;
+        int diod_ben = 12;
+ ```
+ 
+ Här deklarerar vi två varibler *knapp_ben* och *diod_ben*. Du kan tänka dig att en variabel är som en låda där du stoppar in olika saker. De variablar som vi deklarerar högst uppe i programmet kan vi använda i hela programmet.
+ 
+ __int__: Betyder att variabeln måste vara ett heltal. Vi kan alltså bara stoppa in ett helt tal i vår tänkta låda. Andra användbara typer är *double* för att spara decimaltal och *string* för att spara texter.
+ 
+ __;__ : Måste alltid vara med på slutet av en rad.
 
-if(i == 0){} else if(i==2) {} else {}
-: Test
+## Koppla upp
 
-Serial.print(“hej”)
-: Test
+### T-koppling, posetiv
 
-Serial.print(“hej da”)
-: Test
+För att koppla upp en knapp mot Ardunon måste vi använda ett litet trick, se kopplingen nedan. Detta för att vi alldrig kan ha en "bruten" krets. Därför får vi koplla in oss mot jord via ett motstånd, så att vi alltid har kontakt med en späningsgivare. 
+![Iposetiv][]
 
-delay(100);
-: Test
 
-digitalWrite(10,HIGH);
-: Test
-
-int knapp1;
-: Test
-
-knapp1=digitalRead(10);
-: Test
-
-### Kopplingar
-
-I-koppling
-: En simulering finns [här](http://www.falstad.com/circuit/#%24+20+5.0E-6+10.20027730826997+50+5.0+50%0Ar+384+288+320+288+0+100.0%0Ag+384+288+400+288+0%0AL+288+288+256+288+0+1+false+5.0+0.0%0Ad+288+288+320+288+1+0.805904783%0A)
-
-T-koppling
-: En simulering finns [här](http://www.falstad.com/circuit/#%24+1+5.0E-6+10.20027730826997+50+5.0+43%0AM+96+256+32+256+0+2.5%0Ar+96+256+96+336+0+100000.0%0Ag+96+336+96+368+0%0As+96+256+96+160+0+0+false%0AR+96+160+96+128+0+0+40.0+5.0+0.0+0.0+0.5%0A)
-
-## Källor
-
-* __Arduino__
-För att få en grundläggande förstålse.
-
-> __http://sv.wikipedia.org/wiki/arduino__
->> Läs igenom artikeln för att få bakgrund till Arduino projektet.
+[Iposetiv]: ./ICircuitP.png "Detta är en posetiv I-koppling."
