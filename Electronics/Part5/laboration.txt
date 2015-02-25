@@ -15,28 +15,25 @@ Vi undersöker några komponenter lite noggrannare.
 
 ![Bild på koppling](AndAndImage.jpg)
 
-  1. En kombinationskrets. I bilden ovan används en IC-krets 74LS08N.
+###  _1_ En kombinationskrets. 
+	I bilden ovan används en IC-krets 74LS08N/.
 	1. Koppla ihop kretsen ovan.
 	2. Utifrån denna koppling, rita en sanningstabell. Observera att bokstäverna A,B,C,D och E ska användas som förkortningar för ingångarna och D som förkortning av utgången.
 	3. Beskriv kretsen med dina egna ord. Vad krävs för att IC kretsen ska fungera? Hur skulle du beskriva vad som krävs för att lampan ska lyser eller inte lyser?
 
   ![Logiskt schema](AndAndSchema.jpg)
 
-  2. En logisk krets. Observera att namnen på in- och utgångar ovan inte har med uppgiften att göra.
+###  _2_ En logisk krets.
 	1. Koppla ihop kretsen ovan.
 	2. Hur skriver man "A och B" med Boolskalgebra.
 
-  3. Vippor.
+###  _3_ Vippor.
     Beskriv med egna ord vad vippan nedan gör för något.
 	1. Monostabil vippa.
 	2. Bistabil vippa
 	3. Astabil vippa.
 
-  4. Diskret och analogt.
-  Redogör för vad förkortningarna nedan står för och ge exempel på vad dessa kan användas till.
-	1. ADC
-	2. DAC
-	3. PWM
+###  _4_ Datorarkitektur.
 
 ### Uppgifter:
 
@@ -46,13 +43,12 @@ Vi undersöker några komponenter lite noggrannare.
 
 ![Logiskt schema](Nand.jpg)
 
-  1. En ännu en logisk krets. Välj själv vilken IC krets du ska använda.
+### _1_ Än ännu en logisk krets. 
+Välj själv vilken IC krets du ska använda.
 	1. Koppla ihop kretsen ovan.
 	2. Gör en sanningstabell över kretsen.
 
   2. Utgå ifrån uppgift 1.3. Ge exempel på vad de olika vipporna kan användas till.
-	1. Koppla ihop kretsen ovan.
-	2. Hur skriver man A och B med Boolsk algebra.
 
 ### Uppgifter:
 
