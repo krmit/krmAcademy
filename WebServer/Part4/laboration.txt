@@ -19,13 +19,17 @@ Vi ska här lära oss att göra en enkel webbsajt med php- och databasbackend.
 ### Uppgifter:
 
 
-1. Fundera ihop en datamodell som du vill göra. Det kan vara vad som helst som kräver minst två tabeller för att implementeras. Beskriv datamodellen med ord eller ett ER-diagram. Du ska ange vilket typ varje attribut har.
+1.  Bestäm hur du vill att din sajt ska var. Webbsajten ska vara en plattform för medelandehantering i någon form, t.ex. forum eller chat. Skriv ned en kort beskrivning av hur denna sajt ska vara.
 
-2. Implementera dessa i phpMyAdmin. Fyll databaserna också med några test data.
+2.  Fundera ihop en datamodell som du vill göra. Det kan vara vad som helst som kräver minst två tabeller för att implementeras. Beskriv datamodellen med ord eller ett ER-diagram. Du ska ange vilket typ varje attribut har.
 
-3. Skriv ut en av tabellernas innehåll som en lista i ett html dokument med hjälp av php.
+3. Installera en LAMP server om du inte har gjort det eller liknade. Använder du php och mysql se till att du har myphpadmin installerat.
 
-4. Gör ett formulär som du kan använda för att föra in information i databasen.
+3. Implementera din databas i phpMyAdmin. Fyll databaserna också med några test data.
+
+4. Skriv ut en av tabellernas innehåll som en lista i ett html dokument med hjälp av php.
+
+5. Gör ett formulär som du kan använda för att föra in information i databasen.
 
 
 ## Att göra på nivå 2:
@@ -34,7 +38,9 @@ Vi ska här lära oss att göra en enkel webbsajt med php- och databasbackend.
 
 ### Uppgifter:
 
-1. Gör så att bara användare som är inloggade kan se data och skriva in uppgifter i formuläret.
+1. Gör så att bara användare som är inloggade kan se data och skriva in uppgifter i formuläret. Användaran ska hanteras av en tabell i databasen.
+
+2. Websajten och php koden ska se bra ut och vara väl kommenterad.
 
 ## Att göra på nivå 3:
 
@@ -43,4 +49,8 @@ Vi ska här lära oss att göra en enkel webbsajt med php- och databasbackend.
 
 ### Uppgifter:
 
-1. Gör så att sajten blir en välfungerande helhet med flera sidor som är kopplade till tabeller. All data i databasen ska också kunna uppdateras ifrån sidan.
+1. Gör så att du kan skapa nya användare ifrån ett formulär som bara en admin har tillgång till.
+
+2. Gör så att sajten blir en välfungerande helhet med flera sidor som är kopplade till tabeller. 
+
+3. All data i databasen ska också kunna uppdateras ifrån sidan.
