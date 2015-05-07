@@ -16,18 +16,21 @@ Vi undersöker några komponenter lite noggrannare.
 ![Bild på koppling](AndAndImage.jpg)
 
 ###  _1_ En kombinationskrets. 
+
 	I bilden ovan används en IC-krets 74LS08N.
 	1. Koppla ihop kretsen ovan.
-	2. Utifrån denna koppling, rita en sanningstabell. Observera att bokstäverna A,B,C,D och E ska användas som förkortningar för ingångarna och D som förkortning av utgången.
+	2. Utifrån denna koppling, rita en sanningstabell. Observera att bokstäverna A,B,C,D och E ska användas som förkortningar för ingångarna och U som förkortning av utgången.
 	3. Beskriv kretsen med dina egna ord. Vad krävs för att IC kretsen ska fungera? Hur skulle du beskriva vad som krävs för att lampan ska lyser eller inte lyser?
 
   ![Logiskt schema](AndAndSchema.jpg)
 
 ###  _2_ En logisk krets.
+
 	1. Koppla ihop kretsen ovan.
 	2. Hur skriver man "A och B" med Boolskalgebra.
 
 ###  _3_ Vippor.
+
     Beskriv med egna ord vad vippan nedan gör för något och ge exempel till vad den kan användas till.
 	1. Monostabil vippa.
 	2. Bistabil vippa
@@ -45,14 +48,17 @@ Vi undersöker några komponenter lite noggrannare.
 ![Logiskt schema](Nand.jpg)
 
 ### _1_ Än ännu en logisk krets. 
+
 Välj själv vilken IC krets du ska använda.
 	1. Koppla ihop kretsen ovan.
 	2. Gör en sanningstabell över kretsen.
 
 ###  _2_ 
+
 Gör ett program i "Litel man computer" som skriver ut alla udda tal upp till 99.
 
 ###  _3_
+
 Förklara hur en "full adder" fungerar med dina egna ord. Din förklaring ska vara korrekt, snygg och enkel att förstå.
 
 ### Uppgifter:
@@ -65,9 +71,11 @@ Förklara hur en "full adder" fungerar med dina egna ord. Din förklaring ska va
 ### Uppgifter:
 
 ###  _1_ 
+
 Koppla upp en 555 som en astabil vippa. Beskriv hur du gjorde och hur kretsen fungerar.
 
 ###  _2_ 
+
 Rita upp ett logisktshemma över vilka grindar("gates") som motsvar det boolskauttrycket _A*B+C*D_. 
 
 ###  _3_
